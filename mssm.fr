@@ -5,6 +5,25 @@
 (* *****                                               ***** *)
 (* ********************************************************* *)
 
+(* Parameter to input:
+     Mixings:         *MNS, *CKM,
+                      *NN, *UU, *VV, *Rn, *Rl, *Ru, *Rd, alp;
+     Gauge couplings: aEWM1, aS;
+     Higgs sector:    tb;
+     Superpotential:  *yu, *yd, *ye, *MUH;
+     SB masses:       *Mx1, *Mx2, *Mx3, mHu2, mHd2, MA2, *mL2, *mE2, *mQ2, *mU2, *mD2;
+     SB A-terms:      *te, *tu, *td
+     [ the b-term and higgs-vevs are calculated internally. ]
+*)
+
+(* Particles scheme:
+     V : (1-4) A Z W G  (11-12;unphysical) B Wi
+     W : (1-4) N x+ x- g~ (5-12) vL eL VR ER uL dL UR DR  (20-26;unphyscal) B~ W~ g~ Hu~ Hd~ LL QL
+     F : (1-3) N x g~ (4-7) vl l uq dq
+     S : (1-6) h0 H0 A0 H G0 G+ (7-10) sn sl su sd (21-22;unphysical) hu hd LL~ ER~ VR~ QL~ UR~ DR~
+*)
+
+
 (* ************************** *)
 (* *****  Information   ***** *)
 (* ************************** *)
@@ -37,7 +56,7 @@ FeynmanGauge = True;
 M$GaugeGroups = {
   U1Y  == { Abelian->True,  CouplingConstant->gp, Superfield->BSF, Charge->Y, GUTNormalization->3/5},
   SU2L == { Abelian->False, CouplingConstant->gw, Superfield->WSF, 
-            StructureConstant->ep, Representations->{Ta,SU2D}, Definitions->{Ta[a__]->PauliSigma[a]/2, ep->Eps}},
+            StructureConstant->ep, Representations->{Ta,SU2D}, Definitions->{Ta[a__]:>PauliSigma[a]/2, ep->Eps}},
   SU3C == { Abelian->False, CouplingConstant->gs, Superfield->GSF,
             StructureConstant->f,  Representations->{{T,Colour}, {Tb,Colourb}}, DTerm->dSUN} 
 };
@@ -51,13 +70,15 @@ M$InteractionOrderHierarchy = { {QCD, 1}, {QED, 2} };
 (* ************************** *)
 (* *****    Indices     ***** *)
 (* ************************** *)
-IndexRange[Index[SU2W]] =   Unfold[Range[3]]; IndexStyle[SU2W,j];  IndexRange[Index[SU2D]] =   Unfold[Range[2]]; IndexStyle[SU2D,k];
-IndexRange[Index[Gluon ]] = NoUnfold[Range[8]]; IndexStyle[Gluon, a];  IndexRange[Index[Colour ]] = NoUnfold[Range[3]]; IndexStyle[Colour, m]; 
+IndexRange[Index[SU2W   ]] =   Unfold[Range[3]]; IndexStyle[SU2W,   j];
+IndexRange[Index[SU2D   ]] =   Unfold[Range[2]]; IndexStyle[SU2D,   k];
+IndexRange[Index[Gluon  ]] = NoUnfold[Range[8]]; IndexStyle[Gluon,  a];
+IndexRange[Index[Colour ]] = NoUnfold[Range[3]]; IndexStyle[Colour, m];
 IndexRange[Index[Colourb]] = NoUnfold[Range[3]]; IndexStyle[Colourb,m];
-IndexRange[Index[NEU ]] = Range[4];           IndexStyle[NEU, i];
-IndexRange[Index[CHA ]] = Range[2];           IndexStyle[CHA, i];
-IndexRange[Index[GEN ]] = Range[3];           IndexStyle[GEN, f];
-IndexRange[Index[SCA ]] = Range[6];           IndexStyle[SCA, i];
+IndexRange[Index[NEU    ]] =          Range[4];  IndexStyle[NEU,    i];
+IndexRange[Index[CHA    ]] =          Range[2];  IndexStyle[CHA,    i];
+IndexRange[Index[GEN    ]] =          Range[3];  IndexStyle[GEN,    f];
+IndexRange[Index[SCA    ]] =          Range[6];  IndexStyle[SCA,    i];
 
 
 (* ************************** *)
@@ -83,9 +104,9 @@ M$Superfields = {
 M$ClassesDescription = {
 (* Gauge bosons: unphysical vector fields *)
   V[11] == { ClassName->B, Unphysical->True, SelfConjugate->True, 
-            Definitions->{B[mu_]->-sw Z[mu]+cw A[mu]} },
+            Definitions->{B[mu_]:>-sw Z[mu]+cw A[mu]} },
   V[12] == { ClassName->Wi, Unphysical->True, SelfConjugate->True, Indices->{Index[SU2W]}, FlavorIndex->SU2W,
-             Definitions-> {Wi[mu_,1]->(Wbar[mu]+W[mu])/Sqrt[2], Wi[mu_,2]->(Wbar[mu]-W[mu])/(I*Sqrt[2]), Wi[mu_,3]->cw Z[mu] + sw A[mu]} },
+             Definitions-> {Wi[mu_,1]:>(Wbar[mu]+W[mu])/Sqrt[2], Wi[mu_,2]:>(Wbar[mu]-W[mu])/(I*Sqrt[2]), Wi[mu_,3]:>cw Z[mu] + sw A[mu]} },
 
 (* Gauge bosons: physical vector fields *)
   V[1] == { ClassName->A, SelfConjugate->True,  Mass->0,  Width->0,  ParticleName->"a", 
@@ -105,7 +126,7 @@ M$ClassesDescription = {
                wow[s_,1]:>Module[{i},(Conjugate[UU[i,1]]*chmw[s,i]+Conjugate[VV[i,1]]*chpw[s,i])/(I*Sqrt[2])], 
                wow[s_,2]:>Module[{i},(Conjugate[UU[i,1]]*chmw[s,i]-Conjugate[VV[i,1]]*chpw[s,i])/(-Sqrt[2])], 
                wow[s_,3]:>Module[{i},-I*Conjugate[NN[i,2]]*neuw[s,i]]} },
-  W[22] == { ClassName->gow,  Unphysical->True, Chirality->Left, SelfConjugate->False, Indices->{Index[Gluon]},  Definitions->{gow[inds__]->-I*goww[inds]} },
+  W[22] == { ClassName->gow,  Unphysical->True, Chirality->Left, SelfConjugate->False, Indices->{Index[Gluon]},  Definitions->{gow[inds__]:>-I*goww[inds]} },
 
 (* Higgsinos: unphysical Weyls *)
   W[23] == { ClassName->huw,  Unphysical->True, Chirality->Left, SelfConjugate->False, Indices->{Index[SU2D]}, FlavorIndex->SU2D, QuantumNumbers->{Y-> 1/2}, 
@@ -161,10 +182,10 @@ M$ClassesDescription = {
 (* Fermions: unphysical Weyls *)
  W[25] == { ClassName->LLw, Unphysical->True, Chirality->Left, SelfConjugate->False, Indices->{Index[SU2D],Index[GEN]},              FlavorIndex->SU2D, 
             QuantumNumbers->{Y->-1/2}, 
-            Definitions->{LLw[s_,1,ff_]:>Module[{ff2}, PMNS[ff,ff2]*vLw[s,ff2]], LLw[s_,2,ff_]->eLw[s,ff]}},
+            Definitions->{LLw[s_,1,ff_]:>Module[{ff2}, PMNS[ff,ff2]*vLw[s,ff2]], LLw[s_,2,ff_]:>eLw[s,ff]}},
  W[26] == { ClassName->QLw, Unphysical->True, Chirality->Left, SelfConjugate->False, Indices->{Index[SU2D],Index[GEN],Index[Colour]},FlavorIndex->SU2D,
             QuantumNumbers->{Y->1/6},
-            Definitions->{QLw[s_,1,ff_,cc_]->uLw[s,ff,cc], QLw[s_,2,ff_,cc_]:>Module[{ff2}, CKM[ff,ff2] dLw[s,ff2,cc]]}},
+            Definitions->{QLw[s_,1,ff_,cc_]:>uLw[s,ff,cc], QLw[s_,2,ff_,cc_]:>Module[{ff2}, CKM[ff,ff2] dLw[s,ff2,cc]]}},
 
 (* Fermions: physical Weyls *)
   W[5] == { ClassName->vLw, Unphysical->True, Chirality->Left, SelfConjugate->False, Indices->{Index[GEN]}, FlavorIndex->GEN },
@@ -461,7 +482,7 @@ M$Parameters = {
 ToDirac[exp_]:= Module[{tmp=Expand[exp],cnt=0,prg1=0,prg2=0,prgo1=0,prgo2=0,tot},
   Colourb=Colour;
 
-  tmp = If[Head[tmp]===Plus,List@@tmp,List[tmp]]/.Tb[a_,i_,j_]->-T[a,j,i];
+  tmp = If[Head[tmp]===Plus,List@@tmp,List[tmp]]/.Tb[a_,i_,j_]:>-T[a,j,i];
 
   tmp = OptimizeIndex[#] &/@ tmp;
   tot=Length[tmp];
@@ -472,8 +493,8 @@ ToDirac[exp_]:= Module[{tmp=Expand[exp],cnt=0,prg1=0,prg2=0,prgo1=0,prgo2=0,tot}
          gw->ee/sw, 
          cw^n_?(Mod[#,2]===0&)->(1 - sw^2)^(n/2),
          cw^n_?(Mod[#, 2]===1 &)->(1 - sw^2)^((n - 1)/2) cw,
-         Power[PauliSigma[a_,i_?(NumericQ[#] &),j_?(NumericQ[#] &)],2]->PauliSigma[1,i,j]^2 + PauliSigma[3,i,j]^2 + PauliSigma[2,i,j]^2,
-         PauliSigma[a_,i_?(NumericQ[#] &),j_?(NumericQ[#] &)] PauliSigma[a_,k_?(NumericQ[#] &),l_?(NumericQ[#] &)]->
+         Power[PauliSigma[a_,i_?(NumericQ[#] &),j_?(NumericQ[#] &)],2]:>PauliSigma[1,i,j]^2 + PauliSigma[3,i,j]^2 + PauliSigma[2,i,j]^2,
+         PauliSigma[a_,i_?(NumericQ[#] &),j_?(NumericQ[#] &)] PauliSigma[a_,k_?(NumericQ[#] &),l_?(NumericQ[#] &)]:>
            PauliSigma[1,i,j] PauliSigma[1,k,l] + PauliSigma[2,i,j] PauliSigma[2,k,l] + PauliSigma[3,i,j] PauliSigma[3,k,l]})]] &/@ tmp;
    tmp = Plus@@tmp//.{cw^n_?(Mod[#,2]===0&)->(1 - sw^2)^(n/2), cw^n_?(Mod[#, 2]===1 &)->(1 - sw^2)^((n - 1)/2) cw};
 
@@ -502,7 +523,7 @@ SPot:= Module[{ff1,ff2,ff3,cc1},
      yd[ff1,ff3] Conjugate[CKM[ff2,ff3]] DR[ff1,cc1] (QL[1,ff2,cc1] HD[2] - QL[2,ff2,cc1] HD[1]) -
      ye[ff1,ff2] ER[ff1]     (LL[1,ff2]     HD[2] - LL[2,ff2]     HD[1]) +
      MUH (HU[1] HD[2] - HU[2] HD[1])];
-LSuperW:= ( Plus@@ (Module[{tmp},tmp=SF2Components[#];tmp[[2,5]]+tmp[[2,6]]] &/@ (List @@ Expand[SPot+HC[SPot]])) )/.Conjugate[CKM[a_, b_]]*CKM[a_, c_]->IndexDelta[b, c];
+LSuperW:= ( Plus@@ (Module[{tmp},tmp=SF2Components[#];tmp[[2,5]]+tmp[[2,6]]] &/@ (List @@ Expand[SPot+HC[SPot]])) )/.Conjugate[CKM[a_, b_]]*CKM[a_, c_]:>IndexDelta[b, c];
 
 (* Soft SUSY-breaking Lagrangian *)
 LSoft := Module[{Mino, MSca, Tri, Bil},
@@ -526,8 +547,8 @@ LSoft := Module[{Mino, MSca, Tri, Bil},
 (* Ghost Lagrangian and gauge fixing terms *)
 LFeynmanGFix := Module[{VectorizeU,VectorizeD, Phiu,Phid,Phiu0,Phid0, phid1,phid2,phiu1,phiu2, GF1,GF2,GF3,LGF, nrules, kk,ll, LGh1,LGh2,LGh3,LGhS,LGh, genu,gend, gh,ghbar},
   (* Expression the doublets in the nu/nd basis *)
-  VectorizeU[{a_, b_}] := Simplify[{Sqrt[2] Re[Expand[a]], Sqrt[2] Im[Expand[a]], Sqrt[2] Re[Expand[b]], Sqrt[2] Im[Expand[b]]} /. {Im[_]->0, Re[num_]->num}];
-  VectorizeD[{a_, b_}] := Simplify[{Sqrt[2] Re[Expand[a]], Sqrt[2] Im[Expand[a]], Sqrt[2] Re[Expand[b]], Sqrt[2] Im[Expand[b]]} /. {Im[_]->0, Re[num_]->num}]; 
+  VectorizeU[{a_, b_}] := Simplify[{Sqrt[2] Re[Expand[a]], Sqrt[2] Im[Expand[a]], Sqrt[2] Re[Expand[b]], Sqrt[2] Im[Expand[b]]} /. {Im[_]->0, Re[num_]:>num}];
+  VectorizeD[{a_, b_}] := Simplify[{Sqrt[2] Re[Expand[a]], Sqrt[2] Im[Expand[a]], Sqrt[2] Re[Expand[b]], Sqrt[2] Im[Expand[b]]} /. {Im[_]->0, Re[num_]:>num}]; 
 
   (* Higgs doublets *)
   Phiu = Expand[ {(phiu1 + I phiu2)/Sqrt[2], (Cos[alp]*h0+Sin[alp]*H0 + I*Cos[beta]*A0+I*Sin[beta]*G0)/Sqrt[2]} ];
@@ -547,7 +568,7 @@ LFeynmanGFix := Module[{VectorizeU,VectorizeD, Phiu,Phid,Phiu0,Phid0, phid1,phid
   GF2[k_] := Module[{mu}, del[Wi[mu,k], mu] - gw VectorizeU[-I/2 PauliSigma[k].Phiu0].VectorizeU[Phiu] - gw VectorizeD[-I/2 PauliSigma[k].Phid0].VectorizeD[Phid] ];
   GF3[a_] := Module[{mu}, del[G[mu,a] , mu] ];
   (* Gauge-fixing Lagrangian *)
-  LGF = Expand[-1/2*(GF1 HC[GF1] + Sum[GF2[kk] HC[GF2[kk]], {kk, 1, 3}]) /.nrules /. {HC[a_]->a, h0->0, H0->0, A0->0, H->0, Hbar->0}];
+  LGF = Expand[-1/2*(GF1 HC[GF1] + Sum[GF2[kk] HC[GF2[kk]], {kk, 1, 3}]) /.nrules /. {HC[a_]:>a, h0->0, H0->0, A0->0, H->0, Hbar->0}];
   LGF = OptimizeIndex[Expand[ExpandIndices[LGF, FlavorExpand->SU2W]]];
 
   (* Ghost Lagrangians *)
