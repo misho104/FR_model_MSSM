@@ -3,18 +3,23 @@
 # sps1a.dat    for CalcHEP; not for Whizard
 # sps1a_wo.dat for Whizard; not for CalcHEP
 
-MATH=/Applications/Mathematica.app/Contents/MacOS/WolframKernel
+MATH=WolframKernel
+
+
+FR_DIR=$PWD/FeynRules
+FR_FILE=MSSM.fr
+
+TMP_FILE=MSSM.tmp
 
 INIT="
-  SetDirectory[\"`pwd`\"];
-  (* \$FeynModelsDirectory=ParentDirectory[] *)
-  \$FeynRulesPath=ToFileName[{\"`pwd`\", \"FeynRules\"}];
+  SetDirectory[\"$PWD\"];
+  \$FeynRulesPath=\"$FR_DIR\";
   <<FeynRules\`;
-  LoadModel[\"MSSM.fr\"];
+  LoadModel[\"$FR_FILE\"];
 "
 
 # ------ Lagrangian
-rm MSSM.dat
+rm -f $TMP_FILE
 $MATH <<_EOC_
 $INIT
 lagr=Lag;
@@ -24,46 +29,35 @@ lagr=Lag;
   DeleteFile["ZeroValues.rst"];
 *)
 LagNoGhNG=lagr/.{ghG[__]->0, ghGbar[__]->0,ghWp->0,ghWpbar->0,ghWmbar->0,ghWm->0,ghZ->0,ghZbar->0,ghA->0,ghAbar->0, G0->0,GP->0,GPbar->0};
-{Definition[lagr],Definition[LagNoGhNG]}>>MSSM.dat
+{Definition[lagr],Definition[LagNoGhNG]}>>$TMP_FILE
 _EOC_
+
 
 # ------ Output
+
+for MODEL in \
+  nolfv_nocpv \
+  sps1a \
+; do
+
 $MATH <<_EOC_
 $INIT
-<<MSSM.dat;
-ReadLHAFile[Input->"sps1a.dat"];
+<<$TMP_FILE;
+ReadLHAFile[Input->"$MODEL.dat"];
 WriteRestrictionFile[];LoadRestriction["ZeroValues.rst"];DeleteFile["ZeroValues.rst"];
 WriteUFO[lagr, Exclude4Scalars->False];
 _EOC_
-rm -rf MSSM_sps1a_UFO
-mv MSSM_UFO MSSM_sps1a_UFO
+rm -rf MSSM_${MODEL}_UFO
+mv MSSM_UFO MSSM_${MODEL}_UFO
 
 $MATH <<_EOC_
 $INIT
 <<MSSM.dat;
-ReadLHAFile[Input->"sps1a.dat"];
+ReadLHAFile[Input->"$MODEL.dat"];
 WriteRestrictionFile[];LoadRestriction["ZeroValues.rst"];DeleteFile["ZeroValues.rst"];
 WriteFeynArtsOutput[lagr, Exclude4Scalars->False];
 _EOC_
-rm -rf MSSM_sps1a_FA
-mv MSSM_FA MSSM_sps1a_FA
+rm -rf MSSM_${MODEL}_FA
+mv MSSM_FA MSSM_${MODEL}_FA
 
-$MATH <<_EOC_
-$INIT
-<<MSSM.dat;
-ReadLHAFile[Input->"nolfv_nocpv.dat"];
-WriteRestrictionFile[];LoadRestriction["ZeroValues.rst"];DeleteFile["ZeroValues.rst"];
-WriteUFO[lagr, Exclude4Scalars->False];
-_EOC_
-rm -rf MSSM_nolfv_nocpv_UFO
-mv MSSM_UFO MSSM_nolfv_nocpv_UFO
-
-$MATH <<_EOC_
-$INIT
-<<MSSM.dat;
-ReadLHAFile[Input->"nolfv_nocpv.dat"];
-WriteRestrictionFile[];LoadRestriction["ZeroValues.rst"];DeleteFile["ZeroValues.rst"];
-WriteFeynArtsOutput[lagr, Exclude4Scalars->False];
-_EOC_
-rm -rf MSSM_nolfv_nocpv_FA
-mv MSSM_FA MSSM_nolfv_nocpv_FA
+done
