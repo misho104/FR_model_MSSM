@@ -52,7 +52,7 @@ mv MSSM_UFO MSSM_${MODEL}_UFO
 
 $MATH <<_EOC_
 $INIT
-<<MSSM.dat;
+<<$TMP_FILE;
 ReadLHAFile[Input->"$MODEL.dat"];
 WriteRestrictionFile[];LoadRestriction["ZeroValues.rst"];DeleteFile["ZeroValues.rst"];
 WriteFeynArtsOutput[lagr, Exclude4Scalars->False];
