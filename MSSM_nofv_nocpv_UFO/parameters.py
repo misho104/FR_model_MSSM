@@ -1,6 +1,6 @@
-# This file was automatically created by FeynRules 2.3.21
-# Mathematica version: 10.3.0 for Mac OS X x86 (64-bit) (October 9, 2015)
-# Date: Sun 1 May 2016 10:59:45
+# This file was automatically created by FeynRules 2.3.49
+# Mathematica version: 13.0.0 for Mac OS X x86 (64-bit) (December 3, 2021)
+# Date: Sat 12 Feb 2022 21:41:51
 
 
 
@@ -141,9 +141,137 @@ MA2 = Parameter(name = 'MA2',
                 nature = 'external',
                 type = 'real',
                 value = 166439.065,
-                texname = '\\text{Subsuperscript}[m,A,2]',
+                texname = 'm_A^2',
                 lhablock = 'HMIX',
                 lhacode = [ 4 ])
+
+INN1x1 = Parameter(name = 'INN1x1',
+                   nature = 'external',
+                   type = 'real',
+                   value = 1.e-8,
+                   texname = '\\text{INN1x1}',
+                   lhablock = 'IMNMIX',
+                   lhacode = [ 1, 1 ])
+
+INN1x2 = Parameter(name = 'INN1x2',
+                   nature = 'external',
+                   type = 'real',
+                   value = 1.e-8,
+                   texname = '\\text{INN1x2}',
+                   lhablock = 'IMNMIX',
+                   lhacode = [ 1, 2 ])
+
+INN1x3 = Parameter(name = 'INN1x3',
+                   nature = 'external',
+                   type = 'real',
+                   value = 1.e-8,
+                   texname = '\\text{INN1x3}',
+                   lhablock = 'IMNMIX',
+                   lhacode = [ 1, 3 ])
+
+INN1x4 = Parameter(name = 'INN1x4',
+                   nature = 'external',
+                   type = 'real',
+                   value = 1.e-8,
+                   texname = '\\text{INN1x4}',
+                   lhablock = 'IMNMIX',
+                   lhacode = [ 1, 4 ])
+
+INN2x1 = Parameter(name = 'INN2x1',
+                   nature = 'external',
+                   type = 'real',
+                   value = 1.e-8,
+                   texname = '\\text{INN2x1}',
+                   lhablock = 'IMNMIX',
+                   lhacode = [ 2, 1 ])
+
+INN2x2 = Parameter(name = 'INN2x2',
+                   nature = 'external',
+                   type = 'real',
+                   value = 1.e-8,
+                   texname = '\\text{INN2x2}',
+                   lhablock = 'IMNMIX',
+                   lhacode = [ 2, 2 ])
+
+INN2x3 = Parameter(name = 'INN2x3',
+                   nature = 'external',
+                   type = 'real',
+                   value = 1.e-8,
+                   texname = '\\text{INN2x3}',
+                   lhablock = 'IMNMIX',
+                   lhacode = [ 2, 3 ])
+
+INN2x4 = Parameter(name = 'INN2x4',
+                   nature = 'external',
+                   type = 'real',
+                   value = 1.e-8,
+                   texname = '\\text{INN2x4}',
+                   lhablock = 'IMNMIX',
+                   lhacode = [ 2, 4 ])
+
+INN3x1 = Parameter(name = 'INN3x1',
+                   nature = 'external',
+                   type = 'real',
+                   value = 1.e-8,
+                   texname = '\\text{INN3x1}',
+                   lhablock = 'IMNMIX',
+                   lhacode = [ 3, 1 ])
+
+INN3x2 = Parameter(name = 'INN3x2',
+                   nature = 'external',
+                   type = 'real',
+                   value = 1.e-8,
+                   texname = '\\text{INN3x2}',
+                   lhablock = 'IMNMIX',
+                   lhacode = [ 3, 2 ])
+
+INN3x3 = Parameter(name = 'INN3x3',
+                   nature = 'external',
+                   type = 'real',
+                   value = 1.e-8,
+                   texname = '\\text{INN3x3}',
+                   lhablock = 'IMNMIX',
+                   lhacode = [ 3, 3 ])
+
+INN3x4 = Parameter(name = 'INN3x4',
+                   nature = 'external',
+                   type = 'real',
+                   value = 1.e-8,
+                   texname = '\\text{INN3x4}',
+                   lhablock = 'IMNMIX',
+                   lhacode = [ 3, 4 ])
+
+INN4x1 = Parameter(name = 'INN4x1',
+                   nature = 'external',
+                   type = 'real',
+                   value = 1.e-8,
+                   texname = '\\text{INN4x1}',
+                   lhablock = 'IMNMIX',
+                   lhacode = [ 4, 1 ])
+
+INN4x2 = Parameter(name = 'INN4x2',
+                   nature = 'external',
+                   type = 'real',
+                   value = 1.e-8,
+                   texname = '\\text{INN4x2}',
+                   lhablock = 'IMNMIX',
+                   lhacode = [ 4, 2 ])
+
+INN4x3 = Parameter(name = 'INN4x3',
+                   nature = 'external',
+                   type = 'real',
+                   value = 1.e-8,
+                   texname = '\\text{INN4x3}',
+                   lhablock = 'IMNMIX',
+                   lhacode = [ 4, 3 ])
+
+INN4x4 = Parameter(name = 'INN4x4',
+                   nature = 'external',
+                   type = 'real',
+                   value = 1.e-8,
+                   texname = '\\text{INN4x4}',
+                   lhablock = 'IMNMIX',
+                   lhacode = [ 4, 4 ])
 
 RmD21x1 = Parameter(name = 'RmD21x1',
                     nature = 'external',
@@ -245,7 +373,7 @@ mHd2 = Parameter(name = 'mHd2',
                  nature = 'external',
                  type = 'real',
                  value = 32337.4943,
-                 texname = '\\text{Subsuperscript}\\left[m,H_d,2\\right]',
+                 texname = 'm_{H_d}^2',
                  lhablock = 'MSOFT',
                  lhacode = [ 21 ])
 
@@ -253,7 +381,7 @@ mHu2 = Parameter(name = 'mHu2',
                  nature = 'external',
                  type = 'real',
                  value = -128800.134,
-                 texname = '\\text{Subsuperscript}\\left[m,H_u,2\\right]',
+                 texname = 'm_{H_u}^2',
                  lhablock = 'MSOFT',
                  lhacode = [ 22 ])
 
@@ -533,7 +661,7 @@ aEWM1 = Parameter(name = 'aEWM1',
                   nature = 'external',
                   type = 'real',
                   value = 127.934,
-                  texname = '\\text{Subsuperscript}[\\alpha ,w,-1]',
+                  texname = '\\alpha _w^{-1}',
                   lhablock = 'SMINPUTS',
                   lhacode = [ 1 ])
 
@@ -1692,97 +1820,97 @@ Mx3 = Parameter(name = 'Mx3',
 NN1x1 = Parameter(name = 'NN1x1',
                   nature = 'internal',
                   type = 'complex',
-                  value = 'RNN1x1',
+                  value = 'complex(0,1)*INN1x1 + RNN1x1',
                   texname = '\\text{NN1x1}')
 
 NN1x2 = Parameter(name = 'NN1x2',
                   nature = 'internal',
                   type = 'complex',
-                  value = 'RNN1x2',
+                  value = 'complex(0,1)*INN1x2 + RNN1x2',
                   texname = '\\text{NN1x2}')
 
 NN1x3 = Parameter(name = 'NN1x3',
                   nature = 'internal',
                   type = 'complex',
-                  value = 'RNN1x3',
+                  value = 'complex(0,1)*INN1x3 + RNN1x3',
                   texname = '\\text{NN1x3}')
 
 NN1x4 = Parameter(name = 'NN1x4',
                   nature = 'internal',
                   type = 'complex',
-                  value = 'RNN1x4',
+                  value = 'complex(0,1)*INN1x4 + RNN1x4',
                   texname = '\\text{NN1x4}')
 
 NN2x1 = Parameter(name = 'NN2x1',
                   nature = 'internal',
                   type = 'complex',
-                  value = 'RNN2x1',
+                  value = 'complex(0,1)*INN2x1 + RNN2x1',
                   texname = '\\text{NN2x1}')
 
 NN2x2 = Parameter(name = 'NN2x2',
                   nature = 'internal',
                   type = 'complex',
-                  value = 'RNN2x2',
+                  value = 'complex(0,1)*INN2x2 + RNN2x2',
                   texname = '\\text{NN2x2}')
 
 NN2x3 = Parameter(name = 'NN2x3',
                   nature = 'internal',
                   type = 'complex',
-                  value = 'RNN2x3',
+                  value = 'complex(0,1)*INN2x3 + RNN2x3',
                   texname = '\\text{NN2x3}')
 
 NN2x4 = Parameter(name = 'NN2x4',
                   nature = 'internal',
                   type = 'complex',
-                  value = 'RNN2x4',
+                  value = 'complex(0,1)*INN2x4 + RNN2x4',
                   texname = '\\text{NN2x4}')
 
 NN3x1 = Parameter(name = 'NN3x1',
                   nature = 'internal',
                   type = 'complex',
-                  value = 'RNN3x1',
+                  value = 'complex(0,1)*INN3x1 + RNN3x1',
                   texname = '\\text{NN3x1}')
 
 NN3x2 = Parameter(name = 'NN3x2',
                   nature = 'internal',
                   type = 'complex',
-                  value = 'RNN3x2',
+                  value = 'complex(0,1)*INN3x2 + RNN3x2',
                   texname = '\\text{NN3x2}')
 
 NN3x3 = Parameter(name = 'NN3x3',
                   nature = 'internal',
                   type = 'complex',
-                  value = 'RNN3x3',
+                  value = 'complex(0,1)*INN3x3 + RNN3x3',
                   texname = '\\text{NN3x3}')
 
 NN3x4 = Parameter(name = 'NN3x4',
                   nature = 'internal',
                   type = 'complex',
-                  value = 'RNN3x4',
+                  value = 'complex(0,1)*INN3x4 + RNN3x4',
                   texname = '\\text{NN3x4}')
 
 NN4x1 = Parameter(name = 'NN4x1',
                   nature = 'internal',
                   type = 'complex',
-                  value = 'RNN4x1',
+                  value = 'complex(0,1)*INN4x1 + RNN4x1',
                   texname = '\\text{NN4x1}')
 
 NN4x2 = Parameter(name = 'NN4x2',
                   nature = 'internal',
                   type = 'complex',
-                  value = 'RNN4x2',
+                  value = 'complex(0,1)*INN4x2 + RNN4x2',
                   texname = '\\text{NN4x2}')
 
 NN4x3 = Parameter(name = 'NN4x3',
                   nature = 'internal',
                   type = 'complex',
-                  value = 'RNN4x3',
+                  value = 'complex(0,1)*INN4x3 + RNN4x3',
                   texname = '\\text{NN4x3}')
 
 NN4x4 = Parameter(name = 'NN4x4',
                   nature = 'internal',
                   type = 'complex',
-                  value = 'RNN4x4',
+                  value = 'complex(0,1)*INN4x4 + RNN4x4',
                   texname = '\\text{NN4x4}')
 
 Rd1x1 = Parameter(name = 'Rd1x1',

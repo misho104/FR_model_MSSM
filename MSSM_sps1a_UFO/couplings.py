@@ -1,6 +1,6 @@
-# This file was automatically created by FeynRules 2.3.21
-# Mathematica version: 10.3.0 for Mac OS X x86 (64-bit) (October 9, 2015)
-# Date: Sat 30 Apr 2016 19:04:51
+# This file was automatically created by FeynRules 2.3.49
+# Mathematica version: 13.0.0 for Mac OS X x86 (64-bit) (December 3, 2021)
+# Date: Sat 12 Feb 2022 18:33:52
 
 
 from object_library import all_couplings, Coupling
@@ -10,7 +10,7 @@ from function_library import complexconjugate, re, im, csc, sec, acsc, asec, cot
 
 
 GC_1 = Coupling(name = 'GC_1',
-                value = '-(ee*complex(0,1))/3.',
+                value = '-0.3333333333333333*(ee*complex(0,1))',
                 order = {'QED':1})
 
 GC_2 = Coupling(name = 'GC_2',
@@ -414,7 +414,7 @@ GC_101 = Coupling(name = 'GC_101',
                   order = {'QCD':1})
 
 GC_102 = Coupling(name = 'GC_102',
-                  value = '-(ee*complex(0,1)*I8a63)/3. - (ee*complex(0,1)*I9a63)/3.',
+                  value = '-0.3333333333333333*(ee*complex(0,1)*I8a63) - (ee*complex(0,1)*I9a63)/3.',
                   order = {'QED':1})
 
 GC_103 = Coupling(name = 'GC_103',
@@ -570,67 +570,67 @@ GC_140 = Coupling(name = 'GC_140',
                   order = {'QED':2})
 
 GC_141 = Coupling(name = 'GC_141',
-                  value = '-(ee**2*complex(0,1)*I127a11*I128a11)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I127a11*I128a11)/sw**2',
                   order = {'QED':2})
 
 GC_142 = Coupling(name = 'GC_142',
-                  value = '-(ee**2*complex(0,1)*I127a22*I128a11)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I127a22*I128a11)/sw**2',
                   order = {'QED':2})
 
 GC_143 = Coupling(name = 'GC_143',
-                  value = '-(ee**2*complex(0,1)*I127a33*I128a11)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I127a33*I128a11)/sw**2',
                   order = {'QED':2})
 
 GC_144 = Coupling(name = 'GC_144',
-                  value = '-(ee**2*complex(0,1)*I127a36*I128a11)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I127a36*I128a11)/sw**2',
                   order = {'QED':2})
 
 GC_145 = Coupling(name = 'GC_145',
-                  value = '-(ee**2*complex(0,1)*I127a63*I128a11)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I127a63*I128a11)/sw**2',
                   order = {'QED':2})
 
 GC_146 = Coupling(name = 'GC_146',
-                  value = '-(ee**2*complex(0,1)*I127a66*I128a11)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I127a66*I128a11)/sw**2',
                   order = {'QED':2})
 
 GC_147 = Coupling(name = 'GC_147',
-                  value = '-(ee**2*complex(0,1)*I127a11*I128a22)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I127a11*I128a22)/sw**2',
                   order = {'QED':2})
 
 GC_148 = Coupling(name = 'GC_148',
-                  value = '-(ee**2*complex(0,1)*I127a22*I128a22)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I127a22*I128a22)/sw**2',
                   order = {'QED':2})
 
 GC_149 = Coupling(name = 'GC_149',
-                  value = '-(ee**2*complex(0,1)*I127a33*I128a22)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I127a33*I128a22)/sw**2',
                   order = {'QED':2})
 
 GC_150 = Coupling(name = 'GC_150',
-                  value = '-(ee**2*complex(0,1)*I127a36*I128a22)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I127a36*I128a22)/sw**2',
                   order = {'QED':2})
 
 GC_151 = Coupling(name = 'GC_151',
-                  value = '-(ee**2*complex(0,1)*I127a63*I128a22)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I127a63*I128a22)/sw**2',
                   order = {'QED':2})
 
 GC_152 = Coupling(name = 'GC_152',
-                  value = '-(ee**2*complex(0,1)*I127a66*I128a22)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I127a66*I128a22)/sw**2',
                   order = {'QED':2})
 
 GC_153 = Coupling(name = 'GC_153',
-                  value = '-(ee**2*complex(0,1)*I127a11*I128a33)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I127a11*I128a33)/sw**2',
                   order = {'QED':2})
 
 GC_154 = Coupling(name = 'GC_154',
-                  value = '-(ee**2*complex(0,1)*I127a22*I128a33)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I127a22*I128a33)/sw**2',
                   order = {'QED':2})
 
 GC_155 = Coupling(name = 'GC_155',
-                  value = '-(ee**2*complex(0,1)*I127a11*I128a36)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I127a11*I128a36)/sw**2',
                   order = {'QED':2})
 
 GC_156 = Coupling(name = 'GC_156',
-                  value = '-(ee**2*complex(0,1)*I127a22*I128a36)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I127a22*I128a36)/sw**2',
                   order = {'QED':2})
 
 GC_157 = Coupling(name = 'GC_157',
@@ -706,67 +706,67 @@ GC_174 = Coupling(name = 'GC_174',
                   order = {'QED':2})
 
 GC_175 = Coupling(name = 'GC_175',
-                  value = '-(ee**2*complex(0,1)*I159a11*I99a11)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a11*I99a11)/sw**2',
                   order = {'QED':2})
 
 GC_176 = Coupling(name = 'GC_176',
-                  value = '-(ee**2*complex(0,1)*I159a22*I99a11)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a22*I99a11)/sw**2',
                   order = {'QED':2})
 
 GC_177 = Coupling(name = 'GC_177',
-                  value = '-(ee**2*complex(0,1)*I159a33*I99a11)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a33*I99a11)/sw**2',
                   order = {'QED':2})
 
 GC_178 = Coupling(name = 'GC_178',
-                  value = '-(ee**2*complex(0,1)*I159a36*I99a11)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a36*I99a11)/sw**2',
                   order = {'QED':2})
 
 GC_179 = Coupling(name = 'GC_179',
-                  value = '-(ee**2*complex(0,1)*I159a63*I99a11)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a63*I99a11)/sw**2',
                   order = {'QED':2})
 
 GC_180 = Coupling(name = 'GC_180',
-                  value = '-(ee**2*complex(0,1)*I159a66*I99a11)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a66*I99a11)/sw**2',
                   order = {'QED':2})
 
 GC_181 = Coupling(name = 'GC_181',
-                  value = '-(ee**2*complex(0,1)*I159a11*I99a22)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a11*I99a22)/sw**2',
                   order = {'QED':2})
 
 GC_182 = Coupling(name = 'GC_182',
-                  value = '-(ee**2*complex(0,1)*I159a22*I99a22)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a22*I99a22)/sw**2',
                   order = {'QED':2})
 
 GC_183 = Coupling(name = 'GC_183',
-                  value = '-(ee**2*complex(0,1)*I159a33*I99a22)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a33*I99a22)/sw**2',
                   order = {'QED':2})
 
 GC_184 = Coupling(name = 'GC_184',
-                  value = '-(ee**2*complex(0,1)*I159a36*I99a22)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a36*I99a22)/sw**2',
                   order = {'QED':2})
 
 GC_185 = Coupling(name = 'GC_185',
-                  value = '-(ee**2*complex(0,1)*I159a63*I99a22)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a63*I99a22)/sw**2',
                   order = {'QED':2})
 
 GC_186 = Coupling(name = 'GC_186',
-                  value = '-(ee**2*complex(0,1)*I159a66*I99a22)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a66*I99a22)/sw**2',
                   order = {'QED':2})
 
 GC_187 = Coupling(name = 'GC_187',
-                  value = '-(ee**2*complex(0,1)*I159a11*I99a33)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a11*I99a33)/sw**2',
                   order = {'QED':2})
 
 GC_188 = Coupling(name = 'GC_188',
-                  value = '-(ee**2*complex(0,1)*I159a22*I99a33)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a22*I99a33)/sw**2',
                   order = {'QED':2})
 
 GC_189 = Coupling(name = 'GC_189',
-                  value = '-(ee**2*complex(0,1)*I159a11*I99a36)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a11*I99a36)/sw**2',
                   order = {'QED':2})
 
 GC_190 = Coupling(name = 'GC_190',
-                  value = '-(ee**2*complex(0,1)*I159a22*I99a36)/(2.*sw**2)',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a22*I99a36)/sw**2',
                   order = {'QED':2})
 
 GC_191 = Coupling(name = 'GC_191',
@@ -1126,23 +1126,23 @@ GC_279 = Coupling(name = 'GC_279',
                   order = {'QED':2})
 
 GC_280 = Coupling(name = 'GC_280',
-                  value = '-(ee**2*complex(0,1)*I162a44*I63a11)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I162a44*I63a11)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_281 = Coupling(name = 'GC_281',
-                  value = '-(ee**2*complex(0,1)*I162a55*I63a11)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I162a55*I63a11)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_282 = Coupling(name = 'GC_282',
-                  value = '-(ee**2*complex(0,1)*I162a44*I63a22)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I162a44*I63a22)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_283 = Coupling(name = 'GC_283',
-                  value = '-(ee**2*complex(0,1)*I162a55*I63a22)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I162a55*I63a22)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_284 = Coupling(name = 'GC_284',
-                  value = '-(ee**2*complex(0,1)*I65a44)/(6.*(-1 + sw)*(1 + sw))',
+                  value = '-0.16666666666666666*(ee**2*complex(0,1)*I65a44)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_285 = Coupling(name = 'GC_285',
@@ -1162,15 +1162,15 @@ GC_288 = Coupling(name = 'GC_288',
                   order = {'QED':2})
 
 GC_289 = Coupling(name = 'GC_289',
-                  value = '-(ee**2*complex(0,1)*I64a11*I65a44)/(6.*(-1 + sw)*(1 + sw))',
+                  value = '-0.16666666666666666*(ee**2*complex(0,1)*I64a11*I65a44)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_290 = Coupling(name = 'GC_290',
-                  value = '-(ee**2*complex(0,1)*I64a22*I65a44)/(6.*(-1 + sw)*(1 + sw))',
+                  value = '-0.16666666666666666*(ee**2*complex(0,1)*I64a22*I65a44)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_291 = Coupling(name = 'GC_291',
-                  value = '-(ee**2*complex(0,1)*I65a55)/(6.*(-1 + sw)*(1 + sw))',
+                  value = '-0.16666666666666666*(ee**2*complex(0,1)*I65a55)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_292 = Coupling(name = 'GC_292',
@@ -1190,11 +1190,11 @@ GC_295 = Coupling(name = 'GC_295',
                   order = {'QED':2})
 
 GC_296 = Coupling(name = 'GC_296',
-                  value = '-(ee**2*complex(0,1)*I64a11*I65a55)/(6.*(-1 + sw)*(1 + sw))',
+                  value = '-0.16666666666666666*(ee**2*complex(0,1)*I64a11*I65a55)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_297 = Coupling(name = 'GC_297',
-                  value = '-(ee**2*complex(0,1)*I64a22*I65a55)/(6.*(-1 + sw)*(1 + sw))',
+                  value = '-0.16666666666666666*(ee**2*complex(0,1)*I64a22*I65a55)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_298 = Coupling(name = 'GC_298',
@@ -1246,7 +1246,7 @@ GC_309 = Coupling(name = 'GC_309',
                   order = {'QED':2})
 
 GC_310 = Coupling(name = 'GC_310',
-                  value = '-(ee**2*complex(0,1)*I98a44)/(2.*(-1 + sw)*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I98a44)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_311 = Coupling(name = 'GC_311',
@@ -1266,7 +1266,7 @@ GC_314 = Coupling(name = 'GC_314',
                   order = {'QED':2})
 
 GC_315 = Coupling(name = 'GC_315',
-                  value = '-(ee**2*complex(0,1)*I98a55)/(2.*(-1 + sw)*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I98a55)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_316 = Coupling(name = 'GC_316',
@@ -1386,7 +1386,7 @@ GC_344 = Coupling(name = 'GC_344',
                   order = {'QED':2})
 
 GC_345 = Coupling(name = 'GC_345',
-                  value = '-(ee**2*complex(0,1))/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1))/((-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_346 = Coupling(name = 'GC_346',
@@ -1394,7 +1394,7 @@ GC_346 = Coupling(name = 'GC_346',
                   order = {'QED':2})
 
 GC_347 = Coupling(name = 'GC_347',
-                  value = '-(cw*ee*complex(0,1))/(2.*(-1 + sw)*sw*(1 + sw))',
+                  value = '-0.5*(cw*ee*complex(0,1))/((-1 + sw)*sw*(1 + sw))',
                   order = {'QED':1})
 
 GC_348 = Coupling(name = 'GC_348',
@@ -1402,7 +1402,7 @@ GC_348 = Coupling(name = 'GC_348',
                   order = {'QED':1})
 
 GC_349 = Coupling(name = 'GC_349',
-                  value = '-(cw*ee*complex(0,1)*sw)/(3.*(-1 + sw)*(1 + sw))',
+                  value = '-0.3333333333333333*(cw*ee*complex(0,1)*sw)/((-1 + sw)*(1 + sw))',
                   order = {'QED':1})
 
 GC_350 = Coupling(name = 'GC_350',
@@ -1502,35 +1502,35 @@ GC_373 = Coupling(name = 'GC_373',
                   order = {'QED':2})
 
 GC_374 = Coupling(name = 'GC_374',
-                  value = '-(ee**2*complex(0,1)*I169a11*I172a44)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a11*I174a44)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a11*I176a44)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a11*I177a44)/(36.*(-1 + sw)*(1 + sw))',
+                  value = '-0.027777777777777776*(ee**2*complex(0,1)*I169a11*I172a44)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a11*I174a44)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a11*I176a44)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a11*I177a44)/(36.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_375 = Coupling(name = 'GC_375',
-                  value = '-(ee**2*complex(0,1)*I169a22*I172a44)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a22*I174a44)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a22*I176a44)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a22*I177a44)/(36.*(-1 + sw)*(1 + sw))',
+                  value = '-0.027777777777777776*(ee**2*complex(0,1)*I169a22*I172a44)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a22*I174a44)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a22*I176a44)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a22*I177a44)/(36.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_376 = Coupling(name = 'GC_376',
-                  value = '-(ee**2*complex(0,1)*I169a11*I172a55)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a11*I174a55)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a11*I176a55)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a11*I177a55)/(36.*(-1 + sw)*(1 + sw))',
+                  value = '-0.027777777777777776*(ee**2*complex(0,1)*I169a11*I172a55)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a11*I174a55)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a11*I176a55)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a11*I177a55)/(36.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_377 = Coupling(name = 'GC_377',
-                  value = '-(ee**2*complex(0,1)*I169a22*I172a55)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a22*I174a55)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a22*I176a55)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a22*I177a55)/(36.*(-1 + sw)*(1 + sw))',
+                  value = '-0.027777777777777776*(ee**2*complex(0,1)*I169a22*I172a55)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a22*I174a55)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a22*I176a55)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a22*I177a55)/(36.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_378 = Coupling(name = 'GC_378',
-                  value = '-(ee**2*complex(0,1)*I169a33*I172a44)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a33*I174a44)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a44*I175a33)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a33*I175a44)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a33*I176a44)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a33*I177a44)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a44*I178a33)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a33*I178a44)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.027777777777777776*(ee**2*complex(0,1)*I169a33*I172a44)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a33*I174a44)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a44*I175a33)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a33*I175a44)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a33*I176a44)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a33*I177a44)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a44*I178a33)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a33*I178a44)/(9.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_379 = Coupling(name = 'GC_379',
-                  value = '-(ee**2*complex(0,1)*I169a36*I172a44)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a36*I174a44)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a44*I175a36)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a36*I175a44)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a36*I176a44)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a36*I177a44)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a44*I178a36)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a36*I178a44)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.027777777777777776*(ee**2*complex(0,1)*I169a36*I172a44)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a36*I174a44)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a44*I175a36)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a36*I175a44)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a36*I176a44)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a36*I177a44)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a44*I178a36)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a36*I178a44)/(9.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_380 = Coupling(name = 'GC_380',
-                  value = '-(ee**2*complex(0,1)*I169a33*I172a55)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a33*I174a55)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a55*I175a33)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a33*I175a55)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a33*I176a55)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a33*I177a55)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a55*I178a33)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a33*I178a55)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.027777777777777776*(ee**2*complex(0,1)*I169a33*I172a55)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a33*I174a55)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a55*I175a33)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a33*I175a55)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a33*I176a55)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a33*I177a55)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a55*I178a33)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a33*I178a55)/(9.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_381 = Coupling(name = 'GC_381',
-                  value = '-(ee**2*complex(0,1)*I169a36*I172a55)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a36*I174a55)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a55*I175a36)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a36*I175a55)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a36*I176a55)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a36*I177a55)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a55*I178a36)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a36*I178a55)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.027777777777777776*(ee**2*complex(0,1)*I169a36*I172a55)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a36*I174a55)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a55*I175a36)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a36*I175a55)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a36*I176a55)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a36*I177a55)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a55*I178a36)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a36*I178a55)/(9.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_382 = Coupling(name = 'GC_382',
@@ -1538,19 +1538,19 @@ GC_382 = Coupling(name = 'GC_382',
                   order = {'QED':2})
 
 GC_383 = Coupling(name = 'GC_383',
-                  value = '-(ee**2*complex(0,1)*I169a63*I172a44)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a63*I174a44)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a63*I175a44)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a44*I175a63)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a63*I176a44)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a63*I177a44)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a63*I178a44)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a44*I178a63)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.027777777777777776*(ee**2*complex(0,1)*I169a63*I172a44)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a63*I174a44)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a63*I175a44)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a44*I175a63)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a63*I176a44)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a63*I177a44)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a63*I178a44)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a44*I178a63)/(9.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_384 = Coupling(name = 'GC_384',
-                  value = '-(ee**2*complex(0,1)*I169a63*I172a55)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a63*I174a55)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a63*I175a55)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a55*I175a63)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a63*I176a55)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a63*I177a55)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a63*I178a55)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a55*I178a63)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.027777777777777776*(ee**2*complex(0,1)*I169a63*I172a55)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a63*I174a55)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a63*I175a55)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a55*I175a63)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a63*I176a55)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a63*I177a55)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a63*I178a55)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a55*I178a63)/(9.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_385 = Coupling(name = 'GC_385',
-                  value = '-(ee**2*complex(0,1)*I169a66*I172a44)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a66*I174a44)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a66*I175a44)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a44*I175a66)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a66*I176a44)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a66*I177a44)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a66*I178a44)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a44*I178a66)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.027777777777777776*(ee**2*complex(0,1)*I169a66*I172a44)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a66*I174a44)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a66*I175a44)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a44*I175a66)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a66*I176a44)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a66*I177a44)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a66*I178a44)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a44*I178a66)/(9.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_386 = Coupling(name = 'GC_386',
-                  value = '-(ee**2*complex(0,1)*I169a66*I172a55)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a66*I174a55)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a66*I175a55)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a55*I175a66)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a66*I176a55)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a66*I177a55)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a66*I178a55)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a55*I178a66)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.027777777777777776*(ee**2*complex(0,1)*I169a66*I172a55)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a66*I174a55)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a66*I175a55)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a55*I175a66)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a66*I176a55)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a66*I177a55)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a66*I178a55)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a55*I178a66)/(9.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_387 = Coupling(name = 'GC_387',
@@ -1558,19 +1558,19 @@ GC_387 = Coupling(name = 'GC_387',
                   order = {'QED':2})
 
 GC_388 = Coupling(name = 'GC_388',
-                  value = '-(ee**2*complex(0,1)*I162a44*I63a33)/(9.*(-1 + sw)*(1 + sw)) - (2*ee**2*complex(0,1)*I162a44*I65a33)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I162a44*I63a33)/((-1 + sw)*(1 + sw)) - (2*ee**2*complex(0,1)*I162a44*I65a33)/(9.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_389 = Coupling(name = 'GC_389',
-                  value = '-(ee**2*complex(0,1)*I162a55*I63a33)/(9.*(-1 + sw)*(1 + sw)) - (2*ee**2*complex(0,1)*I162a55*I65a33)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I162a55*I63a33)/((-1 + sw)*(1 + sw)) - (2*ee**2*complex(0,1)*I162a55*I65a33)/(9.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_390 = Coupling(name = 'GC_390',
-                  value = '-(ee**2*complex(0,1)*I162a44*I63a36)/(9.*(-1 + sw)*(1 + sw)) - (2*ee**2*complex(0,1)*I162a44*I65a36)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I162a44*I63a36)/((-1 + sw)*(1 + sw)) - (2*ee**2*complex(0,1)*I162a44*I65a36)/(9.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_391 = Coupling(name = 'GC_391',
-                  value = '-(ee**2*complex(0,1)*I162a55*I63a36)/(9.*(-1 + sw)*(1 + sw)) - (2*ee**2*complex(0,1)*I162a55*I65a36)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I162a55*I63a36)/((-1 + sw)*(1 + sw)) - (2*ee**2*complex(0,1)*I162a55*I65a36)/(9.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_392 = Coupling(name = 'GC_392',
@@ -1606,35 +1606,35 @@ GC_399 = Coupling(name = 'GC_399',
                   order = {'QED':2})
 
 GC_400 = Coupling(name = 'GC_400',
-                  value = '-(ee**2*complex(0,1)*I162a44*I63a63)/(9.*(-1 + sw)*(1 + sw)) - (2*ee**2*complex(0,1)*I162a44*I65a63)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I162a44*I63a63)/((-1 + sw)*(1 + sw)) - (2*ee**2*complex(0,1)*I162a44*I65a63)/(9.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_401 = Coupling(name = 'GC_401',
-                  value = '-(ee**2*complex(0,1)*I162a55*I63a63)/(9.*(-1 + sw)*(1 + sw)) - (2*ee**2*complex(0,1)*I162a55*I65a63)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I162a55*I63a63)/((-1 + sw)*(1 + sw)) - (2*ee**2*complex(0,1)*I162a55*I65a63)/(9.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_402 = Coupling(name = 'GC_402',
-                  value = '-(ee**2*complex(0,1)*I162a44*I63a66)/(9.*(-1 + sw)*(1 + sw)) - (2*ee**2*complex(0,1)*I162a44*I65a66)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I162a44*I63a66)/((-1 + sw)*(1 + sw)) - (2*ee**2*complex(0,1)*I162a44*I65a66)/(9.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_403 = Coupling(name = 'GC_403',
-                  value = '-(ee**2*complex(0,1)*I162a55*I63a66)/(9.*(-1 + sw)*(1 + sw)) - (2*ee**2*complex(0,1)*I162a55*I65a66)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I162a55*I63a66)/((-1 + sw)*(1 + sw)) - (2*ee**2*complex(0,1)*I162a55*I65a66)/(9.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_404 = Coupling(name = 'GC_404',
-                  value = '-(ee**2*complex(0,1)*I64a33*I65a44)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a44*I66a33)/(3.*(-1 + sw)*(1 + sw))',
+                  value = '-0.16666666666666666*(ee**2*complex(0,1)*I64a33*I65a44)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a44*I66a33)/(3.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_405 = Coupling(name = 'GC_405',
-                  value = '-(ee**2*complex(0,1)*I64a33*I65a55)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a55*I66a33)/(3.*(-1 + sw)*(1 + sw))',
+                  value = '-0.16666666666666666*(ee**2*complex(0,1)*I64a33*I65a55)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a55*I66a33)/(3.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_406 = Coupling(name = 'GC_406',
-                  value = '-(ee**2*complex(0,1)*I64a36*I65a44)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a44*I66a36)/(3.*(-1 + sw)*(1 + sw))',
+                  value = '-0.16666666666666666*(ee**2*complex(0,1)*I64a36*I65a44)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a44*I66a36)/(3.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_407 = Coupling(name = 'GC_407',
-                  value = '-(ee**2*complex(0,1)*I64a36*I65a55)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a55*I66a36)/(3.*(-1 + sw)*(1 + sw))',
+                  value = '-0.16666666666666666*(ee**2*complex(0,1)*I64a36*I65a55)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a55*I66a36)/(3.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_408 = Coupling(name = 'GC_408',
@@ -1670,43 +1670,43 @@ GC_415 = Coupling(name = 'GC_415',
                   order = {'QED':2})
 
 GC_416 = Coupling(name = 'GC_416',
-                  value = '-(ee**2*complex(0,1)*I64a63*I65a44)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a44*I66a63)/(3.*(-1 + sw)*(1 + sw))',
+                  value = '-0.16666666666666666*(ee**2*complex(0,1)*I64a63*I65a44)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a44*I66a63)/(3.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_417 = Coupling(name = 'GC_417',
-                  value = '-(ee**2*complex(0,1)*I64a63*I65a55)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a55*I66a63)/(3.*(-1 + sw)*(1 + sw))',
+                  value = '-0.16666666666666666*(ee**2*complex(0,1)*I64a63*I65a55)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a55*I66a63)/(3.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_418 = Coupling(name = 'GC_418',
-                  value = '-(ee**2*complex(0,1)*I64a66*I65a44)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a44*I66a66)/(3.*(-1 + sw)*(1 + sw))',
+                  value = '-0.16666666666666666*(ee**2*complex(0,1)*I64a66*I65a44)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a44*I66a66)/(3.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_419 = Coupling(name = 'GC_419',
-                  value = '-(ee**2*complex(0,1)*I64a66*I65a55)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a55*I66a66)/(3.*(-1 + sw)*(1 + sw))',
+                  value = '-0.16666666666666666*(ee**2*complex(0,1)*I64a66*I65a55)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a55*I66a66)/(3.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_420 = Coupling(name = 'GC_420',
-                  value = '-(ee**2*complex(0,1)*I75a11*I76a44)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a11*I77a44)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a11*I79a44)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a11*I80a44)/(8.*(-1 + sw)*(1 + sw))',
+                  value = '-0.125*(ee**2*complex(0,1)*I75a11*I76a44)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a11*I77a44)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a11*I79a44)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a11*I80a44)/(8.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_421 = Coupling(name = 'GC_421',
-                  value = '-(ee**2*complex(0,1)*I75a22*I76a44)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a22*I77a44)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a22*I79a44)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a22*I80a44)/(8.*(-1 + sw)*(1 + sw))',
+                  value = '-0.125*(ee**2*complex(0,1)*I75a22*I76a44)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a22*I77a44)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a22*I79a44)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a22*I80a44)/(8.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_422 = Coupling(name = 'GC_422',
-                  value = '-(ee**2*complex(0,1)*I75a11*I76a55)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a11*I77a55)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a11*I79a55)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a11*I80a55)/(8.*(-1 + sw)*(1 + sw))',
+                  value = '-0.125*(ee**2*complex(0,1)*I75a11*I76a55)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a11*I77a55)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a11*I79a55)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a11*I80a55)/(8.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_423 = Coupling(name = 'GC_423',
-                  value = '-(ee**2*complex(0,1)*I75a22*I76a55)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a22*I77a55)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a22*I79a55)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a22*I80a55)/(8.*(-1 + sw)*(1 + sw))',
+                  value = '-0.125*(ee**2*complex(0,1)*I75a22*I76a55)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a22*I77a55)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a22*I79a55)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a22*I80a55)/(8.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_424 = Coupling(name = 'GC_424',
-                  value = '-(ee**2*complex(0,1)*I75a33*I76a44)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a33*I77a44)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a44*I78a33)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a33*I78a44)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a33*I79a44)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a33*I80a44)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a44*I81a33)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a33*I81a44)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.125*(ee**2*complex(0,1)*I75a33*I76a44)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a33*I77a44)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a44*I78a33)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a33*I78a44)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a33*I79a44)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a33*I80a44)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a44*I81a33)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a33*I81a44)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_425 = Coupling(name = 'GC_425',
-                  value = '-(ee**2*complex(0,1)*I75a36*I76a44)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a36*I77a44)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a44*I78a36)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a36*I78a44)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a36*I79a44)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a36*I80a44)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a44*I81a36)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a36*I81a44)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.125*(ee**2*complex(0,1)*I75a36*I76a44)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a36*I77a44)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a44*I78a36)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a36*I78a44)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a36*I79a44)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a36*I80a44)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a44*I81a36)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a36*I81a44)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_426 = Coupling(name = 'GC_426',
@@ -1714,11 +1714,11 @@ GC_426 = Coupling(name = 'GC_426',
                   order = {'QED':2})
 
 GC_427 = Coupling(name = 'GC_427',
-                  value = '-(ee**2*complex(0,1)*I75a33*I76a55)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a33*I77a55)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a55*I78a33)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a33*I78a55)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a33*I79a55)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a33*I80a55)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a55*I81a33)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a33*I81a55)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.125*(ee**2*complex(0,1)*I75a33*I76a55)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a33*I77a55)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a55*I78a33)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a33*I78a55)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a33*I79a55)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a33*I80a55)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a55*I81a33)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a33*I81a55)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_428 = Coupling(name = 'GC_428',
-                  value = '-(ee**2*complex(0,1)*I75a36*I76a55)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a36*I77a55)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a55*I78a36)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a36*I78a55)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a36*I79a55)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a36*I80a55)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a55*I81a36)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a36*I81a55)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.125*(ee**2*complex(0,1)*I75a36*I76a55)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a36*I77a55)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a55*I78a36)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a36*I78a55)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a36*I79a55)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a36*I80a55)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a55*I81a36)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a36*I81a55)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_429 = Coupling(name = 'GC_429',
@@ -1730,19 +1730,19 @@ GC_430 = Coupling(name = 'GC_430',
                   order = {'QED':2})
 
 GC_431 = Coupling(name = 'GC_431',
-                  value = '-(ee**2*complex(0,1)*I75a63*I76a44)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a63*I77a44)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a63*I78a44)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a44*I78a63)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a63*I79a44)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a63*I80a44)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a63*I81a44)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a44*I81a63)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.125*(ee**2*complex(0,1)*I75a63*I76a44)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a63*I77a44)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a63*I78a44)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a44*I78a63)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a63*I79a44)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a63*I80a44)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a63*I81a44)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a44*I81a63)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_432 = Coupling(name = 'GC_432',
-                  value = '-(ee**2*complex(0,1)*I75a63*I76a55)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a63*I77a55)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a63*I78a55)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a55*I78a63)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a63*I79a55)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a63*I80a55)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a63*I81a55)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a55*I81a63)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.125*(ee**2*complex(0,1)*I75a63*I76a55)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a63*I77a55)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a63*I78a55)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a55*I78a63)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a63*I79a55)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a63*I80a55)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a63*I81a55)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a55*I81a63)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_433 = Coupling(name = 'GC_433',
-                  value = '-(ee**2*complex(0,1)*I75a66*I76a44)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a66*I77a44)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a66*I78a44)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a44*I78a66)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a66*I79a44)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a66*I80a44)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a66*I81a44)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a44*I81a66)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.125*(ee**2*complex(0,1)*I75a66*I76a44)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a66*I77a44)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a66*I78a44)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a44*I78a66)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a66*I79a44)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a66*I80a44)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a66*I81a44)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a44*I81a66)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_434 = Coupling(name = 'GC_434',
-                  value = '-(ee**2*complex(0,1)*I75a66*I76a55)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a66*I77a55)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a66*I78a55)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a55*I78a66)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a66*I79a55)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a66*I80a55)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a66*I81a55)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a55*I81a66)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.125*(ee**2*complex(0,1)*I75a66*I76a55)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a66*I77a55)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a66*I78a55)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a55*I78a66)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a66*I79a55)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a66*I80a55)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a66*I81a55)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a55*I81a66)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_435 = Coupling(name = 'GC_435',
@@ -1858,107 +1858,107 @@ GC_462 = Coupling(name = 'GC_462',
                   order = {'QED':2})
 
 GC_463 = Coupling(name = 'GC_463',
-                  value = '-(ee**2*complex(0,1)*I148a11)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a11)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I148a11)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a11)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_464 = Coupling(name = 'GC_464',
-                  value = '-(ee**2*complex(0,1)*I148a22)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a22)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I148a22)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a22)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_465 = Coupling(name = 'GC_465',
-                  value = '-(ee**2*complex(0,1)*I148a33)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a33)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a33)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I148a33)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a33)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a33)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_466 = Coupling(name = 'GC_466',
-                  value = '-(ee**2*complex(0,1)*I148a36)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a36)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a36)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I148a36)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a36)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a36)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_467 = Coupling(name = 'GC_467',
-                  value = '-(ee**2*complex(0,1)*I148a63)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a63)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a63)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I148a63)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a63)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a63)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_468 = Coupling(name = 'GC_468',
-                  value = '-(ee**2*complex(0,1)*I148a66)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a66)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a66)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I148a66)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a66)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a66)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_469 = Coupling(name = 'GC_469',
-                  value = '-(ee**2*complex(0,1)*I159a11*I163a11)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a11*I163a11)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a11*I163a11)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a11*I163a11)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_470 = Coupling(name = 'GC_470',
-                  value = '-(ee**2*complex(0,1)*I159a22*I163a11)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a22*I163a11)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a22*I163a11)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a22*I163a11)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_471 = Coupling(name = 'GC_471',
-                  value = '-(ee**2*complex(0,1)*I159a33*I163a11)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a33*I163a11)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a33*I163a11)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a33*I163a11)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_472 = Coupling(name = 'GC_472',
-                  value = '-(ee**2*complex(0,1)*I159a36*I163a11)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a36*I163a11)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a36*I163a11)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a36*I163a11)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_473 = Coupling(name = 'GC_473',
-                  value = '-(ee**2*complex(0,1)*I159a63*I163a11)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a63*I163a11)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a63*I163a11)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a63*I163a11)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_474 = Coupling(name = 'GC_474',
-                  value = '-(ee**2*complex(0,1)*I159a66*I163a11)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a66*I163a11)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a66*I163a11)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a66*I163a11)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_475 = Coupling(name = 'GC_475',
-                  value = '-(ee**2*complex(0,1)*I159a11*I163a22)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a11*I163a22)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a11*I163a22)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a11*I163a22)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_476 = Coupling(name = 'GC_476',
-                  value = '-(ee**2*complex(0,1)*I159a22*I163a22)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a22*I163a22)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a22*I163a22)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a22*I163a22)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_477 = Coupling(name = 'GC_477',
-                  value = '-(ee**2*complex(0,1)*I159a33*I163a22)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a33*I163a22)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a33*I163a22)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a33*I163a22)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_478 = Coupling(name = 'GC_478',
-                  value = '-(ee**2*complex(0,1)*I159a36*I163a22)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a36*I163a22)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a36*I163a22)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a36*I163a22)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_479 = Coupling(name = 'GC_479',
-                  value = '-(ee**2*complex(0,1)*I159a63*I163a22)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a63*I163a22)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a63*I163a22)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a63*I163a22)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_480 = Coupling(name = 'GC_480',
-                  value = '-(ee**2*complex(0,1)*I159a66*I163a22)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a66*I163a22)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a66*I163a22)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a66*I163a22)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_481 = Coupling(name = 'GC_481',
-                  value = '-(ee**2*complex(0,1)*I159a11*I163a33)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a11*I163a33)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a11*I163a33)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a11*I163a33)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_482 = Coupling(name = 'GC_482',
-                  value = '-(ee**2*complex(0,1)*I159a22*I163a33)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a22*I163a33)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a22*I163a33)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a22*I163a33)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_483 = Coupling(name = 'GC_483',
-                  value = '-(ee**2*complex(0,1)*I159a11*I163a36)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a11*I163a36)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a11*I163a36)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a11*I163a36)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_484 = Coupling(name = 'GC_484',
-                  value = '-(ee**2*complex(0,1)*I159a22*I163a36)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a22*I163a36)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a22*I163a36)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a22*I163a36)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_485 = Coupling(name = 'GC_485',
-                  value = '-(ee**2*complex(0,1)*I159a11*I163a63)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a11*I163a63)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a11*I163a63)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a11*I163a63)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_486 = Coupling(name = 'GC_486',
-                  value = '-(ee**2*complex(0,1)*I159a22*I163a63)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a22*I163a63)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a22*I163a63)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a22*I163a63)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_487 = Coupling(name = 'GC_487',
-                  value = '-(ee**2*complex(0,1)*I159a11*I163a66)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a11*I163a66)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a11*I163a66)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a11*I163a66)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_488 = Coupling(name = 'GC_488',
-                  value = '-(ee**2*complex(0,1)*I159a22*I163a66)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a22*I163a66)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a22*I163a66)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a22*I163a66)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_489 = Coupling(name = 'GC_489',
@@ -1974,7 +1974,7 @@ GC_491 = Coupling(name = 'GC_491',
                   order = {'QED':2})
 
 GC_492 = Coupling(name = 'GC_492',
-                  value = '-(ee**2*complex(0,1)*I168a22*I169a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I168a11*I169a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a22*I171a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a11*I171a22)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a22*I169a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I168a11*I169a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a22*I171a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a11*I171a22)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.05555555555555555*(ee**2*complex(0,1)*I168a22*I169a11)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I168a11*I169a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a22*I171a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a11*I171a22)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a22*I169a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I168a11*I169a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a22*I171a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a11*I171a22)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_493 = Coupling(name = 'GC_493',
@@ -1982,35 +1982,35 @@ GC_493 = Coupling(name = 'GC_493',
                   order = {'QED':2})
 
 GC_494 = Coupling(name = 'GC_494',
-                  value = '-(ee**2*complex(0,1)*I168a33*I169a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I168a11*I169a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a33*I171a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a11*I171a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a11*I172a33)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a11*I174a33)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a11*I176a33)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a11*I177a33)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a33*I169a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I168a11*I169a33)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a33*I171a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a11*I171a33)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.05555555555555555*(ee**2*complex(0,1)*I168a33*I169a11)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I168a11*I169a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a33*I171a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a11*I171a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a11*I172a33)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a11*I174a33)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a11*I176a33)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a11*I177a33)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a33*I169a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I168a11*I169a33)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a33*I171a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a11*I171a33)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_495 = Coupling(name = 'GC_495',
-                  value = '-(ee**2*complex(0,1)*I168a33*I169a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I168a22*I169a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a33*I171a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a22*I171a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a22*I172a33)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a22*I174a33)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a22*I176a33)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a22*I177a33)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a33*I169a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I168a22*I169a33)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a33*I171a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a22*I171a33)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.05555555555555555*(ee**2*complex(0,1)*I168a33*I169a22)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I168a22*I169a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a33*I171a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a22*I171a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a22*I172a33)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a22*I174a33)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a22*I176a33)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a22*I177a33)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a33*I169a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I168a22*I169a33)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a33*I171a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a22*I171a33)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_496 = Coupling(name = 'GC_496',
-                  value = '-(ee**2*complex(0,1)*I168a36*I169a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I168a11*I169a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a36*I171a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a11*I171a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a11*I172a36)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a11*I174a36)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a11*I176a36)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a11*I177a36)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a36*I169a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I168a11*I169a36)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a36*I171a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a11*I171a36)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.05555555555555555*(ee**2*complex(0,1)*I168a36*I169a11)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I168a11*I169a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a36*I171a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a11*I171a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a11*I172a36)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a11*I174a36)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a11*I176a36)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a11*I177a36)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a36*I169a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I168a11*I169a36)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a36*I171a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a11*I171a36)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_497 = Coupling(name = 'GC_497',
-                  value = '-(ee**2*complex(0,1)*I168a36*I169a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I168a22*I169a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a36*I171a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a22*I171a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a22*I172a36)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a22*I174a36)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a22*I176a36)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a22*I177a36)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a36*I169a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I168a22*I169a36)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a36*I171a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a22*I171a36)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.05555555555555555*(ee**2*complex(0,1)*I168a36*I169a22)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I168a22*I169a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a36*I171a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a22*I171a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a22*I172a36)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a22*I174a36)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a22*I176a36)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a22*I177a36)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a36*I169a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I168a22*I169a36)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a36*I171a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a22*I171a36)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_498 = Coupling(name = 'GC_498',
-                  value = '-(ee**2*complex(0,1)*I168a63*I169a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I168a11*I169a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a63*I171a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a11*I171a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a11*I172a63)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a11*I174a63)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a11*I176a63)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a11*I177a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a63*I169a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I168a11*I169a63)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a63*I171a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a11*I171a63)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.05555555555555555*(ee**2*complex(0,1)*I168a63*I169a11)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I168a11*I169a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a63*I171a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a11*I171a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a11*I172a63)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a11*I174a63)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a11*I176a63)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a11*I177a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a63*I169a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I168a11*I169a63)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a63*I171a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a11*I171a63)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_499 = Coupling(name = 'GC_499',
-                  value = '-(ee**2*complex(0,1)*I168a63*I169a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I168a22*I169a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a63*I171a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a22*I171a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a22*I172a63)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a22*I174a63)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a22*I176a63)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a22*I177a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a63*I169a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I168a22*I169a63)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a63*I171a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a22*I171a63)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.05555555555555555*(ee**2*complex(0,1)*I168a63*I169a22)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I168a22*I169a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a63*I171a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a22*I171a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a22*I172a63)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a22*I174a63)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a22*I176a63)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a22*I177a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a63*I169a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I168a22*I169a63)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a63*I171a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a22*I171a63)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_500 = Coupling(name = 'GC_500',
-                  value = '-(ee**2*complex(0,1)*I168a66*I169a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I168a11*I169a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a66*I171a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a11*I171a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a11*I172a66)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a11*I174a66)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a11*I176a66)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a11*I177a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a66*I169a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I168a11*I169a66)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a66*I171a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a11*I171a66)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.05555555555555555*(ee**2*complex(0,1)*I168a66*I169a11)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I168a11*I169a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a66*I171a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a11*I171a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a11*I172a66)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a11*I174a66)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a11*I176a66)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a11*I177a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a66*I169a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I168a11*I169a66)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a66*I171a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a11*I171a66)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_501 = Coupling(name = 'GC_501',
-                  value = '-(ee**2*complex(0,1)*I168a66*I169a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I168a22*I169a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a66*I171a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a22*I171a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a22*I172a66)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a22*I174a66)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a22*I176a66)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a22*I177a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a66*I169a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I168a22*I169a66)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a66*I171a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a22*I171a66)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.05555555555555555*(ee**2*complex(0,1)*I168a66*I169a22)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I168a22*I169a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a66*I171a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a22*I171a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a22*I172a66)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a22*I174a66)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a22*I176a66)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a22*I177a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a66*I169a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I168a22*I169a66)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a66*I171a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a22*I171a66)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_502 = Coupling(name = 'GC_502',
@@ -2026,7 +2026,7 @@ GC_504 = Coupling(name = 'GC_504',
                   order = {'QED':2})
 
 GC_505 = Coupling(name = 'GC_505',
-                  value = '-(ee**2*complex(0,1)*I26a22*I27a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I26a11*I27a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a22*I29a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a11*I29a22)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a22*I27a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I26a11*I27a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a22*I29a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a11*I29a22)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.05555555555555555*(ee**2*complex(0,1)*I26a22*I27a11)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I26a11*I27a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a22*I29a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a11*I29a22)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a22*I27a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I26a11*I27a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a22*I29a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a11*I29a22)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_506 = Coupling(name = 'GC_506',
@@ -2034,35 +2034,35 @@ GC_506 = Coupling(name = 'GC_506',
                   order = {'QED':2})
 
 GC_507 = Coupling(name = 'GC_507',
-                  value = '-(ee**2*complex(0,1)*I26a33*I27a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I26a11*I27a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a33*I29a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a11*I29a33)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a11*I30a33)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a11*I32a33)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a11*I35a33)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a33*I8a11)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a33*I27a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I26a11*I27a33)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a33*I29a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a11*I29a33)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.05555555555555555*(ee**2*complex(0,1)*I26a33*I27a11)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I26a11*I27a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a33*I29a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a11*I29a33)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a11*I30a33)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a11*I32a33)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a11*I35a33)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a33*I8a11)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a33*I27a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I26a11*I27a33)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a33*I29a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a11*I29a33)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_508 = Coupling(name = 'GC_508',
-                  value = '-(ee**2*complex(0,1)*I26a33*I27a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I26a22*I27a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a33*I29a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a22*I29a33)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a22*I30a33)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a22*I32a33)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a22*I35a33)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a33*I8a22)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a33*I27a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I26a22*I27a33)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a33*I29a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a22*I29a33)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.05555555555555555*(ee**2*complex(0,1)*I26a33*I27a22)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I26a22*I27a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a33*I29a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a22*I29a33)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a22*I30a33)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a22*I32a33)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a22*I35a33)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a33*I8a22)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a33*I27a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I26a22*I27a33)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a33*I29a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a22*I29a33)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_509 = Coupling(name = 'GC_509',
-                  value = '-(ee**2*complex(0,1)*I26a36*I27a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I26a11*I27a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a36*I29a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a11*I29a36)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a11*I30a36)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a11*I32a36)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a11*I35a36)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a36*I8a11)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a36*I27a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I26a11*I27a36)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a36*I29a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a11*I29a36)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.05555555555555555*(ee**2*complex(0,1)*I26a36*I27a11)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I26a11*I27a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a36*I29a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a11*I29a36)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a11*I30a36)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a11*I32a36)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a11*I35a36)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a36*I8a11)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a36*I27a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I26a11*I27a36)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a36*I29a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a11*I29a36)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_510 = Coupling(name = 'GC_510',
-                  value = '-(ee**2*complex(0,1)*I26a36*I27a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I26a22*I27a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a36*I29a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a22*I29a36)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a22*I30a36)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a22*I32a36)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a22*I35a36)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a36*I8a22)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a36*I27a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I26a22*I27a36)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a36*I29a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a22*I29a36)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.05555555555555555*(ee**2*complex(0,1)*I26a36*I27a22)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I26a22*I27a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a36*I29a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a22*I29a36)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a22*I30a36)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a22*I32a36)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a22*I35a36)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a36*I8a22)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a36*I27a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I26a22*I27a36)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a36*I29a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a22*I29a36)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_511 = Coupling(name = 'GC_511',
-                  value = '-(ee**2*complex(0,1)*I26a63*I27a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I26a11*I27a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a63*I29a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a11*I29a63)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a11*I30a63)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a11*I32a63)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a11*I35a63)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a63*I8a11)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a63*I27a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I26a11*I27a63)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a63*I29a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a11*I29a63)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.05555555555555555*(ee**2*complex(0,1)*I26a63*I27a11)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I26a11*I27a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a63*I29a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a11*I29a63)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a11*I30a63)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a11*I32a63)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a11*I35a63)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a63*I8a11)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a63*I27a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I26a11*I27a63)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a63*I29a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a11*I29a63)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_512 = Coupling(name = 'GC_512',
-                  value = '-(ee**2*complex(0,1)*I26a63*I27a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I26a22*I27a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a63*I29a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a22*I29a63)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a22*I30a63)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a22*I32a63)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a22*I35a63)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a63*I8a22)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a63*I27a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I26a22*I27a63)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a63*I29a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a22*I29a63)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.05555555555555555*(ee**2*complex(0,1)*I26a63*I27a22)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I26a22*I27a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a63*I29a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a22*I29a63)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a22*I30a63)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a22*I32a63)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a22*I35a63)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a63*I8a22)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a63*I27a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I26a22*I27a63)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a63*I29a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a22*I29a63)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_513 = Coupling(name = 'GC_513',
-                  value = '-(ee**2*complex(0,1)*I26a66*I27a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I26a11*I27a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a66*I29a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a11*I29a66)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a11*I30a66)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a11*I32a66)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a11*I35a66)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a66*I8a11)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a66*I27a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I26a11*I27a66)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a66*I29a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a11*I29a66)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.05555555555555555*(ee**2*complex(0,1)*I26a66*I27a11)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I26a11*I27a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a66*I29a11)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a11*I29a66)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a11*I30a66)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a11*I32a66)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a11*I35a66)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a66*I8a11)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a66*I27a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I26a11*I27a66)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a66*I29a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a11*I29a66)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_514 = Coupling(name = 'GC_514',
-                  value = '-(ee**2*complex(0,1)*I26a66*I27a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I26a22*I27a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a66*I29a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a22*I29a66)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a22*I30a66)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a22*I32a66)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a22*I35a66)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a66*I8a22)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a66*I27a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I26a22*I27a66)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a66*I29a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a22*I29a66)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.05555555555555555*(ee**2*complex(0,1)*I26a66*I27a22)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I26a22*I27a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a66*I29a22)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a22*I29a66)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a22*I30a66)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a22*I32a66)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a22*I35a66)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a66*I8a22)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a66*I27a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I26a22*I27a66)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a66*I29a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a22*I29a66)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_515 = Coupling(name = 'GC_515',
@@ -2234,83 +2234,83 @@ GC_556 = Coupling(name = 'GC_556',
                   order = {'QED':2})
 
 GC_557 = Coupling(name = 'GC_557',
-                  value = '-(ee**2*complex(0,1)*I63a11*I64a11)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a11*I64a11)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a11*I64a11)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a11*I64a11)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_558 = Coupling(name = 'GC_558',
-                  value = '-(ee**2*complex(0,1)*I63a22*I64a11)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a22*I64a11)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a22*I64a11)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a22*I64a11)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_559 = Coupling(name = 'GC_559',
-                  value = '-(ee**2*complex(0,1)*I63a33*I64a11)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a11*I65a33)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a33*I64a11)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a33*I64a11)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a11*I65a33)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a33*I64a11)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_560 = Coupling(name = 'GC_560',
-                  value = '-(ee**2*complex(0,1)*I63a36*I64a11)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a11*I65a36)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a36*I64a11)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a36*I64a11)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a11*I65a36)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a36*I64a11)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_561 = Coupling(name = 'GC_561',
-                  value = '-(ee**2*complex(0,1)*I63a63*I64a11)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a11*I65a63)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a63*I64a11)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a63*I64a11)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a11*I65a63)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a63*I64a11)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_562 = Coupling(name = 'GC_562',
-                  value = '-(ee**2*complex(0,1)*I63a66*I64a11)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a11*I65a66)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a66*I64a11)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a66*I64a11)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a11*I65a66)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a66*I64a11)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_563 = Coupling(name = 'GC_563',
-                  value = '-(ee**2*complex(0,1)*I63a11*I64a22)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a11*I64a22)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a11*I64a22)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a11*I64a22)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_564 = Coupling(name = 'GC_564',
-                  value = '-(ee**2*complex(0,1)*I63a22*I64a22)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a22*I64a22)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a22*I64a22)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a22*I64a22)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_565 = Coupling(name = 'GC_565',
-                  value = '-(ee**2*complex(0,1)*I63a33*I64a22)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a22*I65a33)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a33*I64a22)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a33*I64a22)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a22*I65a33)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a33*I64a22)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_566 = Coupling(name = 'GC_566',
-                  value = '-(ee**2*complex(0,1)*I63a36*I64a22)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a22*I65a36)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a36*I64a22)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a36*I64a22)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a22*I65a36)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a36*I64a22)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_567 = Coupling(name = 'GC_567',
-                  value = '-(ee**2*complex(0,1)*I63a63*I64a22)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a22*I65a63)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a63*I64a22)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a63*I64a22)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a22*I65a63)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a63*I64a22)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_568 = Coupling(name = 'GC_568',
-                  value = '-(ee**2*complex(0,1)*I63a66*I64a22)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a22*I65a66)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a66*I64a22)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a66*I64a22)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a22*I65a66)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a66*I64a22)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_569 = Coupling(name = 'GC_569',
-                  value = '-(ee**2*complex(0,1)*I63a11*I64a33)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a11*I66a33)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a11*I64a33)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a11*I64a33)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a11*I66a33)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a11*I64a33)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_570 = Coupling(name = 'GC_570',
-                  value = '-(ee**2*complex(0,1)*I63a22*I64a33)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a22*I66a33)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a22*I64a33)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a22*I64a33)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a22*I66a33)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a22*I64a33)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_571 = Coupling(name = 'GC_571',
-                  value = '-(ee**2*complex(0,1)*I63a11*I64a36)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a11*I66a36)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a11*I64a36)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a11*I64a36)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a11*I66a36)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a11*I64a36)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_572 = Coupling(name = 'GC_572',
-                  value = '-(ee**2*complex(0,1)*I63a22*I64a36)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a22*I66a36)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a22*I64a36)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a22*I64a36)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a22*I66a36)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a22*I64a36)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_573 = Coupling(name = 'GC_573',
-                  value = '-(ee**2*complex(0,1)*I63a11*I64a63)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a11*I66a63)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a11*I64a63)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a11*I64a63)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a11*I66a63)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a11*I64a63)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_574 = Coupling(name = 'GC_574',
-                  value = '-(ee**2*complex(0,1)*I63a22*I64a63)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a22*I66a63)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a22*I64a63)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a22*I64a63)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a22*I66a63)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a22*I64a63)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_575 = Coupling(name = 'GC_575',
-                  value = '-(ee**2*complex(0,1)*I63a11*I64a66)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a11*I66a66)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a11*I64a66)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a11*I64a66)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a11*I66a66)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a11*I64a66)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_576 = Coupling(name = 'GC_576',
-                  value = '-(ee**2*complex(0,1)*I63a22*I64a66)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a22*I66a66)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a22*I64a66)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a22*I64a66)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a22*I66a66)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a22*I64a66)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_577 = Coupling(name = 'GC_577',
@@ -2326,35 +2326,35 @@ GC_579 = Coupling(name = 'GC_579',
                   order = {'QED':2})
 
 GC_580 = Coupling(name = 'GC_580',
-                  value = '-(ee**2*complex(0,1)*I75a11*I76a33)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a11*I77a33)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a11*I79a33)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a11*I80a33)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a33*I72a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a11*I72a33)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a33*I74a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a11*I74a33)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.125*(ee**2*complex(0,1)*I75a11*I76a33)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a11*I77a33)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a11*I79a33)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a11*I80a33)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a33*I72a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a11*I72a33)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a33*I74a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a11*I74a33)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_581 = Coupling(name = 'GC_581',
-                  value = '-(ee**2*complex(0,1)*I75a22*I76a33)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a22*I77a33)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a22*I79a33)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a22*I80a33)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a33*I72a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a22*I72a33)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a33*I74a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a22*I74a33)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.125*(ee**2*complex(0,1)*I75a22*I76a33)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a22*I77a33)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a22*I79a33)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a22*I80a33)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a33*I72a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a22*I72a33)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a33*I74a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a22*I74a33)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_582 = Coupling(name = 'GC_582',
-                  value = '-(ee**2*complex(0,1)*I75a11*I76a36)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a11*I77a36)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a11*I79a36)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a11*I80a36)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a36*I72a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a11*I72a36)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a36*I74a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a11*I74a36)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.125*(ee**2*complex(0,1)*I75a11*I76a36)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a11*I77a36)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a11*I79a36)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a11*I80a36)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a36*I72a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a11*I72a36)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a36*I74a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a11*I74a36)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_583 = Coupling(name = 'GC_583',
-                  value = '-(ee**2*complex(0,1)*I75a22*I76a36)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a22*I77a36)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a22*I79a36)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a22*I80a36)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a36*I72a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a22*I72a36)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a36*I74a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a22*I74a36)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.125*(ee**2*complex(0,1)*I75a22*I76a36)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a22*I77a36)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a22*I79a36)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a22*I80a36)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a36*I72a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a22*I72a36)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a36*I74a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a22*I74a36)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_584 = Coupling(name = 'GC_584',
-                  value = '-(ee**2*complex(0,1)*I75a11*I76a63)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a11*I77a63)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a11*I79a63)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a11*I80a63)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a63*I72a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a11*I72a63)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a63*I74a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a11*I74a63)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.125*(ee**2*complex(0,1)*I75a11*I76a63)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a11*I77a63)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a11*I79a63)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a11*I80a63)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a63*I72a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a11*I72a63)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a63*I74a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a11*I74a63)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_585 = Coupling(name = 'GC_585',
-                  value = '-(ee**2*complex(0,1)*I75a22*I76a63)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a22*I77a63)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a22*I79a63)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a22*I80a63)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a63*I72a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a22*I72a63)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a63*I74a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a22*I74a63)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.125*(ee**2*complex(0,1)*I75a22*I76a63)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a22*I77a63)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a22*I79a63)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a22*I80a63)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a63*I72a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a22*I72a63)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a63*I74a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a22*I74a63)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_586 = Coupling(name = 'GC_586',
-                  value = '-(ee**2*complex(0,1)*I75a11*I76a66)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a11*I77a66)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a11*I79a66)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a11*I80a66)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a66*I72a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a11*I72a66)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a66*I74a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a11*I74a66)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.125*(ee**2*complex(0,1)*I75a11*I76a66)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a11*I77a66)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a11*I79a66)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a11*I80a66)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a66*I72a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a11*I72a66)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a66*I74a11)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a11*I74a66)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_587 = Coupling(name = 'GC_587',
-                  value = '-(ee**2*complex(0,1)*I75a22*I76a66)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a22*I77a66)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a22*I79a66)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a22*I80a66)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a66*I72a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a22*I72a66)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a66*I74a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a22*I74a66)/(16.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.125*(ee**2*complex(0,1)*I75a22*I76a66)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a22*I77a66)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a22*I79a66)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a22*I80a66)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a66*I72a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a22*I72a66)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a66*I74a22)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a22*I74a66)/(16.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_588 = Coupling(name = 'GC_588',
@@ -2530,19 +2530,19 @@ GC_630 = Coupling(name = 'GC_630',
                   order = {'QED':2})
 
 GC_631 = Coupling(name = 'GC_631',
-                  value = '-(ee**2*complex(0,1)*I100a22*I99a11)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I100a22*I99a11)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I100a22*I99a11)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I100a22*I99a11)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_632 = Coupling(name = 'GC_632',
-                  value = '-(ee**2*complex(0,1)*I100a33*I99a11)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I100a33*I99a11)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I100a33*I99a11)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I100a33*I99a11)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_633 = Coupling(name = 'GC_633',
-                  value = '-(ee**2*complex(0,1)*I100a36*I99a11)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I100a36*I99a11)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I100a36*I99a11)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I100a36*I99a11)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_634 = Coupling(name = 'GC_634',
-                  value = '-(ee**2*complex(0,1)*I100a11*I99a22)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I100a11*I99a22)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I100a11*I99a22)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I100a11*I99a22)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_635 = Coupling(name = 'GC_635',
@@ -2550,27 +2550,27 @@ GC_635 = Coupling(name = 'GC_635',
                   order = {'QED':2})
 
 GC_636 = Coupling(name = 'GC_636',
-                  value = '-(ee**2*complex(0,1)*I100a33*I99a22)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I100a33*I99a22)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I100a33*I99a22)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I100a33*I99a22)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_637 = Coupling(name = 'GC_637',
-                  value = '-(ee**2*complex(0,1)*I100a36*I99a22)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I100a36*I99a22)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I100a36*I99a22)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I100a36*I99a22)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_638 = Coupling(name = 'GC_638',
-                  value = '-(ee**2*complex(0,1)*I100a11*I99a33)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I100a11*I99a33)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I100a11*I99a33)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I100a11*I99a33)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_639 = Coupling(name = 'GC_639',
-                  value = '-(ee**2*complex(0,1)*I100a22*I99a33)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I100a22*I99a33)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I100a22*I99a33)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I100a22*I99a33)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_640 = Coupling(name = 'GC_640',
-                  value = '-(ee**2*complex(0,1)*I100a11*I99a36)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I100a11*I99a36)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I100a11*I99a36)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I100a11*I99a36)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_641 = Coupling(name = 'GC_641',
-                  value = '-(ee**2*complex(0,1)*I100a22*I99a36)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I100a22*I99a36)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I100a22*I99a36)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I100a22*I99a36)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                   order = {'QED':2})
 
 GC_642 = Coupling(name = 'GC_642',
@@ -2638,7 +2638,7 @@ GC_657 = Coupling(name = 'GC_657',
                   order = {'QED':1})
 
 GC_658 = Coupling(name = 'GC_658',
-                  value = '-(cw*ee*complex(0,1)*I201a63)/(2.*(-1 + sw)*sw*(1 + sw)) + (2*cw*ee*complex(0,1)*I201a63*sw)/(3.*(-1 + sw)*(1 + sw)) + (2*cw*ee*complex(0,1)*I203a63*sw)/(3.*(-1 + sw)*(1 + sw))',
+                  value = '-0.5*(cw*ee*complex(0,1)*I201a63)/((-1 + sw)*sw*(1 + sw)) + (2*cw*ee*complex(0,1)*I201a63*sw)/(3.*(-1 + sw)*(1 + sw)) + (2*cw*ee*complex(0,1)*I203a63*sw)/(3.*(-1 + sw)*(1 + sw))',
                   order = {'QED':1})
 
 GC_659 = Coupling(name = 'GC_659',
@@ -2670,19 +2670,19 @@ GC_665 = Coupling(name = 'GC_665',
                   order = {'QED':2})
 
 GC_666 = Coupling(name = 'GC_666',
-                  value = '-(cw*ee*complex(0,1)*I63a11)/(2.*(-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*I63a11*sw)/(3.*(-1 + sw)*(1 + sw))',
+                  value = '-0.5*(cw*ee*complex(0,1)*I63a11)/((-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*I63a11*sw)/(3.*(-1 + sw)*(1 + sw))',
                   order = {'QED':1})
 
 GC_667 = Coupling(name = 'GC_667',
-                  value = '-(cw*ee*complex(0,1)*I63a22)/(2.*(-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*I63a22*sw)/(3.*(-1 + sw)*(1 + sw))',
+                  value = '-0.5*(cw*ee*complex(0,1)*I63a22)/((-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*I63a22*sw)/(3.*(-1 + sw)*(1 + sw))',
                   order = {'QED':1})
 
 GC_668 = Coupling(name = 'GC_668',
-                  value = '-(cw*ee*complex(0,1)*I63a33)/(2.*(-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*I63a33*sw)/(3.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*I65a33*sw)/(3.*(-1 + sw)*(1 + sw))',
+                  value = '-0.5*(cw*ee*complex(0,1)*I63a33)/((-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*I63a33*sw)/(3.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*I65a33*sw)/(3.*(-1 + sw)*(1 + sw))',
                   order = {'QED':1})
 
 GC_669 = Coupling(name = 'GC_669',
-                  value = '-(cw*ee*complex(0,1)*I63a36)/(2.*(-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*I63a36*sw)/(3.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*I65a36*sw)/(3.*(-1 + sw)*(1 + sw))',
+                  value = '-0.5*(cw*ee*complex(0,1)*I63a36)/((-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*I63a36*sw)/(3.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*I65a36*sw)/(3.*(-1 + sw)*(1 + sw))',
                   order = {'QED':1})
 
 GC_670 = Coupling(name = 'GC_670',
@@ -2690,11 +2690,11 @@ GC_670 = Coupling(name = 'GC_670',
                   order = {'QED':1})
 
 GC_671 = Coupling(name = 'GC_671',
-                  value = '-(cw*ee*complex(0,1)*I63a66)/(2.*(-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*I63a66*sw)/(3.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*I65a66*sw)/(3.*(-1 + sw)*(1 + sw))',
+                  value = '-0.5*(cw*ee*complex(0,1)*I63a66)/((-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*I63a66*sw)/(3.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*I65a66*sw)/(3.*(-1 + sw)*(1 + sw))',
                   order = {'QED':1})
 
 GC_672 = Coupling(name = 'GC_672',
-                  value = '-(cw*ee**2*complex(0,1)*I8a11)/(3.*(-1 + sw)*sw*(1 + sw)) + (2*cw*ee**2*complex(0,1)*I8a11*sw)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.3333333333333333*(cw*ee**2*complex(0,1)*I8a11)/((-1 + sw)*sw*(1 + sw)) + (2*cw*ee**2*complex(0,1)*I8a11*sw)/(9.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_673 = Coupling(name = 'GC_673',
@@ -2702,7 +2702,7 @@ GC_673 = Coupling(name = 'GC_673',
                   order = {'QCD':1,'QED':1})
 
 GC_674 = Coupling(name = 'GC_674',
-                  value = '-(cw*ee**2*complex(0,1)*I8a22)/(3.*(-1 + sw)*sw*(1 + sw)) + (2*cw*ee**2*complex(0,1)*I8a22*sw)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.3333333333333333*(cw*ee**2*complex(0,1)*I8a22)/((-1 + sw)*sw*(1 + sw)) + (2*cw*ee**2*complex(0,1)*I8a22*sw)/(9.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_675 = Coupling(name = 'GC_675',
@@ -2710,19 +2710,19 @@ GC_675 = Coupling(name = 'GC_675',
                   order = {'QCD':1,'QED':1})
 
 GC_676 = Coupling(name = 'GC_676',
-                  value = '-(cw*ee*complex(0,1)*I97a11)/(2.*(-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*I97a11*sw)/((-1 + sw)*(1 + sw))',
+                  value = '-0.5*(cw*ee*complex(0,1)*I97a11)/((-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*I97a11*sw)/((-1 + sw)*(1 + sw))',
                   order = {'QED':1})
 
 GC_677 = Coupling(name = 'GC_677',
-                  value = '-(cw*ee*complex(0,1)*I97a22)/(2.*(-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*I97a22*sw)/((-1 + sw)*(1 + sw))',
+                  value = '-0.5*(cw*ee*complex(0,1)*I97a22)/((-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*I97a22*sw)/((-1 + sw)*(1 + sw))',
                   order = {'QED':1})
 
 GC_678 = Coupling(name = 'GC_678',
-                  value = '-(cw*ee*complex(0,1)*I97a33)/(2.*(-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*I97a33*sw)/((-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*I98a33*sw)/((-1 + sw)*(1 + sw))',
+                  value = '-0.5*(cw*ee*complex(0,1)*I97a33)/((-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*I97a33*sw)/((-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*I98a33*sw)/((-1 + sw)*(1 + sw))',
                   order = {'QED':1})
 
 GC_679 = Coupling(name = 'GC_679',
-                  value = '-(cw*ee*complex(0,1)*I97a36)/(2.*(-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*I97a36*sw)/((-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*I98a36*sw)/((-1 + sw)*(1 + sw))',
+                  value = '-0.5*(cw*ee*complex(0,1)*I97a36)/((-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*I97a36*sw)/((-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*I98a36*sw)/((-1 + sw)*(1 + sw))',
                   order = {'QED':1})
 
 GC_680 = Coupling(name = 'GC_680',
@@ -2730,11 +2730,11 @@ GC_680 = Coupling(name = 'GC_680',
                   order = {'QED':1})
 
 GC_681 = Coupling(name = 'GC_681',
-                  value = '-(cw*ee*complex(0,1)*I97a66)/(2.*(-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*I97a66*sw)/((-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*I98a66*sw)/((-1 + sw)*(1 + sw))',
+                  value = '-0.5*(cw*ee*complex(0,1)*I97a66)/((-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*I97a66*sw)/((-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*I98a66*sw)/((-1 + sw)*(1 + sw))',
                   order = {'QED':1})
 
 GC_682 = Coupling(name = 'GC_682',
-                  value = '-(cw*ee**2*complex(0,1)*I8a33)/(3.*(-1 + sw)*sw*(1 + sw)) + (2*cw*ee**2*complex(0,1)*I8a33*sw)/(9.*(-1 + sw)*(1 + sw)) + (2*cw*ee**2*complex(0,1)*I9a33*sw)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.3333333333333333*(cw*ee**2*complex(0,1)*I8a33)/((-1 + sw)*sw*(1 + sw)) + (2*cw*ee**2*complex(0,1)*I8a33*sw)/(9.*(-1 + sw)*(1 + sw)) + (2*cw*ee**2*complex(0,1)*I9a33*sw)/(9.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_683 = Coupling(name = 'GC_683',
@@ -2742,7 +2742,7 @@ GC_683 = Coupling(name = 'GC_683',
                   order = {'QCD':1,'QED':1})
 
 GC_684 = Coupling(name = 'GC_684',
-                  value = '-(cw*ee**2*complex(0,1)*I8a36)/(3.*(-1 + sw)*sw*(1 + sw)) + (2*cw*ee**2*complex(0,1)*I8a36*sw)/(9.*(-1 + sw)*(1 + sw)) + (2*cw*ee**2*complex(0,1)*I9a36*sw)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.3333333333333333*(cw*ee**2*complex(0,1)*I8a36)/((-1 + sw)*sw*(1 + sw)) + (2*cw*ee**2*complex(0,1)*I8a36*sw)/(9.*(-1 + sw)*(1 + sw)) + (2*cw*ee**2*complex(0,1)*I9a36*sw)/(9.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_685 = Coupling(name = 'GC_685',
@@ -2750,7 +2750,7 @@ GC_685 = Coupling(name = 'GC_685',
                   order = {'QCD':1,'QED':1})
 
 GC_686 = Coupling(name = 'GC_686',
-                  value = '-(cw*ee**2*complex(0,1)*I8a63)/(3.*(-1 + sw)*sw*(1 + sw)) + (2*cw*ee**2*complex(0,1)*I8a63*sw)/(9.*(-1 + sw)*(1 + sw)) + (2*cw*ee**2*complex(0,1)*I9a63*sw)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.3333333333333333*(cw*ee**2*complex(0,1)*I8a63)/((-1 + sw)*sw*(1 + sw)) + (2*cw*ee**2*complex(0,1)*I8a63*sw)/(9.*(-1 + sw)*(1 + sw)) + (2*cw*ee**2*complex(0,1)*I9a63*sw)/(9.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_687 = Coupling(name = 'GC_687',
@@ -2758,7 +2758,7 @@ GC_687 = Coupling(name = 'GC_687',
                   order = {'QCD':1,'QED':1})
 
 GC_688 = Coupling(name = 'GC_688',
-                  value = '-(cw*ee**2*complex(0,1)*I8a66)/(3.*(-1 + sw)*sw*(1 + sw)) + (2*cw*ee**2*complex(0,1)*I8a66*sw)/(9.*(-1 + sw)*(1 + sw)) + (2*cw*ee**2*complex(0,1)*I9a66*sw)/(9.*(-1 + sw)*(1 + sw))',
+                  value = '-0.3333333333333333*(cw*ee**2*complex(0,1)*I8a66)/((-1 + sw)*sw*(1 + sw)) + (2*cw*ee**2*complex(0,1)*I8a66*sw)/(9.*(-1 + sw)*(1 + sw)) + (2*cw*ee**2*complex(0,1)*I9a66*sw)/(9.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_689 = Coupling(name = 'GC_689',
@@ -2782,67 +2782,67 @@ GC_693 = Coupling(name = 'GC_693',
                   order = {'QED':2})
 
 GC_694 = Coupling(name = 'GC_694',
-                  value = '-(ee**2*complex(0,1)*I159a33*I163a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I164a33*I165a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a33*I167a33)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a33*I163a33)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a33*I165a33*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a33*I167a33*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a33*I163a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I164a33*I165a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a33*I167a33)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a33*I163a33)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a33*I165a33*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a33*I167a33*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_695 = Coupling(name = 'GC_695',
-                  value = '-(ee**2*complex(0,1)*I159a33*I163a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I164a33*I165a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a36*I167a33)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a33*I163a36)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a33*I165a36*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a36*I167a33*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a33*I163a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I164a33*I165a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a36*I167a33)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a33*I163a36)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a33*I165a36*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a36*I167a33*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_696 = Coupling(name = 'GC_696',
-                  value = '-(ee**2*complex(0,1)*I159a33*I163a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I164a33*I165a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a63*I167a33)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a33*I163a63)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a33*I165a63*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a63*I167a33*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a33*I163a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I164a33*I165a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a63*I167a33)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a33*I163a63)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a33*I165a63*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a63*I167a33*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_697 = Coupling(name = 'GC_697',
-                  value = '-(ee**2*complex(0,1)*I159a33*I163a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I164a33*I165a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a66*I167a33)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a33*I163a66)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a33*I165a66*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a66*I167a33*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a33*I163a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I164a33*I165a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a66*I167a33)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a33*I163a66)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a33*I165a66*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a66*I167a33*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_698 = Coupling(name = 'GC_698',
-                  value = '-(ee**2*complex(0,1)*I159a36*I163a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I164a36*I165a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a33*I167a36)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a36*I163a33)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a36*I165a33*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a33*I167a36*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a36*I163a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I164a36*I165a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a33*I167a36)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a36*I163a33)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a36*I165a33*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a33*I167a36*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_699 = Coupling(name = 'GC_699',
-                  value = '-(ee**2*complex(0,1)*I159a36*I163a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I164a36*I165a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a36*I167a36)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a36*I163a36)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a36*I165a36*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a36*I167a36*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a36*I163a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I164a36*I165a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a36*I167a36)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a36*I163a36)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a36*I165a36*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a36*I167a36*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_700 = Coupling(name = 'GC_700',
-                  value = '-(ee**2*complex(0,1)*I159a36*I163a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I164a36*I165a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a63*I167a36)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a36*I163a63)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a36*I165a63*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a63*I167a36*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a36*I163a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I164a36*I165a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a63*I167a36)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a36*I163a63)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a36*I165a63*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a63*I167a36*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_701 = Coupling(name = 'GC_701',
-                  value = '-(ee**2*complex(0,1)*I159a36*I163a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I164a36*I165a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a66*I167a36)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a36*I163a66)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a36*I165a66*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a66*I167a36*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a36*I163a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I164a36*I165a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a66*I167a36)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a36*I163a66)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a36*I165a66*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a66*I167a36*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_702 = Coupling(name = 'GC_702',
-                  value = '-(ee**2*complex(0,1)*I159a63*I163a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I164a63*I165a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a33*I167a63)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a63*I163a33)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a63*I165a33*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a33*I167a63*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a63*I163a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I164a63*I165a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a33*I167a63)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a63*I163a33)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a63*I165a33*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a33*I167a63*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_703 = Coupling(name = 'GC_703',
-                  value = '-(ee**2*complex(0,1)*I159a63*I163a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I164a63*I165a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a36*I167a63)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a63*I163a36)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a63*I165a36*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a36*I167a63*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a63*I163a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I164a63*I165a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a36*I167a63)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a63*I163a36)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a63*I165a36*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a36*I167a63*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_704 = Coupling(name = 'GC_704',
-                  value = '-(ee**2*complex(0,1)*I159a63*I163a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I164a63*I165a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a63*I167a63)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a63*I163a63)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a63*I165a63*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a63*I167a63*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a63*I163a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I164a63*I165a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a63*I167a63)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a63*I163a63)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a63*I165a63*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a63*I167a63*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_705 = Coupling(name = 'GC_705',
-                  value = '-(ee**2*complex(0,1)*I159a63*I163a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I164a63*I165a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a66*I167a63)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a63*I163a66)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a63*I165a66*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a66*I167a63*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a63*I163a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I164a63*I165a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a66*I167a63)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a63*I163a66)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a63*I165a66*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a66*I167a63*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_706 = Coupling(name = 'GC_706',
-                  value = '-(ee**2*complex(0,1)*I159a66*I163a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I164a66*I165a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a33*I167a66)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a66*I163a33)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a66*I165a33*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a33*I167a66*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a66*I163a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I164a66*I165a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a33*I167a66)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a66*I163a33)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a66*I165a33*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a33*I167a66*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_707 = Coupling(name = 'GC_707',
-                  value = '-(ee**2*complex(0,1)*I159a66*I163a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I164a66*I165a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a36*I167a66)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a66*I163a36)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a66*I165a36*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a36*I167a66*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a66*I163a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I164a66*I165a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a36*I167a66)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a66*I163a36)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a66*I165a36*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a36*I167a66*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_708 = Coupling(name = 'GC_708',
-                  value = '-(ee**2*complex(0,1)*I159a66*I163a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I164a66*I165a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a63*I167a66)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a66*I163a63)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a66*I165a63*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a63*I167a66*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a66*I163a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I164a66*I165a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a63*I167a66)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a66*I163a63)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a66*I165a63*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a63*I167a66*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_709 = Coupling(name = 'GC_709',
-                  value = '-(ee**2*complex(0,1)*I159a66*I163a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I164a66*I165a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a66*I167a66)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a66*I163a66)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a66*I165a66*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a66*I167a66*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I159a66*I163a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I164a66*I165a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I166a66*I167a66)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I159a66*I163a66)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I164a66*I165a66*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I166a66*I167a66*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_710 = Coupling(name = 'GC_710',
@@ -2906,19 +2906,19 @@ GC_724 = Coupling(name = 'GC_724',
                   order = {'QCD':2})
 
 GC_725 = Coupling(name = 'GC_725',
-                  value = '-(complex(0,1)*G**2*I169a11*I172a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I173a11*I174a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I113a11*I176a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I170a11*I177a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I169a11*I172a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I173a11*I174a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I113a11*I176a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I170a11*I177a44*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(complex(0,1)*G**2*I169a11*I172a44)/((-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I173a11*I174a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I113a11*I176a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I170a11*I177a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I169a11*I172a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I173a11*I174a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I113a11*I176a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I170a11*I177a44*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QCD':2})
 
 GC_726 = Coupling(name = 'GC_726',
-                  value = '-(complex(0,1)*G**2*I169a22*I172a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I173a22*I174a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I113a22*I176a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I170a22*I177a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I169a22*I172a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I173a22*I174a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I113a22*I176a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I170a22*I177a44*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(complex(0,1)*G**2*I169a22*I172a44)/((-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I173a22*I174a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I113a22*I176a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I170a22*I177a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I169a22*I172a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I173a22*I174a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I113a22*I176a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I170a22*I177a44*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QCD':2})
 
 GC_727 = Coupling(name = 'GC_727',
-                  value = '-(complex(0,1)*G**2*I169a11*I172a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I173a11*I174a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I113a11*I176a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I170a11*I177a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I169a11*I172a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I173a11*I174a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I113a11*I176a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I170a11*I177a55*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(complex(0,1)*G**2*I169a11*I172a55)/((-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I173a11*I174a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I113a11*I176a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I170a11*I177a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I169a11*I172a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I173a11*I174a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I113a11*I176a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I170a11*I177a55*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QCD':2})
 
 GC_728 = Coupling(name = 'GC_728',
-                  value = '-(complex(0,1)*G**2*I169a22*I172a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I173a22*I174a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I113a22*I176a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I170a22*I177a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I169a22*I172a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I173a22*I174a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I113a22*I176a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I170a22*I177a55*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(complex(0,1)*G**2*I169a22*I172a55)/((-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I173a22*I174a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I113a22*I176a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I170a22*I177a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I169a22*I172a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I173a22*I174a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I113a22*I176a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I170a22*I177a55*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QCD':2})
 
 GC_729 = Coupling(name = 'GC_729',
@@ -2962,11 +2962,11 @@ GC_738 = Coupling(name = 'GC_738',
                   order = {'QCD':2})
 
 GC_739 = Coupling(name = 'GC_739',
-                  value = '-(complex(0,1)*G**2*I169a33*I172a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I173a33*I174a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a44*I175a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a33*I175a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I113a33*I176a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I170a33*I177a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a44*I178a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a33*I178a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I169a33*I172a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I173a33*I174a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a44*I175a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a33*I175a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I113a33*I176a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I170a33*I177a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a44*I178a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a33*I178a44*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(complex(0,1)*G**2*I169a33*I172a44)/((-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I173a33*I174a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a44*I175a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a33*I175a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I113a33*I176a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I170a33*I177a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a44*I178a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a33*I178a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I169a33*I172a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I173a33*I174a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a44*I175a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a33*I175a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I113a33*I176a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I170a33*I177a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a44*I178a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a33*I178a44*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QCD':2})
 
 GC_740 = Coupling(name = 'GC_740',
-                  value = '-(complex(0,1)*G**2*I169a36*I172a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I173a36*I174a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a44*I175a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a36*I175a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I113a36*I176a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I170a36*I177a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a44*I178a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a36*I178a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I169a36*I172a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I173a36*I174a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a44*I175a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a36*I175a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I113a36*I176a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I170a36*I177a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a44*I178a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a36*I178a44*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(complex(0,1)*G**2*I169a36*I172a44)/((-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I173a36*I174a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a44*I175a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a36*I175a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I113a36*I176a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I170a36*I177a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a44*I178a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a36*I178a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I169a36*I172a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I173a36*I174a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a44*I175a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a36*I175a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I113a36*I176a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I170a36*I177a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a44*I178a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a36*I178a44*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QCD':2})
 
 GC_741 = Coupling(name = 'GC_741',
@@ -2974,11 +2974,11 @@ GC_741 = Coupling(name = 'GC_741',
                   order = {'QCD':2})
 
 GC_742 = Coupling(name = 'GC_742',
-                  value = '-(complex(0,1)*G**2*I169a33*I172a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I173a33*I174a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a55*I175a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a33*I175a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I113a33*I176a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I170a33*I177a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a55*I178a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a33*I178a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I169a33*I172a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I173a33*I174a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a55*I175a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a33*I175a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I113a33*I176a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I170a33*I177a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a55*I178a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a33*I178a55*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(complex(0,1)*G**2*I169a33*I172a55)/((-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I173a33*I174a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a55*I175a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a33*I175a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I113a33*I176a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I170a33*I177a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a55*I178a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a33*I178a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I169a33*I172a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I173a33*I174a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a55*I175a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a33*I175a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I113a33*I176a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I170a33*I177a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a55*I178a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a33*I178a55*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QCD':2})
 
 GC_743 = Coupling(name = 'GC_743',
-                  value = '-(complex(0,1)*G**2*I169a36*I172a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I173a36*I174a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a55*I175a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a36*I175a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I113a36*I176a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I170a36*I177a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a55*I178a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a36*I178a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I169a36*I172a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I173a36*I174a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a55*I175a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a36*I175a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I113a36*I176a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I170a36*I177a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a55*I178a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a36*I178a55*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(complex(0,1)*G**2*I169a36*I172a55)/((-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I173a36*I174a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a55*I175a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a36*I175a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I113a36*I176a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I170a36*I177a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a55*I178a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a36*I178a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I169a36*I172a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I173a36*I174a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a55*I175a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a36*I175a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I113a36*I176a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I170a36*I177a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a55*I178a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a36*I178a55*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QCD':2})
 
 GC_744 = Coupling(name = 'GC_744',
@@ -2998,11 +2998,11 @@ GC_747 = Coupling(name = 'GC_747',
                   order = {'QCD':2})
 
 GC_748 = Coupling(name = 'GC_748',
-                  value = '-(complex(0,1)*G**2*I169a63*I172a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I173a63*I174a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a63*I175a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a44*I175a63)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I113a63*I176a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I170a63*I177a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a63*I178a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a44*I178a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I169a63*I172a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I173a63*I174a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a63*I175a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a44*I175a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I113a63*I176a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I170a63*I177a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a63*I178a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a44*I178a63*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(complex(0,1)*G**2*I169a63*I172a44)/((-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I173a63*I174a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a63*I175a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a44*I175a63)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I113a63*I176a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I170a63*I177a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a63*I178a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a44*I178a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I169a63*I172a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I173a63*I174a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a63*I175a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a44*I175a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I113a63*I176a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I170a63*I177a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a63*I178a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a44*I178a63*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QCD':2})
 
 GC_749 = Coupling(name = 'GC_749',
-                  value = '-(complex(0,1)*G**2*I169a63*I172a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I173a63*I174a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a63*I175a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a55*I175a63)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I113a63*I176a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I170a63*I177a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a63*I178a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a55*I178a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I169a63*I172a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I173a63*I174a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a63*I175a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a55*I175a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I113a63*I176a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I170a63*I177a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a63*I178a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a55*I178a63*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(complex(0,1)*G**2*I169a63*I172a55)/((-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I173a63*I174a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a63*I175a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a55*I175a63)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I113a63*I176a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I170a63*I177a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a63*I178a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a55*I178a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I169a63*I172a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I173a63*I174a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a63*I175a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a55*I175a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I113a63*I176a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I170a63*I177a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a63*I178a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a55*I178a63*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QCD':2})
 
 GC_750 = Coupling(name = 'GC_750',
@@ -3022,11 +3022,11 @@ GC_753 = Coupling(name = 'GC_753',
                   order = {'QCD':2})
 
 GC_754 = Coupling(name = 'GC_754',
-                  value = '-(complex(0,1)*G**2*I169a66*I172a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I173a66*I174a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a66*I175a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a44*I175a66)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I113a66*I176a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I170a66*I177a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a66*I178a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a44*I178a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I169a66*I172a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I173a66*I174a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a66*I175a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a44*I175a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I113a66*I176a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I170a66*I177a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a66*I178a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a44*I178a66*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(complex(0,1)*G**2*I169a66*I172a44)/((-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I173a66*I174a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a66*I175a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a44*I175a66)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I113a66*I176a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I170a66*I177a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a66*I178a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a44*I178a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I169a66*I172a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I173a66*I174a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a66*I175a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a44*I175a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I113a66*I176a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I170a66*I177a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a66*I178a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a44*I178a66*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QCD':2})
 
 GC_755 = Coupling(name = 'GC_755',
-                  value = '-(complex(0,1)*G**2*I169a66*I172a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I173a66*I174a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a66*I175a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a55*I175a66)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I113a66*I176a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I170a66*I177a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a66*I178a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a55*I178a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I169a66*I172a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I173a66*I174a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a66*I175a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a55*I175a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I113a66*I176a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I170a66*I177a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a66*I178a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a55*I178a66*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(complex(0,1)*G**2*I169a66*I172a55)/((-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I173a66*I174a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a66*I175a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I172a55*I175a66)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I113a66*I176a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I170a66*I177a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a66*I178a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I177a55*I178a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I169a66*I172a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I173a66*I174a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a66*I175a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I172a55*I175a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I113a66*I176a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I170a66*I177a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a66*I178a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I177a55*I178a66*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QCD':2})
 
 GC_756 = Coupling(name = 'GC_756',
@@ -3058,15 +3058,15 @@ GC_762 = Coupling(name = 'GC_762',
                   order = {'QED':2})
 
 GC_763 = Coupling(name = 'GC_763',
-                  value = '-(ee**2*complex(0,1)*I168a33*I169a36)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a36*I171a33)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a36*I172a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a33*I174a36)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I172a33*I175a36)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a33*I176a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a36*I177a33)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I177a33*I178a36)/(9.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I179a36*I180a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I181a33*I182a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I183a33*I184a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I185a36*I186a33)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a33*I169a36)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a36*I171a33)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I179a36*I180a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I181a33*I182a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I183a33*I184a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I185a36*I186a33*sw**2)/(2.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I168a33*I169a36)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a36*I171a33)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a36*I172a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a33*I174a36)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I172a33*I175a36)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a33*I176a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a36*I177a33)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I177a33*I178a36)/(9.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I179a36*I180a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I181a33*I182a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I183a33*I184a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I185a36*I186a33)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a33*I169a36)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a36*I171a33)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I179a36*I180a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I181a33*I182a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I183a33*I184a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I185a36*I186a33*sw**2)/(2.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_764 = Coupling(name = 'GC_764',
-                  value = '-(ee**2*complex(0,1)*I168a63*I169a33)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a63*I171a33)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a33*I172a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a33*I174a63)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I172a63*I175a33)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a63*I176a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a63*I177a33)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I177a33*I178a63)/(9.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I179a33*I180a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I181a33*I182a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I183a63*I184a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I185a63*I186a33)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a63*I169a33)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a63*I171a33)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I179a33*I180a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I181a33*I182a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I183a63*I184a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I185a63*I186a33*sw**2)/(2.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I168a63*I169a33)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a63*I171a33)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a33*I172a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a33*I174a63)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I172a63*I175a33)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a63*I176a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a63*I177a33)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I177a33*I178a63)/(9.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I179a33*I180a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I181a33*I182a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I183a63*I184a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I185a63*I186a33)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a63*I169a33)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a63*I171a33)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I179a33*I180a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I181a33*I182a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I183a63*I184a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I185a63*I186a33*sw**2)/(2.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_765 = Coupling(name = 'GC_765',
-                  value = '-(ee**2*complex(0,1)*I168a36*I169a33)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a33*I171a36)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a33*I172a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a36*I174a33)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I172a36*I175a33)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a36*I176a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a33*I177a36)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I177a36*I178a33)/(9.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I179a33*I180a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I181a36*I182a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I183a36*I184a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I185a33*I186a36)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a36*I169a33)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a33*I171a36)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I179a33*I180a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I181a36*I182a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I183a36*I184a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I185a33*I186a36*sw**2)/(2.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I168a36*I169a33)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a33*I171a36)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a33*I172a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a36*I174a33)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I172a36*I175a33)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a36*I176a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a33*I177a36)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I177a36*I178a33)/(9.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I179a33*I180a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I181a36*I182a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I183a36*I184a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I185a33*I186a36)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a36*I169a33)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a33*I171a36)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I179a33*I180a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I181a36*I182a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I183a36*I184a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I185a33*I186a36*sw**2)/(2.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_766 = Coupling(name = 'GC_766',
@@ -3074,15 +3074,15 @@ GC_766 = Coupling(name = 'GC_766',
                   order = {'QED':2})
 
 GC_767 = Coupling(name = 'GC_767',
-                  value = '-(ee**2*complex(0,1)*I168a66*I169a36)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a66*I171a36)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a36*I172a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a36*I174a66)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I172a66*I175a36)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a66*I176a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a66*I177a36)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I177a36*I178a66)/(9.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I179a36*I180a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I181a36*I182a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I183a66*I184a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I185a66*I186a36)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a66*I169a36)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a66*I171a36)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I179a36*I180a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I181a36*I182a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I183a66*I184a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I185a66*I186a36*sw**2)/(2.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I168a66*I169a36)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a66*I171a36)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a36*I172a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a36*I174a66)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I172a66*I175a36)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a66*I176a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a66*I177a36)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I177a36*I178a66)/(9.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I179a36*I180a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I181a36*I182a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I183a66*I184a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I185a66*I186a36)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a66*I169a36)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a66*I171a36)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I179a36*I180a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I181a36*I182a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I183a66*I184a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I185a66*I186a36*sw**2)/(2.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_768 = Coupling(name = 'GC_768',
-                  value = '-(ee**2*complex(0,1)*I168a33*I169a63)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a33*I171a63)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a63*I172a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a63*I174a33)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I172a33*I175a63)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a33*I176a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a33*I177a63)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I177a63*I178a33)/(9.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I179a63*I180a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I181a63*I182a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I183a33*I184a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I185a33*I186a63)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a33*I169a63)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a33*I171a63)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I179a63*I180a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I181a63*I182a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I183a33*I184a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I185a33*I186a63*sw**2)/(2.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I168a33*I169a63)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a33*I171a63)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a63*I172a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a63*I174a33)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I172a33*I175a63)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a33*I176a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a33*I177a63)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I177a63*I178a33)/(9.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I179a63*I180a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I181a63*I182a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I183a33*I184a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I185a33*I186a63)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a33*I169a63)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a33*I171a63)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I179a63*I180a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I181a63*I182a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I183a33*I184a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I185a33*I186a63*sw**2)/(2.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_769 = Coupling(name = 'GC_769',
-                  value = '-(ee**2*complex(0,1)*I168a63*I169a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I168a36*I169a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a63*I171a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a36*I171a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a63*I172a36)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a36*I172a63)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a63*I174a36)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a36*I174a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a63*I175a36)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a36*I175a63)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a63*I176a36)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a36*I176a63)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a63*I177a36)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a36*I177a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a63*I178a36)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a36*I178a63)/(9.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I179a63*I180a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I179a36*I180a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I181a63*I182a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I181a36*I182a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I183a63*I184a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I183a36*I184a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I185a63*I186a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I185a36*I186a63)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a63*I169a36)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I168a36*I169a63)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a63*I171a36)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a36*I171a63)/(16.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I179a63*I180a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I179a36*I180a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I181a63*I182a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I181a36*I182a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I183a63*I184a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I183a36*I184a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I185a63*I186a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I185a36*I186a63*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.05555555555555555*(ee**2*complex(0,1)*I168a63*I169a36)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I168a36*I169a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a63*I171a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a36*I171a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a63*I172a36)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a36*I172a63)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a63*I174a36)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a36*I174a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a63*I175a36)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a36*I175a63)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a63*I176a36)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a36*I176a63)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a63*I177a36)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a36*I177a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a63*I178a36)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a36*I178a63)/(9.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I179a63*I180a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I179a36*I180a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I181a63*I182a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I181a36*I182a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I183a63*I184a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I183a36*I184a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I185a63*I186a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I185a36*I186a63)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a63*I169a36)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I168a36*I169a63)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a63*I171a36)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a36*I171a63)/(16.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I179a63*I180a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I179a36*I180a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I181a63*I182a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I181a36*I182a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I183a63*I184a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I183a36*I184a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I185a63*I186a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I185a36*I186a63*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_770 = Coupling(name = 'GC_770',
@@ -3090,19 +3090,19 @@ GC_770 = Coupling(name = 'GC_770',
                   order = {'QED':2})
 
 GC_771 = Coupling(name = 'GC_771',
-                  value = '-(ee**2*complex(0,1)*I168a63*I169a66)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a66*I171a63)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a66*I172a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a63*I174a66)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I172a63*I175a66)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a63*I176a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a66*I177a63)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I177a63*I178a66)/(9.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I179a66*I180a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I181a63*I182a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I183a63*I184a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I185a66*I186a63)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a63*I169a66)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a66*I171a63)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I179a66*I180a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I181a63*I182a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I183a63*I184a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I185a66*I186a63*sw**2)/(2.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I168a63*I169a66)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a66*I171a63)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a66*I172a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a63*I174a66)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I172a63*I175a66)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a63*I176a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a66*I177a63)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I177a63*I178a66)/(9.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I179a66*I180a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I181a63*I182a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I183a63*I184a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I185a66*I186a63)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a63*I169a66)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a66*I171a63)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I179a66*I180a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I181a63*I182a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I183a63*I184a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I185a66*I186a63*sw**2)/(2.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_772 = Coupling(name = 'GC_772',
-                  value = '-(ee**2*complex(0,1)*I168a66*I169a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I168a33*I169a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a66*I171a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a33*I171a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a66*I172a33)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a33*I172a66)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a66*I174a33)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a33*I174a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a66*I175a33)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a33*I175a66)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a66*I176a33)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a33*I176a66)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a66*I177a33)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a33*I177a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a66*I178a33)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a33*I178a66)/(9.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I179a66*I180a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I179a33*I180a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I181a66*I182a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I181a33*I182a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I183a66*I184a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I183a33*I184a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I185a66*I186a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I185a33*I186a66)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a66*I169a33)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I168a33*I169a66)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a66*I171a33)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a33*I171a66)/(16.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I179a66*I180a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I179a33*I180a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I181a66*I182a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I181a33*I182a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I183a66*I184a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I183a33*I184a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I185a66*I186a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I185a33*I186a66*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.05555555555555555*(ee**2*complex(0,1)*I168a66*I169a33)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I168a33*I169a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a66*I171a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a33*I171a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a66*I172a33)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a33*I172a66)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a66*I174a33)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a33*I174a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a66*I175a33)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I172a33*I175a66)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a66*I176a33)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a33*I176a66)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a66*I177a33)/(36.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a33*I177a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a66*I178a33)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I177a33*I178a66)/(9.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I179a66*I180a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I179a33*I180a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I181a66*I182a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I181a33*I182a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I183a66*I184a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I183a33*I184a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I185a66*I186a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I185a33*I186a66)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a66*I169a33)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I168a33*I169a66)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a66*I171a33)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a33*I171a66)/(16.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I179a66*I180a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I179a33*I180a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I181a66*I182a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I181a33*I182a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I183a66*I184a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I183a33*I184a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I185a66*I186a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I185a33*I186a66*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_773 = Coupling(name = 'GC_773',
-                  value = '-(ee**2*complex(0,1)*I168a36*I169a66)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a36*I171a66)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a66*I172a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a66*I174a36)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I172a36*I175a66)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a36*I176a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a36*I177a66)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I177a66*I178a36)/(9.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I179a66*I180a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I181a66*I182a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I183a36*I184a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I185a36*I186a66)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a36*I169a66)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a36*I171a66)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I179a66*I180a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I181a66*I182a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I183a36*I184a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I185a36*I186a66*sw**2)/(2.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I168a36*I169a66)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a36*I171a66)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a66*I172a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a66*I174a36)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I172a36*I175a66)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a36*I176a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a36*I177a66)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I177a66*I178a36)/(9.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I179a66*I180a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I181a66*I182a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I183a36*I184a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I185a36*I186a66)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a36*I169a66)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a36*I171a66)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I179a66*I180a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I181a66*I182a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I183a36*I184a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I185a36*I186a66*sw**2)/(2.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_774 = Coupling(name = 'GC_774',
-                  value = '-(ee**2*complex(0,1)*I168a66*I169a63)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a63*I171a66)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a63*I172a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a66*I174a63)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I172a66*I175a63)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a66*I176a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a63*I177a66)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I177a66*I178a63)/(9.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I179a63*I180a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I181a66*I182a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I183a66*I184a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I185a63*I186a66)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a66*I169a63)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a63*I171a66)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I179a63*I180a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I181a66*I182a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I183a66*I184a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I185a63*I186a66*sw**2)/(2.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I168a66*I169a63)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a63*I171a66)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I169a63*I172a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I173a66*I174a63)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I172a66*I175a63)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a66*I176a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I170a63*I177a66)/(18.*(-1 + sw)*(1 + sw)) + (2*ee**2*complex(0,1)*I177a66*I178a63)/(9.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I179a63*I180a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I181a66*I182a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I183a66*I184a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I185a63*I186a66)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I168a66*I169a63)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I170a63*I171a66)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I179a63*I180a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I181a66*I182a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I183a66*I184a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I185a63*I186a66*sw**2)/(2.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_775 = Coupling(name = 'GC_775',
@@ -3210,15 +3210,15 @@ GC_800 = Coupling(name = 'GC_800',
                   order = {'QED':2})
 
 GC_801 = Coupling(name = 'GC_801',
-                  value = '-(ee**2*complex(0,1)*I26a33*I27a36)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a36*I29a33)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a36*I30a33)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a33*I32a36)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I30a33*I33a36)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a36*I35a33)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I35a33*I36a36)/(18.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I37a36*I38a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I39a33*I40a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I41a33*I42a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I43a36*I44a33)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a36*I8a33)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a33*I27a36)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a36*I29a33)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I37a36*I38a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I39a33*I40a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I41a33*I42a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I43a36*I44a33*sw**2)/(2.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I26a33*I27a36)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a36*I29a33)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a36*I30a33)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a33*I32a36)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I30a33*I33a36)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a36*I35a33)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I35a33*I36a36)/(18.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I37a36*I38a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I39a33*I40a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I41a33*I42a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I43a36*I44a33)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a36*I8a33)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a33*I27a36)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a36*I29a33)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I37a36*I38a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I39a33*I40a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I41a33*I42a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I43a36*I44a33*sw**2)/(2.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_802 = Coupling(name = 'GC_802',
-                  value = '-(ee**2*complex(0,1)*I26a63*I27a33)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a63*I29a33)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a33*I30a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a33*I32a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I30a63*I33a33)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a63*I35a33)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I35a33*I36a63)/(18.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I37a33*I38a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I39a33*I40a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I41a63*I42a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I43a63*I44a33)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a33*I8a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a63*I27a33)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a63*I29a33)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I37a33*I38a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I39a33*I40a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I41a63*I42a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I43a63*I44a33*sw**2)/(2.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I26a63*I27a33)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a63*I29a33)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a33*I30a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a33*I32a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I30a63*I33a33)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a63*I35a33)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I35a33*I36a63)/(18.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I37a33*I38a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I39a33*I40a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I41a63*I42a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I43a63*I44a33)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a33*I8a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a63*I27a33)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a63*I29a33)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I37a33*I38a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I39a33*I40a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I41a63*I42a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I43a63*I44a33*sw**2)/(2.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_803 = Coupling(name = 'GC_803',
-                  value = '-(ee**2*complex(0,1)*I26a36*I27a33)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a33*I29a36)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a33*I30a36)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a36*I32a33)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I30a36*I33a33)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a33*I35a36)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I35a36*I36a33)/(18.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I37a33*I38a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I39a36*I40a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I41a36*I42a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I43a33*I44a36)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a33*I8a36)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a36*I27a33)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a33*I29a36)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I37a33*I38a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I39a36*I40a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I41a36*I42a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I43a33*I44a36*sw**2)/(2.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I26a36*I27a33)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a33*I29a36)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a33*I30a36)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a36*I32a33)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I30a36*I33a33)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a33*I35a36)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I35a36*I36a33)/(18.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I37a33*I38a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I39a36*I40a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I41a36*I42a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I43a33*I44a36)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a33*I8a36)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a36*I27a33)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a33*I29a36)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I37a33*I38a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I39a36*I40a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I41a36*I42a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I43a33*I44a36*sw**2)/(2.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_804 = Coupling(name = 'GC_804',
@@ -3226,15 +3226,15 @@ GC_804 = Coupling(name = 'GC_804',
                   order = {'QED':2})
 
 GC_805 = Coupling(name = 'GC_805',
-                  value = '-(ee**2*complex(0,1)*I26a66*I27a36)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a66*I29a36)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a36*I30a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a36*I32a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I30a66*I33a36)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a66*I35a36)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I35a36*I36a66)/(18.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I37a36*I38a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I39a36*I40a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I41a66*I42a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I43a66*I44a36)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a36*I8a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a66*I27a36)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a66*I29a36)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I37a36*I38a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I39a36*I40a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I41a66*I42a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I43a66*I44a36*sw**2)/(2.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I26a66*I27a36)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a66*I29a36)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a36*I30a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a36*I32a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I30a66*I33a36)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a66*I35a36)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I35a36*I36a66)/(18.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I37a36*I38a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I39a36*I40a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I41a66*I42a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I43a66*I44a36)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a36*I8a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a66*I27a36)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a66*I29a36)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I37a36*I38a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I39a36*I40a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I41a66*I42a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I43a66*I44a36*sw**2)/(2.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_806 = Coupling(name = 'GC_806',
-                  value = '-(ee**2*complex(0,1)*I26a33*I27a63)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a33*I29a63)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a63*I30a33)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a63*I32a33)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I30a33*I33a63)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a33*I35a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I35a63*I36a33)/(18.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I37a63*I38a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I39a63*I40a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I41a33*I42a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I43a33*I44a63)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a63*I8a33)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a33*I27a63)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a33*I29a63)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I37a63*I38a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I39a63*I40a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I41a33*I42a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I43a33*I44a63*sw**2)/(2.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I26a33*I27a63)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a33*I29a63)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a63*I30a33)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a63*I32a33)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I30a33*I33a63)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a33*I35a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I35a63*I36a33)/(18.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I37a63*I38a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I39a63*I40a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I41a33*I42a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I43a33*I44a63)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a63*I8a33)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a33*I27a63)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a33*I29a63)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I37a63*I38a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I39a63*I40a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I41a33*I42a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I43a33*I44a63*sw**2)/(2.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_807 = Coupling(name = 'GC_807',
-                  value = '-(ee**2*complex(0,1)*I26a63*I27a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I26a36*I27a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a63*I29a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a36*I29a63)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a63*I30a36)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a36*I30a63)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a63*I32a36)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a36*I32a63)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I30a63*I33a36)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I30a36*I33a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a63*I35a36)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a36*I35a63)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I35a63*I36a36)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I35a36*I36a63)/(36.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I37a63*I38a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I37a36*I38a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I39a63*I40a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I39a36*I40a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I41a63*I42a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I41a36*I42a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I43a63*I44a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I43a36*I44a63)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a63*I8a36)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a36*I8a63)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a63*I27a36)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I26a36*I27a63)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a63*I29a36)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a36*I29a63)/(16.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I37a63*I38a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I37a36*I38a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I39a63*I40a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I39a36*I40a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I41a63*I42a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I41a36*I42a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I43a63*I44a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I43a36*I44a63*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.05555555555555555*(ee**2*complex(0,1)*I26a63*I27a36)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I26a36*I27a63)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a63*I29a36)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a36*I29a63)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a63*I30a36)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a36*I30a63)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a63*I32a36)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a36*I32a63)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I30a63*I33a36)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I30a36*I33a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a63*I35a36)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a36*I35a63)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I35a63*I36a36)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I35a36*I36a63)/(36.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I37a63*I38a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I37a36*I38a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I39a63*I40a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I39a36*I40a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I41a63*I42a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I41a36*I42a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I43a63*I44a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I43a36*I44a63)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a63*I8a36)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a36*I8a63)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a63*I27a36)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I26a36*I27a63)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a63*I29a36)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a36*I29a63)/(16.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I37a63*I38a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I37a36*I38a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I39a63*I40a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I39a36*I40a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I41a63*I42a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I41a36*I42a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I43a63*I44a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I43a36*I44a63*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_808 = Coupling(name = 'GC_808',
@@ -3242,19 +3242,19 @@ GC_808 = Coupling(name = 'GC_808',
                   order = {'QED':2})
 
 GC_809 = Coupling(name = 'GC_809',
-                  value = '-(ee**2*complex(0,1)*I26a63*I27a66)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a66*I29a63)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a66*I30a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a63*I32a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I30a63*I33a66)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a66*I35a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I35a63*I36a66)/(18.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I37a66*I38a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I39a63*I40a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I41a63*I42a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I43a66*I44a63)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a66*I8a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a63*I27a66)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a66*I29a63)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I37a66*I38a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I39a63*I40a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I41a63*I42a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I43a66*I44a63*sw**2)/(2.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I26a63*I27a66)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a66*I29a63)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a66*I30a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a63*I32a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I30a63*I33a66)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a66*I35a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I35a63*I36a66)/(18.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I37a66*I38a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I39a63*I40a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I41a63*I42a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I43a66*I44a63)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a66*I8a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a63*I27a66)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a66*I29a63)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I37a66*I38a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I39a63*I40a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I41a63*I42a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I43a66*I44a63*sw**2)/(2.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_810 = Coupling(name = 'GC_810',
-                  value = '-(ee**2*complex(0,1)*I26a66*I27a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I26a33*I27a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a66*I29a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a33*I29a66)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a66*I30a33)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a33*I30a66)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a66*I32a33)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a33*I32a66)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I30a66*I33a33)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I30a33*I33a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a66*I35a33)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a33*I35a66)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I35a66*I36a33)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I35a33*I36a66)/(36.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I37a66*I38a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I37a33*I38a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I39a66*I40a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I39a33*I40a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I41a66*I42a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I41a33*I42a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I43a66*I44a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I43a33*I44a66)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a66*I8a33)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a33*I8a66)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a66*I27a33)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I26a33*I27a66)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a66*I29a33)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a33*I29a66)/(16.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I37a66*I38a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I37a33*I38a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I39a66*I40a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I39a33*I40a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I41a66*I42a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I41a33*I42a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I43a66*I44a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I43a33*I44a66*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.05555555555555555*(ee**2*complex(0,1)*I26a66*I27a33)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I26a33*I27a66)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a66*I29a33)/(18.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a33*I29a66)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a66*I30a33)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a33*I30a66)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a66*I32a33)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a33*I32a66)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I30a66*I33a33)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I30a33*I33a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a66*I35a33)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a33*I35a66)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I35a66*I36a33)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I35a33*I36a66)/(36.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I37a66*I38a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I37a33*I38a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I39a66*I40a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I39a33*I40a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I41a66*I42a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I41a33*I42a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I43a66*I44a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I43a33*I44a66)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a66*I8a33)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a33*I8a66)/(72.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a66*I27a33)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I26a33*I27a66)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a66*I29a33)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a33*I29a66)/(16.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I37a66*I38a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I37a33*I38a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I39a66*I40a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I39a33*I40a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I41a66*I42a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I41a33*I42a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I43a66*I44a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I43a33*I44a66*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_811 = Coupling(name = 'GC_811',
-                  value = '-(ee**2*complex(0,1)*I26a36*I27a66)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a36*I29a66)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a66*I30a36)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a66*I32a36)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I30a36*I33a66)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a36*I35a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I35a66*I36a36)/(18.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I37a66*I38a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I39a66*I40a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I41a36*I42a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I43a36*I44a66)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a66*I8a36)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a36*I27a66)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a36*I29a66)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I37a66*I38a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I39a66*I40a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I41a36*I42a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I43a36*I44a66*sw**2)/(2.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I26a36*I27a66)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a36*I29a66)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a66*I30a36)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a66*I32a36)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I30a36*I33a66)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a36*I35a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I35a66*I36a36)/(18.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I37a66*I38a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I39a66*I40a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I41a36*I42a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I43a36*I44a66)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a66*I8a36)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a36*I27a66)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a36*I29a66)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I37a66*I38a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I39a66*I40a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I41a36*I42a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I43a36*I44a66*sw**2)/(2.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_812 = Coupling(name = 'GC_812',
-                  value = '-(ee**2*complex(0,1)*I26a66*I27a63)/(9.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a63*I29a66)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a63*I30a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a66*I32a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I30a66*I33a63)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a63*I35a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I35a66*I36a63)/(18.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I37a63*I38a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I39a66*I40a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I41a66*I42a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I43a63*I44a66)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a63*I8a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a66*I27a63)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a63*I29a66)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I37a63*I38a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I39a66*I40a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I41a66*I42a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I43a63*I44a66*sw**2)/(2.*(-1 + sw)*(1 + sw))',
+                  value = '-0.1111111111111111*(ee**2*complex(0,1)*I26a66*I27a63)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I28a63*I29a66)/(9.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I27a63*I30a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I31a66*I32a63)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I30a66*I33a63)/(18.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I28a63*I35a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I35a66*I36a63)/(18.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I37a63*I38a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I39a66*I40a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I41a66*I42a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I43a63*I44a66)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I34a63*I8a66)/(36.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I26a66*I27a63)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I28a63*I29a66)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I37a63*I38a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I39a66*I40a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I41a66*I42a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I43a63*I44a66*sw**2)/(2.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_813 = Coupling(name = 'GC_813',
@@ -3542,103 +3542,103 @@ GC_883 = Coupling(name = 'GC_883',
                   order = {'QCD':2})
 
 GC_884 = Coupling(name = 'GC_884',
-                  value = '-(ee**2*complex(0,1)*I63a33*I64a33)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a33*I65a33)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a33*I66a33)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a33*I66a33)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a33*I68a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a33*I70a33)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a33*I64a33)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a33*I68a33*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a33*I70a33*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a33*I64a33)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a33*I65a33)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a33*I66a33)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a33*I66a33)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a33*I68a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a33*I70a33)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a33*I64a33)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a33*I68a33*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a33*I70a33*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_885 = Coupling(name = 'GC_885',
-                  value = '-(ee**2*complex(0,1)*I63a36*I64a33)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a33*I65a36)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a36*I66a33)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a36*I66a33)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a33*I68a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a36*I70a33)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a36*I64a33)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a33*I68a36*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a36*I70a33*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a36*I64a33)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a33*I65a36)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a36*I66a33)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a36*I66a33)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a33*I68a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a36*I70a33)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a36*I64a33)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a33*I68a36*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a36*I70a33*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_886 = Coupling(name = 'GC_886',
-                  value = '-(ee**2*complex(0,1)*I63a63*I64a33)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a33*I65a63)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a63*I66a33)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a63*I66a33)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a33*I68a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a63*I70a33)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a63*I64a33)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a33*I68a63*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a63*I70a33*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a63*I64a33)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a33*I65a63)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a63*I66a33)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a63*I66a33)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a33*I68a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a63*I70a33)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a63*I64a33)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a33*I68a63*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a63*I70a33*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_887 = Coupling(name = 'GC_887',
-                  value = '-(ee**2*complex(0,1)*I63a66*I64a33)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a33*I65a66)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a66*I66a33)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a66*I66a33)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a33*I68a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a66*I70a33)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a66*I64a33)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a33*I68a66*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a66*I70a33*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a66*I64a33)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a33*I65a66)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a66*I66a33)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a66*I66a33)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a33*I68a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a66*I70a33)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a66*I64a33)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a33*I68a66*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a66*I70a33*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_888 = Coupling(name = 'GC_888',
-                  value = '-(ee**2*complex(0,1)*I63a33*I64a36)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a36*I65a33)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a33*I66a36)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a33*I66a36)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a36*I68a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a33*I70a36)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a33*I64a36)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a36*I68a33*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a33*I70a36*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a33*I64a36)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a36*I65a33)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a33*I66a36)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a33*I66a36)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a36*I68a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a33*I70a36)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a33*I64a36)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a36*I68a33*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a33*I70a36*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_889 = Coupling(name = 'GC_889',
-                  value = '-(ee**2*complex(0,1)*I63a36*I64a36)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a36*I65a36)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a36*I66a36)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a36*I66a36)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a36*I68a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a36*I70a36)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a36*I64a36)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a36*I68a36*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a36*I70a36*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a36*I64a36)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a36*I65a36)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a36*I66a36)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a36*I66a36)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a36*I68a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a36*I70a36)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a36*I64a36)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a36*I68a36*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a36*I70a36*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_890 = Coupling(name = 'GC_890',
-                  value = '-(ee**2*complex(0,1)*I63a63*I64a36)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a36*I65a63)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a63*I66a36)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a63*I66a36)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a36*I68a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a63*I70a36)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a63*I64a36)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a36*I68a63*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a63*I70a36*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a63*I64a36)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a36*I65a63)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a63*I66a36)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a63*I66a36)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a36*I68a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a63*I70a36)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a63*I64a36)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a36*I68a63*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a63*I70a36*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_891 = Coupling(name = 'GC_891',
-                  value = '-(ee**2*complex(0,1)*I63a66*I64a36)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a36*I65a66)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a66*I66a36)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a66*I66a36)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a36*I68a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a66*I70a36)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a66*I64a36)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a36*I68a66*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a66*I70a36*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a66*I64a36)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a36*I65a66)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a66*I66a36)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a66*I66a36)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a36*I68a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a66*I70a36)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a66*I64a36)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a36*I68a66*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a66*I70a36*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_892 = Coupling(name = 'GC_892',
-                  value = '-(ee**2*complex(0,1)*I63a33*I64a63)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a63*I65a33)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a33*I66a63)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a33*I66a63)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a63*I68a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a33*I70a63)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a33*I64a63)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a63*I68a33*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a33*I70a63*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a33*I64a63)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a63*I65a33)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a33*I66a63)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a33*I66a63)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a63*I68a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a33*I70a63)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a33*I64a63)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a63*I68a33*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a33*I70a63*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_893 = Coupling(name = 'GC_893',
-                  value = '-(ee**2*complex(0,1)*I63a36*I64a63)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a63*I65a36)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a36*I66a63)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a36*I66a63)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a63*I68a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a36*I70a63)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a36*I64a63)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a63*I68a36*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a36*I70a63*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a36*I64a63)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a63*I65a36)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a36*I66a63)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a36*I66a63)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a63*I68a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a36*I70a63)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a36*I64a63)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a63*I68a36*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a36*I70a63*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_894 = Coupling(name = 'GC_894',
-                  value = '-(ee**2*complex(0,1)*I63a63*I64a63)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a63*I65a63)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a63*I66a63)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a63*I66a63)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a63*I68a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a63*I70a63)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a63*I64a63)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a63*I68a63*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a63*I70a63*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a63*I64a63)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a63*I65a63)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a63*I66a63)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a63*I66a63)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a63*I68a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a63*I70a63)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a63*I64a63)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a63*I68a63*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a63*I70a63*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_895 = Coupling(name = 'GC_895',
-                  value = '-(ee**2*complex(0,1)*I63a66*I64a63)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a63*I65a66)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a66*I66a63)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a66*I66a63)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a63*I68a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a66*I70a63)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a66*I64a63)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a63*I68a66*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a66*I70a63*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a66*I64a63)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a63*I65a66)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a66*I66a63)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a66*I66a63)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a63*I68a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a66*I70a63)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a66*I64a63)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a63*I68a66*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a66*I70a63*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_896 = Coupling(name = 'GC_896',
-                  value = '-(ee**2*complex(0,1)*I63a33*I64a66)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a66*I65a33)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a33*I66a66)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a33*I66a66)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a66*I68a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a33*I70a66)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a33*I64a66)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a66*I68a33*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a33*I70a66*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a33*I64a66)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a66*I65a33)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a33*I66a66)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a33*I66a66)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a66*I68a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a33*I70a66)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a33*I64a66)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a66*I68a33*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a33*I70a66*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_897 = Coupling(name = 'GC_897',
-                  value = '-(ee**2*complex(0,1)*I63a36*I64a66)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a66*I65a36)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a36*I66a66)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a36*I66a66)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a66*I68a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a36*I70a66)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a36*I64a66)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a66*I68a36*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a36*I70a66*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a36*I64a66)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a66*I65a36)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a36*I66a66)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a36*I66a66)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a66*I68a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a36*I70a66)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a36*I64a66)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a66*I68a36*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a36*I70a66*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_898 = Coupling(name = 'GC_898',
-                  value = '-(ee**2*complex(0,1)*I63a63*I64a66)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a66*I65a63)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a63*I66a66)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a63*I66a66)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a66*I68a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a63*I70a66)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a63*I64a66)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a66*I68a63*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a63*I70a66*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a63*I64a66)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a66*I65a63)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a63*I66a66)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a63*I66a66)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a66*I68a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a63*I70a66)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a63*I64a66)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a66*I68a63*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a63*I70a66*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_899 = Coupling(name = 'GC_899',
-                  value = '-(ee**2*complex(0,1)*I63a66*I64a66)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a66*I65a66)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a66*I66a66)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a66*I66a66)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a66*I68a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a66*I70a66)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a66*I64a66)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a66*I68a66*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a66*I70a66*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.3333333333333333*(ee**2*complex(0,1)*I63a66*I64a66)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I64a66*I65a66)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a66*I66a66)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I65a66*I66a66)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I67a66*I68a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I69a66*I70a66)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I63a66*I64a66)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I67a66*I68a66*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I69a66*I70a66*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_900 = Coupling(name = 'GC_900',
-                  value = '-(ee**2*complex(0,1)*I75a33*I76a33)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a33*I77a33)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a33*I78a33)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a33*I79a33)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a33*I80a33)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a33*I81a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I82a33*I83a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I84a33*I85a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I86a33*I87a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I88a33*I89a33)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a33*I72a33)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a33*I74a33)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I82a33*I83a33*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I84a33*I85a33*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I86a33*I87a33*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I88a33*I89a33*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I75a33*I76a33)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a33*I77a33)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a33*I78a33)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a33*I79a33)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a33*I80a33)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a33*I81a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I82a33*I83a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I84a33*I85a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I86a33*I87a33)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I88a33*I89a33)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a33*I72a33)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a33*I74a33)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I82a33*I83a33*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I84a33*I85a33*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I86a33*I87a33*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I88a33*I89a33*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_901 = Coupling(name = 'GC_901',
-                  value = '-(ee**2*complex(0,1)*I75a36*I76a33)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I75a33*I76a36)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a36*I77a33)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a33*I77a36)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a36*I78a33)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a33*I78a36)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a36*I79a33)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a33*I79a36)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a36*I80a33)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a33*I80a36)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a36*I81a33)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a33*I81a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I82a36*I83a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I82a33*I83a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I84a36*I85a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I84a33*I85a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I86a36*I87a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I86a33*I87a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I88a36*I89a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I88a33*I89a36)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a36*I72a33)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a33*I72a36)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a36*I74a33)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a33*I74a36)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I82a36*I83a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I82a33*I83a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I84a36*I85a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I84a33*I85a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I86a36*I87a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I86a33*I87a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I88a36*I89a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I88a33*I89a36*sw**2)/(2.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(ee**2*complex(0,1)*I75a36*I76a33)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I75a33*I76a36)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a36*I77a33)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a33*I77a36)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a36*I78a33)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a33*I78a36)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a36*I79a33)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a33*I79a36)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a36*I80a33)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a33*I80a36)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a36*I81a33)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a33*I81a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I82a36*I83a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I82a33*I83a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I84a36*I85a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I84a33*I85a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I86a36*I87a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I86a33*I87a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I88a36*I89a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I88a33*I89a36)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a36*I72a33)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a33*I72a36)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a36*I74a33)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a33*I74a36)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I82a36*I83a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I82a33*I83a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I84a36*I85a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I84a33*I85a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I86a36*I87a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I86a33*I87a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I88a36*I89a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I88a33*I89a36*sw**2)/(2.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_902 = Coupling(name = 'GC_902',
-                  value = '-(ee**2*complex(0,1)*I75a36*I76a36)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a36*I77a36)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a36*I78a36)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a36*I79a36)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a36*I80a36)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a36*I81a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I82a36*I83a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I84a36*I85a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I86a36*I87a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I88a36*I89a36)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a36*I72a36)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a36*I74a36)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I82a36*I83a36*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I84a36*I85a36*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I86a36*I87a36*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I88a36*I89a36*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I75a36*I76a36)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a36*I77a36)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a36*I78a36)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a36*I79a36)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a36*I80a36)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a36*I81a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I82a36*I83a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I84a36*I85a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I86a36*I87a36)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I88a36*I89a36)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a36*I72a36)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a36*I74a36)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I82a36*I83a36*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I84a36*I85a36*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I86a36*I87a36*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I88a36*I89a36*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_903 = Coupling(name = 'GC_903',
-                  value = '-(ee**2*complex(0,1)*I75a63*I76a33)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I75a33*I76a63)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a63*I77a33)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a33*I77a63)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a63*I78a33)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a33*I78a63)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a63*I79a33)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a33*I79a63)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a63*I80a33)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a33*I80a63)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a63*I81a33)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a33*I81a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I82a63*I83a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I82a33*I83a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I84a63*I85a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I84a33*I85a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I86a63*I87a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I86a33*I87a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I88a63*I89a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I88a33*I89a63)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a63*I72a33)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a33*I72a63)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a63*I74a33)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a33*I74a63)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I82a63*I83a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I82a33*I83a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I84a63*I85a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I84a33*I85a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I86a63*I87a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I86a33*I87a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I88a63*I89a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I88a33*I89a63*sw**2)/(2.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(ee**2*complex(0,1)*I75a63*I76a33)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I75a33*I76a63)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a63*I77a33)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a33*I77a63)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a63*I78a33)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a33*I78a63)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a63*I79a33)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a33*I79a63)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a63*I80a33)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a33*I80a63)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a63*I81a33)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a33*I81a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I82a63*I83a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I82a33*I83a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I84a63*I85a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I84a33*I85a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I86a63*I87a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I86a33*I87a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I88a63*I89a33)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I88a33*I89a63)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a63*I72a33)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a33*I72a63)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a63*I74a33)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a33*I74a63)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I82a63*I83a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I82a33*I83a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I84a63*I85a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I84a33*I85a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I86a63*I87a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I86a33*I87a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I88a63*I89a33*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I88a33*I89a63*sw**2)/(2.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_904 = Coupling(name = 'GC_904',
-                  value = '-(ee**2*complex(0,1)*I75a63*I76a63)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a63*I77a63)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a63*I78a63)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a63*I79a63)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a63*I80a63)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a63*I81a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I82a63*I83a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I84a63*I85a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I86a63*I87a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I88a63*I89a63)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a63*I72a63)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a63*I74a63)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I82a63*I83a63*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I84a63*I85a63*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I86a63*I87a63*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I88a63*I89a63*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I75a63*I76a63)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a63*I77a63)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a63*I78a63)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a63*I79a63)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a63*I80a63)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a63*I81a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I82a63*I83a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I84a63*I85a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I86a63*I87a63)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I88a63*I89a63)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a63*I72a63)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a63*I74a63)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I82a63*I83a63*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I84a63*I85a63*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I86a63*I87a63*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I88a63*I89a63*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_905 = Coupling(name = 'GC_905',
-                  value = '-(ee**2*complex(0,1)*I75a66*I76a33)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I75a63*I76a36)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I75a36*I76a63)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I75a33*I76a66)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a66*I77a33)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a63*I77a36)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a36*I77a63)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a33*I77a66)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a66*I78a33)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a63*I78a36)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a36*I78a63)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a33*I78a66)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a66*I79a33)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a63*I79a36)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a36*I79a63)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a33*I79a66)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a66*I80a33)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a63*I80a36)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a36*I80a63)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a33*I80a66)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a66*I81a33)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a63*I81a36)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a36*I81a63)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a33*I81a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I82a66*I83a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I82a63*I83a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I82a36*I83a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I82a33*I83a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I84a66*I85a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I84a63*I85a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I84a36*I85a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I84a33*I85a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I86a66*I87a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I86a63*I87a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I86a36*I87a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I86a33*I87a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I88a66*I89a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I88a63*I89a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I88a36*I89a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I88a33*I89a66)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a66*I72a33)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a63*I72a36)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a36*I72a63)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a33*I72a66)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a66*I74a33)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a63*I74a36)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a36*I74a63)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a33*I74a66)/(16.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I82a66*I83a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I82a63*I83a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I82a36*I83a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I82a33*I83a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I84a66*I85a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I84a63*I85a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I84a36*I85a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I84a33*I85a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I86a66*I87a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I86a63*I87a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I86a36*I87a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I86a33*I87a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I88a66*I89a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I88a63*I89a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I88a36*I89a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I88a33*I89a66*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.125*(ee**2*complex(0,1)*I75a66*I76a33)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I75a63*I76a36)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I75a36*I76a63)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I75a33*I76a66)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a66*I77a33)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a63*I77a36)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a36*I77a63)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a33*I77a66)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a66*I78a33)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a63*I78a36)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a36*I78a63)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a33*I78a66)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a66*I79a33)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a63*I79a36)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a36*I79a63)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a33*I79a66)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a66*I80a33)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a63*I80a36)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a36*I80a63)/(8.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a33*I80a66)/(8.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a66*I81a33)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a63*I81a36)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a36*I81a63)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a33*I81a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I82a66*I83a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I82a63*I83a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I82a36*I83a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I82a33*I83a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I84a66*I85a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I84a63*I85a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I84a36*I85a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I84a33*I85a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I86a66*I87a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I86a63*I87a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I86a36*I87a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I86a33*I87a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I88a66*I89a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I88a63*I89a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I88a36*I89a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I88a33*I89a66)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a66*I72a33)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a63*I72a36)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a36*I72a63)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a33*I72a66)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a66*I74a33)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a63*I74a36)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a36*I74a63)/(16.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a33*I74a66)/(16.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I82a66*I83a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I82a63*I83a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I82a36*I83a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I82a33*I83a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I84a66*I85a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I84a63*I85a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I84a36*I85a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I84a33*I85a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I86a66*I87a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I86a63*I87a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I86a36*I87a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I86a33*I87a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I88a66*I89a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I88a63*I89a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I88a36*I89a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I88a33*I89a66*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_906 = Coupling(name = 'GC_906',
-                  value = '-(ee**2*complex(0,1)*I75a66*I76a36)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I75a36*I76a66)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a66*I77a36)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a36*I77a66)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a66*I78a36)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a36*I78a66)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a66*I79a36)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a36*I79a66)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a66*I80a36)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a36*I80a66)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a66*I81a36)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a36*I81a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I82a66*I83a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I82a36*I83a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I84a66*I85a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I84a36*I85a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I86a66*I87a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I86a36*I87a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I88a66*I89a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I88a36*I89a66)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a66*I72a36)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a36*I72a66)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a66*I74a36)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a36*I74a66)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I82a66*I83a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I82a36*I83a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I84a66*I85a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I84a36*I85a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I86a66*I87a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I86a36*I87a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I88a66*I89a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I88a36*I89a66*sw**2)/(2.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(ee**2*complex(0,1)*I75a66*I76a36)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I75a36*I76a66)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a66*I77a36)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a36*I77a66)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a66*I78a36)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a36*I78a66)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a66*I79a36)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a36*I79a66)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a66*I80a36)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a36*I80a66)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a66*I81a36)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a36*I81a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I82a66*I83a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I82a36*I83a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I84a66*I85a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I84a36*I85a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I86a66*I87a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I86a36*I87a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I88a66*I89a36)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I88a36*I89a66)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a66*I72a36)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a36*I72a66)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a66*I74a36)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a36*I74a66)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I82a66*I83a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I82a36*I83a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I84a66*I85a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I84a36*I85a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I86a66*I87a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I86a36*I87a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I88a66*I89a36*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I88a36*I89a66*sw**2)/(2.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_907 = Coupling(name = 'GC_907',
-                  value = '-(ee**2*complex(0,1)*I75a66*I76a63)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I75a63*I76a66)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a66*I77a63)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a63*I77a66)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a66*I78a63)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a63*I78a66)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a66*I79a63)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a63*I79a66)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a66*I80a63)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a63*I80a66)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a66*I81a63)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a63*I81a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I82a66*I83a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I82a63*I83a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I84a66*I85a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I84a63*I85a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I86a66*I87a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I86a63*I87a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I88a66*I89a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I88a63*I89a66)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a66*I72a63)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a63*I72a66)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a66*I74a63)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a63*I74a66)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I82a66*I83a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I82a63*I83a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I84a66*I85a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I84a63*I85a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I86a66*I87a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I86a63*I87a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I88a66*I89a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I88a63*I89a66*sw**2)/(2.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(ee**2*complex(0,1)*I75a66*I76a63)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I75a63*I76a66)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a66*I77a63)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a63*I77a66)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a66*I78a63)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a63*I78a66)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a66*I79a63)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a63*I79a66)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a66*I80a63)/(4.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a63*I80a66)/(4.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a66*I81a63)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a63*I81a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I82a66*I83a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I82a63*I83a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I84a66*I85a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I84a63*I85a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I86a66*I87a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I86a63*I87a66)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I88a66*I89a63)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I88a63*I89a66)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a66*I72a63)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I71a63*I72a66)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a66*I74a63)/(8.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a63*I74a66)/(8.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I82a66*I83a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I82a63*I83a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I84a66*I85a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I84a63*I85a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I86a66*I87a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I86a63*I87a66*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I88a66*I89a63*sw**2)/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I88a63*I89a66*sw**2)/(2.*(-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_908 = Coupling(name = 'GC_908',
-                  value = '-(ee**2*complex(0,1)*I75a66*I76a66)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a66*I77a66)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a66*I78a66)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a66*I79a66)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a66*I80a66)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a66*I81a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I82a66*I83a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I84a66*I85a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I86a66*I87a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I88a66*I89a66)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a66*I72a66)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a66*I74a66)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I82a66*I83a66*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I84a66*I85a66*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I86a66*I87a66*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I88a66*I89a66*sw**2)/((-1 + sw)*(1 + sw))',
+                  value = '-0.5*(ee**2*complex(0,1)*I75a66*I76a66)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I72a66*I77a66)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I77a66*I78a66)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I47a66*I79a66)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I73a66*I80a66)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I80a66*I81a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I82a66*I83a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I84a66*I85a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I86a66*I87a66)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I88a66*I89a66)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I71a66*I72a66)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I73a66*I74a66)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I82a66*I83a66*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I84a66*I85a66*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I86a66*I87a66*sw**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I88a66*I89a66*sw**2)/((-1 + sw)*(1 + sw))',
                   order = {'QED':2})
 
 GC_909 = Coupling(name = 'GC_909',
@@ -3650,11 +3650,11 @@ GC_910 = Coupling(name = 'GC_910',
                   order = {'QCD':2})
 
 GC_911 = Coupling(name = 'GC_911',
-                  value = '-(complex(0,1)*G**2*I27a11*I30a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I31a11*I32a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I28a11*I35a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I34a44*I8a11)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I27a11*I30a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I31a11*I32a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I28a11*I35a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I34a44*I8a11*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(complex(0,1)*G**2*I27a11*I30a44)/((-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I31a11*I32a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I28a11*I35a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I34a44*I8a11)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I27a11*I30a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I31a11*I32a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I28a11*I35a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I34a44*I8a11*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QCD':2})
 
 GC_912 = Coupling(name = 'GC_912',
-                  value = '-(complex(0,1)*G**2*I27a11*I30a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I31a11*I32a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I28a11*I35a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I34a55*I8a11)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I27a11*I30a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I31a11*I32a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I28a11*I35a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I34a55*I8a11*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(complex(0,1)*G**2*I27a11*I30a55)/((-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I31a11*I32a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I28a11*I35a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I34a55*I8a11)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I27a11*I30a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I31a11*I32a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I28a11*I35a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I34a55*I8a11*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QCD':2})
 
 GC_913 = Coupling(name = 'GC_913',
@@ -3674,11 +3674,11 @@ GC_916 = Coupling(name = 'GC_916',
                   order = {'QCD':2})
 
 GC_917 = Coupling(name = 'GC_917',
-                  value = '-(complex(0,1)*G**2*I27a22*I30a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I31a22*I32a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I28a22*I35a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I34a44*I8a22)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I27a22*I30a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I31a22*I32a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I28a22*I35a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I34a44*I8a22*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(complex(0,1)*G**2*I27a22*I30a44)/((-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I31a22*I32a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I28a22*I35a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I34a44*I8a22)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I27a22*I30a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I31a22*I32a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I28a22*I35a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I34a44*I8a22*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QCD':2})
 
 GC_918 = Coupling(name = 'GC_918',
-                  value = '-(complex(0,1)*G**2*I27a22*I30a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I31a22*I32a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I28a22*I35a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I34a55*I8a22)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I27a22*I30a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I31a22*I32a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I28a22*I35a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I34a55*I8a22*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(complex(0,1)*G**2*I27a22*I30a55)/((-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I31a22*I32a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I28a22*I35a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I34a55*I8a22)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I27a22*I30a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I31a22*I32a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I28a22*I35a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I34a55*I8a22*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QCD':2})
 
 GC_919 = Coupling(name = 'GC_919',
@@ -3698,11 +3698,11 @@ GC_922 = Coupling(name = 'GC_922',
                   order = {'QCD':2})
 
 GC_923 = Coupling(name = 'GC_923',
-                  value = '-(complex(0,1)*G**2*I27a33*I30a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I31a33*I32a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a44*I33a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a33*I33a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I28a33*I35a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a44*I36a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a33*I36a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I34a44*I8a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I27a33*I30a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I31a33*I32a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a44*I33a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a33*I33a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I28a33*I35a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a44*I36a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a33*I36a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I34a44*I8a33*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(complex(0,1)*G**2*I27a33*I30a44)/((-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I31a33*I32a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a44*I33a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a33*I33a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I28a33*I35a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a44*I36a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a33*I36a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I34a44*I8a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I27a33*I30a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I31a33*I32a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a44*I33a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a33*I33a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I28a33*I35a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a44*I36a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a33*I36a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I34a44*I8a33*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QCD':2})
 
 GC_924 = Coupling(name = 'GC_924',
-                  value = '-(complex(0,1)*G**2*I27a33*I30a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I31a33*I32a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a55*I33a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a33*I33a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I28a33*I35a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a55*I36a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a33*I36a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I34a55*I8a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I27a33*I30a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I31a33*I32a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a55*I33a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a33*I33a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I28a33*I35a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a55*I36a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a33*I36a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I34a55*I8a33*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(complex(0,1)*G**2*I27a33*I30a55)/((-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I31a33*I32a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a55*I33a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a33*I33a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I28a33*I35a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a55*I36a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a33*I36a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I34a55*I8a33)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I27a33*I30a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I31a33*I32a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a55*I33a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a33*I33a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I28a33*I35a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a55*I36a33*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a33*I36a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I34a55*I8a33*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QCD':2})
 
 GC_925 = Coupling(name = 'GC_925',
@@ -3718,11 +3718,11 @@ GC_927 = Coupling(name = 'GC_927',
                   order = {'QCD':2})
 
 GC_928 = Coupling(name = 'GC_928',
-                  value = '-(complex(0,1)*G**2*I27a36*I30a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I31a36*I32a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a44*I33a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a36*I33a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I28a36*I35a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a44*I36a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a36*I36a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I34a44*I8a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I27a36*I30a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I31a36*I32a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a44*I33a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a36*I33a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I28a36*I35a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a44*I36a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a36*I36a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I34a44*I8a36*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(complex(0,1)*G**2*I27a36*I30a44)/((-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I31a36*I32a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a44*I33a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a36*I33a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I28a36*I35a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a44*I36a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a36*I36a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I34a44*I8a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I27a36*I30a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I31a36*I32a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a44*I33a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a36*I33a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I28a36*I35a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a44*I36a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a36*I36a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I34a44*I8a36*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QCD':2})
 
 GC_929 = Coupling(name = 'GC_929',
-                  value = '-(complex(0,1)*G**2*I27a36*I30a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I31a36*I32a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a55*I33a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a36*I33a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I28a36*I35a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a55*I36a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a36*I36a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I34a55*I8a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I27a36*I30a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I31a36*I32a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a55*I33a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a36*I33a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I28a36*I35a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a55*I36a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a36*I36a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I34a55*I8a36*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(complex(0,1)*G**2*I27a36*I30a55)/((-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I31a36*I32a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a55*I33a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a36*I33a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I28a36*I35a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a55*I36a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a36*I36a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I34a55*I8a36)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I27a36*I30a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I31a36*I32a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a55*I33a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a36*I33a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I28a36*I35a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a55*I36a36*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a36*I36a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I34a55*I8a36*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QCD':2})
 
 GC_930 = Coupling(name = 'GC_930',
@@ -3738,11 +3738,11 @@ GC_932 = Coupling(name = 'GC_932',
                   order = {'QCD':2})
 
 GC_933 = Coupling(name = 'GC_933',
-                  value = '-(complex(0,1)*G**2*I27a63*I30a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I31a63*I32a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a63*I33a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a44*I33a63)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I28a63*I35a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a63*I36a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a44*I36a63)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I34a44*I8a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I27a63*I30a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I31a63*I32a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a63*I33a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a44*I33a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I28a63*I35a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a63*I36a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a44*I36a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I34a44*I8a63*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(complex(0,1)*G**2*I27a63*I30a44)/((-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I31a63*I32a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a63*I33a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a44*I33a63)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I28a63*I35a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a63*I36a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a44*I36a63)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I34a44*I8a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I27a63*I30a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I31a63*I32a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a63*I33a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a44*I33a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I28a63*I35a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a63*I36a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a44*I36a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I34a44*I8a63*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QCD':2})
 
 GC_934 = Coupling(name = 'GC_934',
-                  value = '-(complex(0,1)*G**2*I27a63*I30a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I31a63*I32a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a63*I33a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a55*I33a63)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I28a63*I35a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a63*I36a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a55*I36a63)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I34a55*I8a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I27a63*I30a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I31a63*I32a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a63*I33a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a55*I33a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I28a63*I35a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a63*I36a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a55*I36a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I34a55*I8a63*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(complex(0,1)*G**2*I27a63*I30a55)/((-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I31a63*I32a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a63*I33a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a55*I33a63)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I28a63*I35a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a63*I36a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a55*I36a63)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I34a55*I8a63)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I27a63*I30a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I31a63*I32a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a63*I33a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a55*I33a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I28a63*I35a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a63*I36a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a55*I36a63*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I34a55*I8a63*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QCD':2})
 
 GC_935 = Coupling(name = 'GC_935',
@@ -3762,11 +3762,11 @@ GC_938 = Coupling(name = 'GC_938',
                   order = {'QCD':2})
 
 GC_939 = Coupling(name = 'GC_939',
-                  value = '-(complex(0,1)*G**2*I27a66*I30a44)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I31a66*I32a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a66*I33a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a44*I33a66)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I28a66*I35a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a66*I36a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a44*I36a66)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I34a44*I8a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I27a66*I30a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I31a66*I32a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a66*I33a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a44*I33a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I28a66*I35a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a66*I36a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a44*I36a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I34a44*I8a66*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(complex(0,1)*G**2*I27a66*I30a44)/((-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I31a66*I32a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a66*I33a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a44*I33a66)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I28a66*I35a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a66*I36a44)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a44*I36a66)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I34a44*I8a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I27a66*I30a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I31a66*I32a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a66*I33a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a44*I33a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I28a66*I35a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a66*I36a44*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a44*I36a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I34a44*I8a66*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QCD':2})
 
 GC_940 = Coupling(name = 'GC_940',
-                  value = '-(complex(0,1)*G**2*I27a66*I30a55)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I31a66*I32a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a66*I33a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a55*I33a66)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I28a66*I35a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a66*I36a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a55*I36a66)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I34a55*I8a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I27a66*I30a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I31a66*I32a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a66*I33a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a55*I33a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I28a66*I35a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a66*I36a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a55*I36a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I34a55*I8a66*sw**2)/(4.*(-1 + sw)*(1 + sw))',
+                  value = '-0.25*(complex(0,1)*G**2*I27a66*I30a55)/((-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I31a66*I32a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a66*I33a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I30a55*I33a66)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I28a66*I35a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a66*I36a55)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I35a55*I36a66)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I34a55*I8a66)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I27a66*I30a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I31a66*I32a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a66*I33a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I30a55*I33a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I28a66*I35a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a66*I36a55*sw**2)/(4.*(-1 + sw)*(1 + sw)) - (complex(0,1)*G**2*I35a55*I36a66*sw**2)/(4.*(-1 + sw)*(1 + sw)) + (complex(0,1)*G**2*I34a55*I8a66*sw**2)/(4.*(-1 + sw)*(1 + sw))',
                   order = {'QCD':2})
 
 GC_941 = Coupling(name = 'GC_941',
@@ -4130,7 +4130,7 @@ GC_1030 = Coupling(name = 'GC_1030',
                    order = {'QED':1})
 
 GC_1031 = Coupling(name = 'GC_1031',
-                   value = '-(cw*ee*complex(0,1)*NN1x3*complexconjugate(NN1x3))/(2.*(-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*NN1x4*complexconjugate(NN1x4))/(2.*(-1 + sw)*sw*(1 + sw))',
+                   value = '-0.5*(cw*ee*complex(0,1)*NN1x3*complexconjugate(NN1x3))/((-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*NN1x4*complexconjugate(NN1x4))/(2.*(-1 + sw)*sw*(1 + sw))',
                    order = {'QED':1})
 
 GC_1032 = Coupling(name = 'GC_1032',
@@ -4222,11 +4222,11 @@ GC_1053 = Coupling(name = 'GC_1053',
                    order = {'QED':1})
 
 GC_1054 = Coupling(name = 'GC_1054',
-                   value = '-(cw*ee*complex(0,1)*NN1x3*complexconjugate(NN2x3))/(2.*(-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*NN1x4*complexconjugate(NN2x4))/(2.*(-1 + sw)*sw*(1 + sw))',
+                   value = '-0.5*(cw*ee*complex(0,1)*NN1x3*complexconjugate(NN2x3))/((-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*NN1x4*complexconjugate(NN2x4))/(2.*(-1 + sw)*sw*(1 + sw))',
                    order = {'QED':1})
 
 GC_1055 = Coupling(name = 'GC_1055',
-                   value = '-(cw*ee*complex(0,1)*NN2x3*complexconjugate(NN2x3))/(2.*(-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*NN2x4*complexconjugate(NN2x4))/(2.*(-1 + sw)*sw*(1 + sw))',
+                   value = '-0.5*(cw*ee*complex(0,1)*NN2x3*complexconjugate(NN2x3))/((-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*NN2x4*complexconjugate(NN2x4))/(2.*(-1 + sw)*sw*(1 + sw))',
                    order = {'QED':1})
 
 GC_1056 = Coupling(name = 'GC_1056',
@@ -4314,15 +4314,15 @@ GC_1076 = Coupling(name = 'GC_1076',
                    order = {'QED':1})
 
 GC_1077 = Coupling(name = 'GC_1077',
-                   value = '-(cw*ee*complex(0,1)*NN1x3*complexconjugate(NN3x3))/(2.*(-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*NN1x4*complexconjugate(NN3x4))/(2.*(-1 + sw)*sw*(1 + sw))',
+                   value = '-0.5*(cw*ee*complex(0,1)*NN1x3*complexconjugate(NN3x3))/((-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*NN1x4*complexconjugate(NN3x4))/(2.*(-1 + sw)*sw*(1 + sw))',
                    order = {'QED':1})
 
 GC_1078 = Coupling(name = 'GC_1078',
-                   value = '-(cw*ee*complex(0,1)*NN2x3*complexconjugate(NN3x3))/(2.*(-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*NN2x4*complexconjugate(NN3x4))/(2.*(-1 + sw)*sw*(1 + sw))',
+                   value = '-0.5*(cw*ee*complex(0,1)*NN2x3*complexconjugate(NN3x3))/((-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*NN2x4*complexconjugate(NN3x4))/(2.*(-1 + sw)*sw*(1 + sw))',
                    order = {'QED':1})
 
 GC_1079 = Coupling(name = 'GC_1079',
-                   value = '-(cw*ee*complex(0,1)*NN3x3*complexconjugate(NN3x3))/(2.*(-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*NN3x4*complexconjugate(NN3x4))/(2.*(-1 + sw)*sw*(1 + sw))',
+                   value = '-0.5*(cw*ee*complex(0,1)*NN3x3*complexconjugate(NN3x3))/((-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*NN3x4*complexconjugate(NN3x4))/(2.*(-1 + sw)*sw*(1 + sw))',
                    order = {'QED':1})
 
 GC_1080 = Coupling(name = 'GC_1080',
@@ -4406,19 +4406,19 @@ GC_1099 = Coupling(name = 'GC_1099',
                    order = {'QED':1})
 
 GC_1100 = Coupling(name = 'GC_1100',
-                   value = '-(cw*ee*complex(0,1)*NN1x3*complexconjugate(NN4x3))/(2.*(-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*NN1x4*complexconjugate(NN4x4))/(2.*(-1 + sw)*sw*(1 + sw))',
+                   value = '-0.5*(cw*ee*complex(0,1)*NN1x3*complexconjugate(NN4x3))/((-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*NN1x4*complexconjugate(NN4x4))/(2.*(-1 + sw)*sw*(1 + sw))',
                    order = {'QED':1})
 
 GC_1101 = Coupling(name = 'GC_1101',
-                   value = '-(cw*ee*complex(0,1)*NN2x3*complexconjugate(NN4x3))/(2.*(-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*NN2x4*complexconjugate(NN4x4))/(2.*(-1 + sw)*sw*(1 + sw))',
+                   value = '-0.5*(cw*ee*complex(0,1)*NN2x3*complexconjugate(NN4x3))/((-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*NN2x4*complexconjugate(NN4x4))/(2.*(-1 + sw)*sw*(1 + sw))',
                    order = {'QED':1})
 
 GC_1102 = Coupling(name = 'GC_1102',
-                   value = '-(cw*ee*complex(0,1)*NN3x3*complexconjugate(NN4x3))/(2.*(-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*NN3x4*complexconjugate(NN4x4))/(2.*(-1 + sw)*sw*(1 + sw))',
+                   value = '-0.5*(cw*ee*complex(0,1)*NN3x3*complexconjugate(NN4x3))/((-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*NN3x4*complexconjugate(NN4x4))/(2.*(-1 + sw)*sw*(1 + sw))',
                    order = {'QED':1})
 
 GC_1103 = Coupling(name = 'GC_1103',
-                   value = '-(cw*ee*complex(0,1)*NN4x3*complexconjugate(NN4x3))/(2.*(-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*NN4x4*complexconjugate(NN4x4))/(2.*(-1 + sw)*sw*(1 + sw))',
+                   value = '-0.5*(cw*ee*complex(0,1)*NN4x3*complexconjugate(NN4x3))/((-1 + sw)*sw*(1 + sw)) + (cw*ee*complex(0,1)*NN4x4*complexconjugate(NN4x4))/(2.*(-1 + sw)*sw*(1 + sw))',
                    order = {'QED':1})
 
 GC_1104 = Coupling(name = 'GC_1104',
@@ -5470,7 +5470,7 @@ GC_1365 = Coupling(name = 'GC_1365',
                    order = {'QED':2})
 
 GC_1366 = Coupling(name = 'GC_1366',
-                   value = '-(ee**2*complex(0,1)*cmath.cos(alp)*cmath.sin(alp))/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1367 = Coupling(name = 'GC_1367',
@@ -5490,7 +5490,7 @@ GC_1370 = Coupling(name = 'GC_1370',
                    order = {'QED':1})
 
 GC_1371 = Coupling(name = 'GC_1371',
-                   value = '-(cw*ee*complex(0,1)*NN1x3*NN2x1*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*complex(0,1)*NN1x1*NN2x3*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*NN1x3*NN2x2*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*NN1x2*NN2x3*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*NN1x3*NN2x2*sw*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*NN1x2*NN2x3*sw*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*NN1x4*NN2x1*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*NN1x1*NN2x4*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*NN1x4*NN2x2*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*NN1x2*NN2x4*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*NN1x4*NN2x2*sw*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*NN1x2*NN2x4*sw*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee*complex(0,1)*NN1x3*NN2x1*cmath.cos(alp))/((-1 + sw)*(1 + sw)) - (cw*ee*complex(0,1)*NN1x1*NN2x3*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*NN1x3*NN2x2*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*NN1x2*NN2x3*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*NN1x3*NN2x2*sw*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*NN1x2*NN2x3*sw*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*NN1x4*NN2x1*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*NN1x1*NN2x4*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*NN1x4*NN2x2*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*NN1x2*NN2x4*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*NN1x4*NN2x2*sw*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*NN1x2*NN2x4*sw*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1372 = Coupling(name = 'GC_1372',
@@ -5510,11 +5510,11 @@ GC_1375 = Coupling(name = 'GC_1375',
                    order = {'QED':1})
 
 GC_1376 = Coupling(name = 'GC_1376',
-                   value = '-(cw*ee*complex(0,1)*NN1x3*NN3x1*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*complex(0,1)*NN1x1*NN3x3*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*NN1x3*NN3x2*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*NN1x2*NN3x3*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*NN1x3*NN3x2*sw*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*NN1x2*NN3x3*sw*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*NN1x4*NN3x1*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*NN1x1*NN3x4*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*NN1x4*NN3x2*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*NN1x2*NN3x4*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*NN1x4*NN3x2*sw*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*NN1x2*NN3x4*sw*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee*complex(0,1)*NN1x3*NN3x1*cmath.cos(alp))/((-1 + sw)*(1 + sw)) - (cw*ee*complex(0,1)*NN1x1*NN3x3*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*NN1x3*NN3x2*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*NN1x2*NN3x3*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*NN1x3*NN3x2*sw*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*NN1x2*NN3x3*sw*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*NN1x4*NN3x1*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*NN1x1*NN3x4*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*NN1x4*NN3x2*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*NN1x2*NN3x4*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*NN1x4*NN3x2*sw*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*NN1x2*NN3x4*sw*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1377 = Coupling(name = 'GC_1377',
-                   value = '-(cw*ee*complex(0,1)*NN2x3*NN3x1*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*complex(0,1)*NN2x1*NN3x3*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*NN2x3*NN3x2*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*NN2x2*NN3x3*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*NN2x3*NN3x2*sw*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*NN2x2*NN3x3*sw*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*NN2x4*NN3x1*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*NN2x1*NN3x4*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*NN2x4*NN3x2*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*NN2x2*NN3x4*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*NN2x4*NN3x2*sw*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*NN2x2*NN3x4*sw*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee*complex(0,1)*NN2x3*NN3x1*cmath.cos(alp))/((-1 + sw)*(1 + sw)) - (cw*ee*complex(0,1)*NN2x1*NN3x3*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*NN2x3*NN3x2*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*NN2x2*NN3x3*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*NN2x3*NN3x2*sw*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*NN2x2*NN3x3*sw*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*NN2x4*NN3x1*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*NN2x1*NN3x4*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*NN2x4*NN3x2*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*NN2x2*NN3x4*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*NN2x4*NN3x2*sw*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*NN2x2*NN3x4*sw*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1378 = Coupling(name = 'GC_1378',
@@ -5538,15 +5538,15 @@ GC_1382 = Coupling(name = 'GC_1382',
                    order = {'QED':1})
 
 GC_1383 = Coupling(name = 'GC_1383',
-                   value = '-(cw*ee*complex(0,1)*NN1x3*NN4x1*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*complex(0,1)*NN1x1*NN4x3*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*NN1x3*NN4x2*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*NN1x2*NN4x3*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*NN1x3*NN4x2*sw*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*NN1x2*NN4x3*sw*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*NN1x4*NN4x1*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*NN1x1*NN4x4*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*NN1x4*NN4x2*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*NN1x2*NN4x4*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*NN1x4*NN4x2*sw*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*NN1x2*NN4x4*sw*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee*complex(0,1)*NN1x3*NN4x1*cmath.cos(alp))/((-1 + sw)*(1 + sw)) - (cw*ee*complex(0,1)*NN1x1*NN4x3*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*NN1x3*NN4x2*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*NN1x2*NN4x3*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*NN1x3*NN4x2*sw*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*NN1x2*NN4x3*sw*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*NN1x4*NN4x1*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*NN1x1*NN4x4*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*NN1x4*NN4x2*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*NN1x2*NN4x4*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*NN1x4*NN4x2*sw*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*NN1x2*NN4x4*sw*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1384 = Coupling(name = 'GC_1384',
-                   value = '-(cw*ee*complex(0,1)*NN2x3*NN4x1*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*complex(0,1)*NN2x1*NN4x3*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*NN2x3*NN4x2*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*NN2x2*NN4x3*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*NN2x3*NN4x2*sw*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*NN2x2*NN4x3*sw*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*NN2x4*NN4x1*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*NN2x1*NN4x4*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*NN2x4*NN4x2*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*NN2x2*NN4x4*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*NN2x4*NN4x2*sw*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*NN2x2*NN4x4*sw*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee*complex(0,1)*NN2x3*NN4x1*cmath.cos(alp))/((-1 + sw)*(1 + sw)) - (cw*ee*complex(0,1)*NN2x1*NN4x3*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*NN2x3*NN4x2*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*NN2x2*NN4x3*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*NN2x3*NN4x2*sw*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*NN2x2*NN4x3*sw*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*NN2x4*NN4x1*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*NN2x1*NN4x4*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*NN2x4*NN4x2*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*NN2x2*NN4x4*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*NN2x4*NN4x2*sw*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*NN2x2*NN4x4*sw*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1385 = Coupling(name = 'GC_1385',
-                   value = '-(cw*ee*complex(0,1)*NN3x3*NN4x1*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*complex(0,1)*NN3x1*NN4x3*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*NN3x3*NN4x2*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*NN3x2*NN4x3*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*NN3x3*NN4x2*sw*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*NN3x2*NN4x3*sw*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*NN3x4*NN4x1*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*NN3x1*NN4x4*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*NN3x4*NN4x2*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*NN3x2*NN4x4*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*NN3x4*NN4x2*sw*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*NN3x2*NN4x4*sw*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee*complex(0,1)*NN3x3*NN4x1*cmath.cos(alp))/((-1 + sw)*(1 + sw)) - (cw*ee*complex(0,1)*NN3x1*NN4x3*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*NN3x3*NN4x2*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*NN3x2*NN4x3*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*NN3x3*NN4x2*sw*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*NN3x2*NN4x3*sw*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*NN3x4*NN4x1*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*NN3x1*NN4x4*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*NN3x4*NN4x2*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*NN3x2*NN4x4*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*NN3x4*NN4x2*sw*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*NN3x2*NN4x4*sw*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1386 = Coupling(name = 'GC_1386',
@@ -5554,7 +5554,7 @@ GC_1386 = Coupling(name = 'GC_1386',
                    order = {'QED':1})
 
 GC_1387 = Coupling(name = 'GC_1387',
-                   value = '-(ee**2*complex(0,1)*vu*cmath.cos(alp))/(4.*sw**2) + (ee**2*complex(0,1)*vd*cmath.sin(alp))/(4.*sw**2)',
+                   value = '-0.25*(ee**2*complex(0,1)*vu*cmath.cos(alp))/sw**2 + (ee**2*complex(0,1)*vd*cmath.sin(alp))/(4.*sw**2)',
                    order = {'QED':1})
 
 GC_1388 = Coupling(name = 'GC_1388',
@@ -5562,15 +5562,15 @@ GC_1388 = Coupling(name = 'GC_1388',
                    order = {'QED':1})
 
 GC_1389 = Coupling(name = 'GC_1389',
-                   value = '-(ee**2*complex(0,1)*vu*cmath.cos(alp))/2. - (cw**2*ee**2*complex(0,1)*vu*cmath.cos(alp))/(4.*sw**2) - (ee**2*complex(0,1)*sw**2*vu*cmath.cos(alp))/(4.*cw**2) + (ee**2*complex(0,1)*vd*cmath.sin(alp))/2. + (cw**2*ee**2*complex(0,1)*vd*cmath.sin(alp))/(4.*sw**2) + (ee**2*complex(0,1)*sw**2*vd*cmath.sin(alp))/(4.*cw**2)',
+                   value = '-0.5*(ee**2*complex(0,1)*vu*cmath.cos(alp)) - (cw**2*ee**2*complex(0,1)*vu*cmath.cos(alp))/(4.*sw**2) - (ee**2*complex(0,1)*sw**2*vu*cmath.cos(alp))/(4.*cw**2) + (ee**2*complex(0,1)*vd*cmath.sin(alp))/2. + (cw**2*ee**2*complex(0,1)*vd*cmath.sin(alp))/(4.*sw**2) + (ee**2*complex(0,1)*sw**2*vd*cmath.sin(alp))/(4.*cw**2)',
                    order = {'QED':1})
 
 GC_1390 = Coupling(name = 'GC_1390',
-                   value = '-(ee**2*complex(0,1)*I114a44*vu*cmath.cos(alp))/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I114a44*vd*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I114a44*vu*cmath.cos(alp))/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I114a44*vd*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1391 = Coupling(name = 'GC_1391',
-                   value = '-(ee**2*complex(0,1)*I114a55*vu*cmath.cos(alp))/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I114a55*vd*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I114a55*vu*cmath.cos(alp))/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I114a55*vd*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1392 = Coupling(name = 'GC_1392',
@@ -5590,11 +5590,11 @@ GC_1395 = Coupling(name = 'GC_1395',
                    order = {'QED':1})
 
 GC_1396 = Coupling(name = 'GC_1396',
-                   value = '-(ee**2*complex(0,1)*vu*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.25*(ee**2*complex(0,1)*vu*cmath.cos(alp))/((-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':1})
 
 GC_1397 = Coupling(name = 'GC_1397',
-                   value = '-(ee**2*complex(0,1)*vu*cmath.cos(alp))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*vd*cmath.sin(alp))/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*vu*cmath.cos(alp))/((-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*vd*cmath.sin(alp))/(2.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':1})
 
 GC_1398 = Coupling(name = 'GC_1398',
@@ -5606,55 +5606,55 @@ GC_1399 = Coupling(name = 'GC_1399',
                    order = {'QED':1})
 
 GC_1400 = Coupling(name = 'GC_1400',
-                   value = '-(ee**2*complex(0,1)*I47a11*vu*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I47a11*vu*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*I47a11*vd*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I47a11*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I47a11*vu*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I47a11*vu*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*I47a11*vd*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I47a11*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':1})
 
 GC_1401 = Coupling(name = 'GC_1401',
-                   value = '-(ee**2*complex(0,1)*I47a22*vu*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I47a22*vu*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*I47a22*vd*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I47a22*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I47a22*vu*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I47a22*vu*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*I47a22*vd*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I47a22*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':1})
 
 GC_1402 = Coupling(name = 'GC_1402',
-                   value = '-(ee**2*complex(0,1)*I8a11*vu*cmath.cos(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I8a11*vu*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*I8a11*vd*cmath.sin(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I8a11*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I8a11*vu*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I8a11*vu*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*I8a11*vd*cmath.sin(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I8a11*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':1})
 
 GC_1403 = Coupling(name = 'GC_1403',
-                   value = '-(ee**2*complex(0,1)*I8a22*vu*cmath.cos(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I8a22*vu*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*I8a22*vd*cmath.sin(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I8a22*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I8a22*vu*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I8a22*vu*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*I8a22*vd*cmath.sin(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I8a22*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':1})
 
 GC_1404 = Coupling(name = 'GC_1404',
-                   value = '-(ee**2*complex(0,1)*I8a33*vu*cmath.cos(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I9a33*vu*cmath.cos(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I8a33*vu*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I18a33*MUH*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I18a33*MUH*sw**2*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I21a33*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I21a33*sw**2*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I20a33*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I22a33*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I8a33*vd*cmath.sin(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I9a33*vd*cmath.sin(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I8a33*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I20a33*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I22a33*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I17a33*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I19a33*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I17a33*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I19a33*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I8a33*vu*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I9a33*vu*cmath.cos(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I8a33*vu*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I18a33*MUH*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I18a33*MUH*sw**2*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I21a33*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I21a33*sw**2*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I20a33*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I22a33*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I8a33*vd*cmath.sin(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I9a33*vd*cmath.sin(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I8a33*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I20a33*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I22a33*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I17a33*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I19a33*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I17a33*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I19a33*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2))',
                    order = {'QED':1})
 
 GC_1405 = Coupling(name = 'GC_1405',
-                   value = '-(ee**2*complex(0,1)*I8a36*vu*cmath.cos(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I9a36*vu*cmath.cos(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I8a36*vu*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I18a36*MUH*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I18a36*MUH*sw**2*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I21a36*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I21a36*sw**2*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I20a36*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I22a36*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I8a36*vd*cmath.sin(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I9a36*vd*cmath.sin(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I8a36*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I20a36*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I22a36*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I17a36*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I19a36*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I17a36*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I19a36*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I8a36*vu*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I9a36*vu*cmath.cos(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I8a36*vu*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I18a36*MUH*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I18a36*MUH*sw**2*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I21a36*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I21a36*sw**2*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I20a36*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I22a36*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I8a36*vd*cmath.sin(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I9a36*vd*cmath.sin(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I8a36*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I20a36*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I22a36*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I17a36*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I19a36*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I17a36*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I19a36*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2))',
                    order = {'QED':1})
 
 GC_1406 = Coupling(name = 'GC_1406',
-                   value = '-(ee**2*complex(0,1)*I8a63*vu*cmath.cos(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I9a63*vu*cmath.cos(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I8a63*vu*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I18a63*MUH*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I18a63*MUH*sw**2*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I21a63*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I21a63*sw**2*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I20a63*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I22a63*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I8a63*vd*cmath.sin(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I9a63*vd*cmath.sin(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I8a63*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I20a63*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I22a63*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I17a63*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I19a63*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I17a63*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I19a63*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I8a63*vu*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I9a63*vu*cmath.cos(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I8a63*vu*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I18a63*MUH*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I18a63*MUH*sw**2*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I21a63*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I21a63*sw**2*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I20a63*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I22a63*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I8a63*vd*cmath.sin(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I9a63*vd*cmath.sin(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I8a63*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I20a63*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I22a63*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I17a63*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I19a63*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I17a63*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I19a63*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2))',
                    order = {'QED':1})
 
 GC_1407 = Coupling(name = 'GC_1407',
-                   value = '-(ee**2*complex(0,1)*I8a66*vu*cmath.cos(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I9a66*vu*cmath.cos(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I8a66*vu*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I18a66*MUH*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I18a66*MUH*sw**2*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I21a66*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I21a66*sw**2*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I20a66*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I22a66*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I8a66*vd*cmath.sin(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I9a66*vd*cmath.sin(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I8a66*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I20a66*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I22a66*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I17a66*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I19a66*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I17a66*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I19a66*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I8a66*vu*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I9a66*vu*cmath.cos(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I8a66*vu*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I18a66*MUH*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I18a66*MUH*sw**2*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I21a66*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I21a66*sw**2*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I20a66*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I22a66*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I8a66*vd*cmath.sin(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I9a66*vd*cmath.sin(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I8a66*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I20a66*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I22a66*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I17a66*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I19a66*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I17a66*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I19a66*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2))',
                    order = {'QED':1})
 
 GC_1408 = Coupling(name = 'GC_1408',
-                   value = '-(ee**2*complex(0,1)*I47a33*vu*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I48a33*vu*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I47a33*vu*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I56a33*MUH*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I56a33*MUH*sw**2*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I59a33*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I59a33*sw**2*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (ee**2*complex(0,1)*I47a33*vd*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I48a33*vd*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I58a33*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I60a33*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I47a33*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I58a33*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I60a33*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I55a33*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I57a33*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I55a33*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I57a33*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I47a33*vu*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I48a33*vu*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I47a33*vu*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I56a33*MUH*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I56a33*MUH*sw**2*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I59a33*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I59a33*sw**2*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (ee**2*complex(0,1)*I47a33*vd*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I48a33*vd*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I58a33*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I60a33*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I47a33*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I58a33*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I60a33*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I55a33*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I57a33*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I55a33*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I57a33*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2))',
                    order = {'QED':1})
 
 GC_1409 = Coupling(name = 'GC_1409',
-                   value = '-(ee**2*complex(0,1)*I47a36*vu*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I48a36*vu*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I47a36*vu*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I56a36*MUH*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I56a36*MUH*sw**2*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I59a36*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I59a36*sw**2*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (ee**2*complex(0,1)*I47a36*vd*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I48a36*vd*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I58a36*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I60a36*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I47a36*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I58a36*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I60a36*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I55a36*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I57a36*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I55a36*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I57a36*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I47a36*vu*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I48a36*vu*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I47a36*vu*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I56a36*MUH*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I56a36*MUH*sw**2*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I59a36*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I59a36*sw**2*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (ee**2*complex(0,1)*I47a36*vd*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I48a36*vd*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I58a36*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I60a36*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I47a36*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I58a36*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I60a36*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I55a36*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I57a36*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I55a36*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I57a36*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2))',
                    order = {'QED':1})
 
 GC_1410 = Coupling(name = 'GC_1410',
-                   value = '-(ee**2*complex(0,1)*I47a63*vu*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I48a63*vu*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I47a63*vu*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I56a63*MUH*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I56a63*MUH*sw**2*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I59a63*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I59a63*sw**2*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (ee**2*complex(0,1)*I47a63*vd*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I48a63*vd*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I58a63*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I60a63*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I47a63*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I58a63*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I60a63*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I55a63*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I57a63*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I55a63*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I57a63*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I47a63*vu*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I48a63*vu*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I47a63*vu*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I56a63*MUH*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I56a63*MUH*sw**2*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I59a63*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I59a63*sw**2*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (ee**2*complex(0,1)*I47a63*vd*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I48a63*vd*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I58a63*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I60a63*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I47a63*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I58a63*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I60a63*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I55a63*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I57a63*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I55a63*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I57a63*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2))',
                    order = {'QED':1})
 
 GC_1411 = Coupling(name = 'GC_1411',
-                   value = '-(ee**2*complex(0,1)*I47a66*vu*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I48a66*vu*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I47a66*vu*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I56a66*MUH*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I56a66*MUH*sw**2*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I59a66*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I59a66*sw**2*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (ee**2*complex(0,1)*I47a66*vd*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I48a66*vd*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I58a66*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I60a66*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I47a66*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I58a66*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I60a66*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I55a66*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I57a66*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I55a66*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I57a66*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I47a66*vu*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I48a66*vu*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I47a66*vu*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I56a66*MUH*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I56a66*MUH*sw**2*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I59a66*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I59a66*sw**2*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (ee**2*complex(0,1)*I47a66*vd*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I48a66*vd*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I58a66*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I60a66*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I47a66*vd*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I58a66*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I60a66*sw**2*vd*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I55a66*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I57a66*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I55a66*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I57a66*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2))',
                    order = {'QED':1})
 
 GC_1412 = Coupling(name = 'GC_1412',
-                   value = '-(ee**2*complex(0,1)*vd*cmath.cos(alp))/(4.*sw**2) - (ee**2*complex(0,1)*vu*cmath.sin(alp))/(4.*sw**2)',
+                   value = '-0.25*(ee**2*complex(0,1)*vd*cmath.cos(alp))/sw**2 - (ee**2*complex(0,1)*vu*cmath.sin(alp))/(4.*sw**2)',
                    order = {'QED':1})
 
 GC_1413 = Coupling(name = 'GC_1413',
@@ -5662,7 +5662,7 @@ GC_1413 = Coupling(name = 'GC_1413',
                    order = {'QED':1})
 
 GC_1414 = Coupling(name = 'GC_1414',
-                   value = '-(ee**2*complex(0,1)*vd*cmath.cos(alp))/2. - (cw**2*ee**2*complex(0,1)*vd*cmath.cos(alp))/(4.*sw**2) - (ee**2*complex(0,1)*sw**2*vd*cmath.cos(alp))/(4.*cw**2) - (ee**2*complex(0,1)*vu*cmath.sin(alp))/2. - (cw**2*ee**2*complex(0,1)*vu*cmath.sin(alp))/(4.*sw**2) - (ee**2*complex(0,1)*sw**2*vu*cmath.sin(alp))/(4.*cw**2)',
+                   value = '-0.5*(ee**2*complex(0,1)*vd*cmath.cos(alp)) - (cw**2*ee**2*complex(0,1)*vd*cmath.cos(alp))/(4.*sw**2) - (ee**2*complex(0,1)*sw**2*vd*cmath.cos(alp))/(4.*cw**2) - (ee**2*complex(0,1)*vu*cmath.sin(alp))/2. - (cw**2*ee**2*complex(0,1)*vu*cmath.sin(alp))/(4.*sw**2) - (ee**2*complex(0,1)*sw**2*vu*cmath.sin(alp))/(4.*cw**2)',
                    order = {'QED':1})
 
 GC_1415 = Coupling(name = 'GC_1415',
@@ -5674,19 +5674,19 @@ GC_1416 = Coupling(name = 'GC_1416',
                    order = {'QED':1})
 
 GC_1417 = Coupling(name = 'GC_1417',
-                   value = '-(ee**2*complex(0,1)*I48a44*vd*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I48a44*vu*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I48a44*vd*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I48a44*vu*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1418 = Coupling(name = 'GC_1418',
-                   value = '-(ee**2*complex(0,1)*I48a55*vd*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I48a55*vu*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I48a55*vd*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I48a55*vu*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1419 = Coupling(name = 'GC_1419',
-                   value = '-(ee**2*complex(0,1)*I9a44*vd*cmath.cos(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I9a44*vu*cmath.sin(alp))/(6.*(-1 + sw)*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I9a44*vd*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I9a44*vu*cmath.sin(alp))/(6.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1420 = Coupling(name = 'GC_1420',
-                   value = '-(ee**2*complex(0,1)*I9a55*vd*cmath.cos(alp))/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I9a55*vu*cmath.sin(alp))/(6.*(-1 + sw)*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I9a55*vd*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I9a55*vu*cmath.sin(alp))/(6.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1421 = Coupling(name = 'GC_1421',
@@ -5694,15 +5694,15 @@ GC_1421 = Coupling(name = 'GC_1421',
                    order = {'QED':1})
 
 GC_1422 = Coupling(name = 'GC_1422',
-                   value = '-(ee**2*complex(0,1)*vd*cmath.cos(alp))/(2.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*vu*cmath.sin(alp))/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*vd*cmath.cos(alp))/((-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*vu*cmath.sin(alp))/(2.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':1})
 
 GC_1423 = Coupling(name = 'GC_1423',
-                   value = '-(ee**2*complex(0,1)*I113a11*vd*cmath.cos(alp))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I113a11*vd*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I113a11*vu*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a11*vu*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I113a11*vd*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I113a11*vd*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I113a11*vu*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a11*vu*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':1})
 
 GC_1424 = Coupling(name = 'GC_1424',
-                   value = '-(ee**2*complex(0,1)*I113a22*vd*cmath.cos(alp))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I113a22*vd*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I113a22*vu*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a22*vu*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I113a22*vd*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I113a22*vd*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I113a22*vu*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a22*vu*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':1})
 
 GC_1425 = Coupling(name = 'GC_1425',
@@ -5722,19 +5722,19 @@ GC_1428 = Coupling(name = 'GC_1428',
                    order = {'QED':1})
 
 GC_1429 = Coupling(name = 'GC_1429',
-                   value = '-(ee**2*complex(0,1)*I113a33*vd*cmath.cos(alp))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I114a33*vd*cmath.cos(alp))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I113a33*vd*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I150a33*MUH*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I150a33*MUH*sw**2*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I153a33*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I153a33*sw**2*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (ee**2*complex(0,1)*I113a33*vu*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I114a33*vu*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I154a33*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I155a33*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a33*vu*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I154a33*sw**2*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I155a33*sw**2*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I151a33*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I152a33*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I151a33*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I152a33*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I113a33*vd*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I114a33*vd*cmath.cos(alp))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I113a33*vd*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I150a33*MUH*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I150a33*MUH*sw**2*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I153a33*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I153a33*sw**2*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (ee**2*complex(0,1)*I113a33*vu*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I114a33*vu*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I154a33*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I155a33*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a33*vu*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I154a33*sw**2*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I155a33*sw**2*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I151a33*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I152a33*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I151a33*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I152a33*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2))',
                    order = {'QED':1})
 
 GC_1430 = Coupling(name = 'GC_1430',
-                   value = '-(ee**2*complex(0,1)*I113a36*vd*cmath.cos(alp))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I114a36*vd*cmath.cos(alp))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I113a36*vd*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I150a36*MUH*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I150a36*MUH*sw**2*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I153a36*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I153a36*sw**2*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (ee**2*complex(0,1)*I113a36*vu*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I114a36*vu*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I154a36*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I155a36*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a36*vu*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I154a36*sw**2*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I155a36*sw**2*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I151a36*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I152a36*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I151a36*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I152a36*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I113a36*vd*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I114a36*vd*cmath.cos(alp))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I113a36*vd*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I150a36*MUH*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I150a36*MUH*sw**2*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I153a36*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I153a36*sw**2*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (ee**2*complex(0,1)*I113a36*vu*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I114a36*vu*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I154a36*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I155a36*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a36*vu*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I154a36*sw**2*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I155a36*sw**2*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I151a36*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I152a36*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I151a36*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I152a36*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2))',
                    order = {'QED':1})
 
 GC_1431 = Coupling(name = 'GC_1431',
-                   value = '-(ee**2*complex(0,1)*I113a63*vd*cmath.cos(alp))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I114a63*vd*cmath.cos(alp))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I113a63*vd*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I150a63*MUH*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I150a63*MUH*sw**2*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I153a63*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I153a63*sw**2*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (ee**2*complex(0,1)*I113a63*vu*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I114a63*vu*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I154a63*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I155a63*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a63*vu*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I154a63*sw**2*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I155a63*sw**2*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I151a63*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I152a63*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I151a63*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I152a63*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I113a63*vd*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I114a63*vd*cmath.cos(alp))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I113a63*vd*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I150a63*MUH*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I150a63*MUH*sw**2*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I153a63*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I153a63*sw**2*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (ee**2*complex(0,1)*I113a63*vu*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I114a63*vu*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I154a63*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I155a63*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a63*vu*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I154a63*sw**2*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I155a63*sw**2*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I151a63*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I152a63*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I151a63*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I152a63*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2))',
                    order = {'QED':1})
 
 GC_1432 = Coupling(name = 'GC_1432',
-                   value = '-(ee**2*complex(0,1)*I113a66*vd*cmath.cos(alp))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I114a66*vd*cmath.cos(alp))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I113a66*vd*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I150a66*MUH*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I150a66*MUH*sw**2*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I153a66*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I153a66*sw**2*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (ee**2*complex(0,1)*I113a66*vu*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I114a66*vu*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I154a66*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I155a66*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a66*vu*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I154a66*sw**2*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I155a66*sw**2*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I151a66*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I152a66*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I151a66*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I152a66*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I113a66*vd*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I114a66*vd*cmath.cos(alp))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I113a66*vd*cmath.cos(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I150a66*MUH*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I150a66*MUH*sw**2*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I153a66*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I153a66*sw**2*complexconjugate(MUH)*cmath.cos(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (ee**2*complex(0,1)*I113a66*vu*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I114a66*vu*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I154a66*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I155a66*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I113a66*vu*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I154a66*sw**2*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I155a66*sw**2*vu*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I151a66*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) + (complex(0,1)*I152a66*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I151a66*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2)) - (complex(0,1)*I152a66*sw**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)*cmath.sqrt(2))',
                    order = {'QED':1})
 
 GC_1433 = Coupling(name = 'GC_1433',
@@ -5834,7 +5834,7 @@ GC_1456 = Coupling(name = 'GC_1456',
                    order = {'QED':1})
 
 GC_1457 = Coupling(name = 'GC_1457',
-                   value = '-(cw*ee*complex(0,1)*complexconjugate(NN1x3)*complexconjugate(NN2x1)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*complexconjugate(NN1x3)*complexconjugate(NN2x2)*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*sw*complexconjugate(NN1x3)*complexconjugate(NN2x2)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*complex(0,1)*complexconjugate(NN1x1)*complexconjugate(NN2x3)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*complexconjugate(NN1x2)*complexconjugate(NN2x3)*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*sw*complexconjugate(NN1x2)*complexconjugate(NN2x3)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*complexconjugate(NN1x4)*complexconjugate(NN2x1)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*complexconjugate(NN1x4)*complexconjugate(NN2x2)*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*sw*complexconjugate(NN1x4)*complexconjugate(NN2x2)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*complexconjugate(NN1x1)*complexconjugate(NN2x4)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*complexconjugate(NN1x2)*complexconjugate(NN2x4)*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*sw*complexconjugate(NN1x2)*complexconjugate(NN2x4)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee*complex(0,1)*complexconjugate(NN1x3)*complexconjugate(NN2x1)*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee*complex(0,1)*complexconjugate(NN1x3)*complexconjugate(NN2x2)*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*sw*complexconjugate(NN1x3)*complexconjugate(NN2x2)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*complex(0,1)*complexconjugate(NN1x1)*complexconjugate(NN2x3)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*complexconjugate(NN1x2)*complexconjugate(NN2x3)*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*sw*complexconjugate(NN1x2)*complexconjugate(NN2x3)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*complexconjugate(NN1x4)*complexconjugate(NN2x1)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*complexconjugate(NN1x4)*complexconjugate(NN2x2)*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*sw*complexconjugate(NN1x4)*complexconjugate(NN2x2)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*complexconjugate(NN1x1)*complexconjugate(NN2x4)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*complexconjugate(NN1x2)*complexconjugate(NN2x4)*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*sw*complexconjugate(NN1x2)*complexconjugate(NN2x4)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1458 = Coupling(name = 'GC_1458',
@@ -5854,11 +5854,11 @@ GC_1461 = Coupling(name = 'GC_1461',
                    order = {'QED':1})
 
 GC_1462 = Coupling(name = 'GC_1462',
-                   value = '-(cw*ee*complex(0,1)*complexconjugate(NN1x3)*complexconjugate(NN3x1)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*complexconjugate(NN1x3)*complexconjugate(NN3x2)*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*sw*complexconjugate(NN1x3)*complexconjugate(NN3x2)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*complex(0,1)*complexconjugate(NN1x1)*complexconjugate(NN3x3)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*complexconjugate(NN1x2)*complexconjugate(NN3x3)*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*sw*complexconjugate(NN1x2)*complexconjugate(NN3x3)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*complexconjugate(NN1x4)*complexconjugate(NN3x1)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*complexconjugate(NN1x4)*complexconjugate(NN3x2)*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*sw*complexconjugate(NN1x4)*complexconjugate(NN3x2)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*complexconjugate(NN1x1)*complexconjugate(NN3x4)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*complexconjugate(NN1x2)*complexconjugate(NN3x4)*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*sw*complexconjugate(NN1x2)*complexconjugate(NN3x4)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee*complex(0,1)*complexconjugate(NN1x3)*complexconjugate(NN3x1)*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee*complex(0,1)*complexconjugate(NN1x3)*complexconjugate(NN3x2)*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*sw*complexconjugate(NN1x3)*complexconjugate(NN3x2)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*complex(0,1)*complexconjugate(NN1x1)*complexconjugate(NN3x3)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*complexconjugate(NN1x2)*complexconjugate(NN3x3)*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*sw*complexconjugate(NN1x2)*complexconjugate(NN3x3)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*complexconjugate(NN1x4)*complexconjugate(NN3x1)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*complexconjugate(NN1x4)*complexconjugate(NN3x2)*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*sw*complexconjugate(NN1x4)*complexconjugate(NN3x2)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*complexconjugate(NN1x1)*complexconjugate(NN3x4)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*complexconjugate(NN1x2)*complexconjugate(NN3x4)*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*sw*complexconjugate(NN1x2)*complexconjugate(NN3x4)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1463 = Coupling(name = 'GC_1463',
-                   value = '-(cw*ee*complex(0,1)*complexconjugate(NN2x3)*complexconjugate(NN3x1)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*complexconjugate(NN2x3)*complexconjugate(NN3x2)*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*sw*complexconjugate(NN2x3)*complexconjugate(NN3x2)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*complex(0,1)*complexconjugate(NN2x1)*complexconjugate(NN3x3)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*complexconjugate(NN2x2)*complexconjugate(NN3x3)*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*sw*complexconjugate(NN2x2)*complexconjugate(NN3x3)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*complexconjugate(NN2x4)*complexconjugate(NN3x1)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*complexconjugate(NN2x4)*complexconjugate(NN3x2)*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*sw*complexconjugate(NN2x4)*complexconjugate(NN3x2)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*complexconjugate(NN2x1)*complexconjugate(NN3x4)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*complexconjugate(NN2x2)*complexconjugate(NN3x4)*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*sw*complexconjugate(NN2x2)*complexconjugate(NN3x4)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee*complex(0,1)*complexconjugate(NN2x3)*complexconjugate(NN3x1)*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee*complex(0,1)*complexconjugate(NN2x3)*complexconjugate(NN3x2)*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*sw*complexconjugate(NN2x3)*complexconjugate(NN3x2)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*complex(0,1)*complexconjugate(NN2x1)*complexconjugate(NN3x3)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*complexconjugate(NN2x2)*complexconjugate(NN3x3)*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*sw*complexconjugate(NN2x2)*complexconjugate(NN3x3)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*complexconjugate(NN2x4)*complexconjugate(NN3x1)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*complexconjugate(NN2x4)*complexconjugate(NN3x2)*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*sw*complexconjugate(NN2x4)*complexconjugate(NN3x2)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*complexconjugate(NN2x1)*complexconjugate(NN3x4)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*complexconjugate(NN2x2)*complexconjugate(NN3x4)*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*sw*complexconjugate(NN2x2)*complexconjugate(NN3x4)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1464 = Coupling(name = 'GC_1464',
@@ -5882,15 +5882,15 @@ GC_1468 = Coupling(name = 'GC_1468',
                    order = {'QED':1})
 
 GC_1469 = Coupling(name = 'GC_1469',
-                   value = '-(cw*ee*complex(0,1)*complexconjugate(NN1x3)*complexconjugate(NN4x1)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*complexconjugate(NN1x3)*complexconjugate(NN4x2)*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*sw*complexconjugate(NN1x3)*complexconjugate(NN4x2)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*complex(0,1)*complexconjugate(NN1x1)*complexconjugate(NN4x3)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*complexconjugate(NN1x2)*complexconjugate(NN4x3)*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*sw*complexconjugate(NN1x2)*complexconjugate(NN4x3)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*complexconjugate(NN1x4)*complexconjugate(NN4x1)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*complexconjugate(NN1x4)*complexconjugate(NN4x2)*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*sw*complexconjugate(NN1x4)*complexconjugate(NN4x2)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*complexconjugate(NN1x1)*complexconjugate(NN4x4)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*complexconjugate(NN1x2)*complexconjugate(NN4x4)*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*sw*complexconjugate(NN1x2)*complexconjugate(NN4x4)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee*complex(0,1)*complexconjugate(NN1x3)*complexconjugate(NN4x1)*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee*complex(0,1)*complexconjugate(NN1x3)*complexconjugate(NN4x2)*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*sw*complexconjugate(NN1x3)*complexconjugate(NN4x2)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*complex(0,1)*complexconjugate(NN1x1)*complexconjugate(NN4x3)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*complexconjugate(NN1x2)*complexconjugate(NN4x3)*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*sw*complexconjugate(NN1x2)*complexconjugate(NN4x3)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*complexconjugate(NN1x4)*complexconjugate(NN4x1)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*complexconjugate(NN1x4)*complexconjugate(NN4x2)*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*sw*complexconjugate(NN1x4)*complexconjugate(NN4x2)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*complexconjugate(NN1x1)*complexconjugate(NN4x4)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*complexconjugate(NN1x2)*complexconjugate(NN4x4)*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*sw*complexconjugate(NN1x2)*complexconjugate(NN4x4)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1470 = Coupling(name = 'GC_1470',
-                   value = '-(cw*ee*complex(0,1)*complexconjugate(NN2x3)*complexconjugate(NN4x1)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*complexconjugate(NN2x3)*complexconjugate(NN4x2)*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*sw*complexconjugate(NN2x3)*complexconjugate(NN4x2)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*complex(0,1)*complexconjugate(NN2x1)*complexconjugate(NN4x3)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*complexconjugate(NN2x2)*complexconjugate(NN4x3)*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*sw*complexconjugate(NN2x2)*complexconjugate(NN4x3)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*complexconjugate(NN2x4)*complexconjugate(NN4x1)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*complexconjugate(NN2x4)*complexconjugate(NN4x2)*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*sw*complexconjugate(NN2x4)*complexconjugate(NN4x2)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*complexconjugate(NN2x1)*complexconjugate(NN4x4)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*complexconjugate(NN2x2)*complexconjugate(NN4x4)*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*sw*complexconjugate(NN2x2)*complexconjugate(NN4x4)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee*complex(0,1)*complexconjugate(NN2x3)*complexconjugate(NN4x1)*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee*complex(0,1)*complexconjugate(NN2x3)*complexconjugate(NN4x2)*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*sw*complexconjugate(NN2x3)*complexconjugate(NN4x2)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*complex(0,1)*complexconjugate(NN2x1)*complexconjugate(NN4x3)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*complexconjugate(NN2x2)*complexconjugate(NN4x3)*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*sw*complexconjugate(NN2x2)*complexconjugate(NN4x3)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*complexconjugate(NN2x4)*complexconjugate(NN4x1)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*complexconjugate(NN2x4)*complexconjugate(NN4x2)*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*sw*complexconjugate(NN2x4)*complexconjugate(NN4x2)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*complexconjugate(NN2x1)*complexconjugate(NN4x4)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*complexconjugate(NN2x2)*complexconjugate(NN4x4)*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*sw*complexconjugate(NN2x2)*complexconjugate(NN4x4)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1471 = Coupling(name = 'GC_1471',
-                   value = '-(cw*ee*complex(0,1)*complexconjugate(NN3x3)*complexconjugate(NN4x1)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*complexconjugate(NN3x3)*complexconjugate(NN4x2)*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*sw*complexconjugate(NN3x3)*complexconjugate(NN4x2)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*complex(0,1)*complexconjugate(NN3x1)*complexconjugate(NN4x3)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*complexconjugate(NN3x2)*complexconjugate(NN4x3)*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*sw*complexconjugate(NN3x2)*complexconjugate(NN4x3)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*complexconjugate(NN3x4)*complexconjugate(NN4x1)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*complexconjugate(NN3x4)*complexconjugate(NN4x2)*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*sw*complexconjugate(NN3x4)*complexconjugate(NN4x2)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*complexconjugate(NN3x1)*complexconjugate(NN4x4)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*complexconjugate(NN3x2)*complexconjugate(NN4x4)*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*sw*complexconjugate(NN3x2)*complexconjugate(NN4x4)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee*complex(0,1)*complexconjugate(NN3x3)*complexconjugate(NN4x1)*cmath.cos(alp))/((-1 + sw)*(1 + sw)) + (ee*complex(0,1)*complexconjugate(NN3x3)*complexconjugate(NN4x2)*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*sw*complexconjugate(NN3x3)*complexconjugate(NN4x2)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*complex(0,1)*complexconjugate(NN3x1)*complexconjugate(NN4x3)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee*complex(0,1)*complexconjugate(NN3x2)*complexconjugate(NN4x3)*cmath.cos(alp))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*complex(0,1)*sw*complexconjugate(NN3x2)*complexconjugate(NN4x3)*cmath.cos(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*complexconjugate(NN3x4)*complexconjugate(NN4x1)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*complexconjugate(NN3x4)*complexconjugate(NN4x2)*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*sw*complexconjugate(NN3x4)*complexconjugate(NN4x2)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*complex(0,1)*complexconjugate(NN3x1)*complexconjugate(NN4x4)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) - (ee*complex(0,1)*complexconjugate(NN3x2)*complexconjugate(NN4x4)*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*complex(0,1)*sw*complexconjugate(NN3x2)*complexconjugate(NN4x4)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1472 = Coupling(name = 'GC_1472',
@@ -5938,11 +5938,11 @@ GC_1482 = Coupling(name = 'GC_1482',
                    order = {'QED':2})
 
 GC_1483 = Coupling(name = 'GC_1483',
-                   value = '-(ee**2*complex(0,1)*I15a11*cmath.cos(alp)*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a11*cmath.cos(alp)*cmath.sin(alp))/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I15a11*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a11*cmath.cos(alp)*cmath.sin(alp))/(2.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1484 = Coupling(name = 'GC_1484',
-                   value = '-(ee**2*complex(0,1)*I15a22*cmath.cos(alp)*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a22*cmath.cos(alp)*cmath.sin(alp))/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I15a22*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a22*cmath.cos(alp)*cmath.sin(alp))/(2.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1485 = Coupling(name = 'GC_1485',
@@ -5970,19 +5970,19 @@ GC_1490 = Coupling(name = 'GC_1490',
                    order = {'QED':2})
 
 GC_1491 = Coupling(name = 'GC_1491',
-                   value = '-(ee**2*complex(0,1)*I15a33*cmath.cos(alp)*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a33*cmath.cos(alp)*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I23a33*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a33*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a33*cmath.cos(alp)*cmath.sin(alp))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I23a33*sw**2*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a33*sw**2*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I15a33*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a33*cmath.cos(alp)*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I23a33*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a33*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a33*cmath.cos(alp)*cmath.sin(alp))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I23a33*sw**2*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a33*sw**2*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1492 = Coupling(name = 'GC_1492',
-                   value = '-(ee**2*complex(0,1)*I15a36*cmath.cos(alp)*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a36*cmath.cos(alp)*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I23a36*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a36*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a36*cmath.cos(alp)*cmath.sin(alp))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I23a36*sw**2*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a36*sw**2*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I15a36*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a36*cmath.cos(alp)*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I23a36*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a36*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a36*cmath.cos(alp)*cmath.sin(alp))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I23a36*sw**2*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a36*sw**2*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1493 = Coupling(name = 'GC_1493',
-                   value = '-(ee**2*complex(0,1)*I15a63*cmath.cos(alp)*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a63*cmath.cos(alp)*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I23a63*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a63*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a63*cmath.cos(alp)*cmath.sin(alp))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I23a63*sw**2*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a63*sw**2*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I15a63*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a63*cmath.cos(alp)*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I23a63*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a63*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a63*cmath.cos(alp)*cmath.sin(alp))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I23a63*sw**2*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a63*sw**2*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1494 = Coupling(name = 'GC_1494',
-                   value = '-(ee**2*complex(0,1)*I15a66*cmath.cos(alp)*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a66*cmath.cos(alp)*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I23a66*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a66*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a66*cmath.cos(alp)*cmath.sin(alp))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I23a66*sw**2*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a66*sw**2*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I15a66*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a66*cmath.cos(alp)*cmath.sin(alp))/(3.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I23a66*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a66*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a66*cmath.cos(alp)*cmath.sin(alp))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I23a66*sw**2*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a66*sw**2*cmath.cos(alp)*cmath.sin(alp))/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1495 = Coupling(name = 'GC_1495',
@@ -6010,7 +6010,7 @@ GC_1500 = Coupling(name = 'GC_1500',
                    order = {'QED':2})
 
 GC_1501 = Coupling(name = 'GC_1501',
-                   value = '-(ee**2*complex(0,1)*I149a44*cmath.cos(alp)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a44*cmath.sin(alp)**2)/(3.*(-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I149a44*cmath.cos(alp)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a44*cmath.sin(alp)**2)/(3.*(-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1502 = Coupling(name = 'GC_1502',
@@ -6018,7 +6018,7 @@ GC_1502 = Coupling(name = 'GC_1502',
                    order = {'QED':2})
 
 GC_1503 = Coupling(name = 'GC_1503',
-                   value = '-(ee**2*complex(0,1)*I149a55*cmath.cos(alp)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a55*cmath.sin(alp)**2)/(3.*(-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I149a55*cmath.cos(alp)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a55*cmath.sin(alp)**2)/(3.*(-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1504 = Coupling(name = 'GC_1504',
@@ -6026,7 +6026,7 @@ GC_1504 = Coupling(name = 'GC_1504',
                    order = {'QED':2})
 
 GC_1505 = Coupling(name = 'GC_1505',
-                   value = '-(ee**2*complex(0,1)*I16a44*cmath.cos(alp)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a44*cmath.sin(alp)**2)/(6.*(-1 + sw)*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I16a44*cmath.cos(alp)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a44*cmath.sin(alp)**2)/(6.*(-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1506 = Coupling(name = 'GC_1506',
@@ -6034,7 +6034,7 @@ GC_1506 = Coupling(name = 'GC_1506',
                    order = {'QED':2})
 
 GC_1507 = Coupling(name = 'GC_1507',
-                   value = '-(ee**2*complex(0,1)*I16a55*cmath.cos(alp)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a55*cmath.sin(alp)**2)/(6.*(-1 + sw)*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I16a55*cmath.cos(alp)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a55*cmath.sin(alp)**2)/(6.*(-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1508 = Coupling(name = 'GC_1508',
@@ -6042,7 +6042,7 @@ GC_1508 = Coupling(name = 'GC_1508',
                    order = {'QED':2})
 
 GC_1509 = Coupling(name = 'GC_1509',
-                   value = '-(ee**2*complex(0,1)*I54a44*cmath.cos(alp)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a44*cmath.sin(alp)**2)/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I54a44*cmath.cos(alp)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a44*cmath.sin(alp)**2)/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1510 = Coupling(name = 'GC_1510',
@@ -6050,7 +6050,7 @@ GC_1510 = Coupling(name = 'GC_1510',
                    order = {'QED':2})
 
 GC_1511 = Coupling(name = 'GC_1511',
-                   value = '-(ee**2*complex(0,1)*I54a55*cmath.cos(alp)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a55*cmath.sin(alp)**2)/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I54a55*cmath.cos(alp)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a55*cmath.sin(alp)**2)/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1512 = Coupling(name = 'GC_1512',
@@ -6058,15 +6058,15 @@ GC_1512 = Coupling(name = 'GC_1512',
                    order = {'QED':2})
 
 GC_1513 = Coupling(name = 'GC_1513',
-                   value = '-(ee**2*complex(0,1)*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.25*(ee**2*complex(0,1)*cmath.cos(alp)**2)/((-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1514 = Coupling(name = 'GC_1514',
-                   value = '-(ee**2*complex(0,1)*cmath.cos(alp)**2)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*cmath.sin(alp)**2)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*cmath.cos(alp)**2)/((-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*cmath.sin(alp)**2)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1515 = Coupling(name = 'GC_1515',
-                   value = '-(ee**2*complex(0,1)*I148a11*cmath.cos(alp)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a11*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a11*cmath.sin(alp)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a11*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I148a11*cmath.cos(alp)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a11*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a11*cmath.sin(alp)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a11*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1516 = Coupling(name = 'GC_1516',
@@ -6074,7 +6074,7 @@ GC_1516 = Coupling(name = 'GC_1516',
                    order = {'QED':2})
 
 GC_1517 = Coupling(name = 'GC_1517',
-                   value = '-(ee**2*complex(0,1)*I148a22*cmath.cos(alp)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a22*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a22*cmath.sin(alp)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a22*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I148a22*cmath.cos(alp)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a22*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a22*cmath.sin(alp)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a22*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1518 = Coupling(name = 'GC_1518',
@@ -6098,7 +6098,7 @@ GC_1522 = Coupling(name = 'GC_1522',
                    order = {'QED':2})
 
 GC_1523 = Coupling(name = 'GC_1523',
-                   value = '-(ee**2*complex(0,1)*I15a11*cmath.cos(alp)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a11*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a11*cmath.sin(alp)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a11*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I15a11*cmath.cos(alp)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a11*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a11*cmath.sin(alp)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a11*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1524 = Coupling(name = 'GC_1524',
@@ -6106,7 +6106,7 @@ GC_1524 = Coupling(name = 'GC_1524',
                    order = {'QED':2})
 
 GC_1525 = Coupling(name = 'GC_1525',
-                   value = '-(ee**2*complex(0,1)*I15a22*cmath.cos(alp)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a22*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a22*cmath.sin(alp)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a22*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I15a22*cmath.cos(alp)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a22*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a22*cmath.sin(alp)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a22*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1526 = Coupling(name = 'GC_1526',
@@ -6130,7 +6130,7 @@ GC_1530 = Coupling(name = 'GC_1530',
                    order = {'QED':2})
 
 GC_1531 = Coupling(name = 'GC_1531',
-                   value = '-(ee**2*complex(0,1)*I53a11*cmath.cos(alp)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a11*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a11*cmath.sin(alp)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a11*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I53a11*cmath.cos(alp)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a11*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a11*cmath.sin(alp)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a11*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1532 = Coupling(name = 'GC_1532',
@@ -6138,7 +6138,7 @@ GC_1532 = Coupling(name = 'GC_1532',
                    order = {'QED':2})
 
 GC_1533 = Coupling(name = 'GC_1533',
-                   value = '-(ee**2*complex(0,1)*I53a22*cmath.cos(alp)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a22*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a22*cmath.sin(alp)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a22*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I53a22*cmath.cos(alp)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a22*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a22*cmath.sin(alp)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a22*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1534 = Coupling(name = 'GC_1534',
@@ -6162,55 +6162,55 @@ GC_1538 = Coupling(name = 'GC_1538',
                    order = {'QED':2})
 
 GC_1539 = Coupling(name = 'GC_1539',
-                   value = '-(ee**2*complex(0,1)*I148a33*cmath.cos(alp)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a33*cmath.cos(alp)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a33*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a33*cmath.sin(alp)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I149a33*cmath.sin(alp)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I156a33*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I157a33*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a33*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I156a33*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I157a33*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I148a33*cmath.cos(alp)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a33*cmath.cos(alp)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a33*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a33*cmath.sin(alp)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I149a33*cmath.sin(alp)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I156a33*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I157a33*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a33*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I156a33*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I157a33*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1540 = Coupling(name = 'GC_1540',
-                   value = '-(ee**2*complex(0,1)*I148a36*cmath.cos(alp)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a36*cmath.cos(alp)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a36*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a36*cmath.sin(alp)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I149a36*cmath.sin(alp)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I156a36*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I157a36*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a36*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I156a36*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I157a36*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I148a36*cmath.cos(alp)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a36*cmath.cos(alp)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a36*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a36*cmath.sin(alp)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I149a36*cmath.sin(alp)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I156a36*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I157a36*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a36*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I156a36*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I157a36*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1541 = Coupling(name = 'GC_1541',
-                   value = '-(ee**2*complex(0,1)*I148a63*cmath.cos(alp)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a63*cmath.cos(alp)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a63*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a63*cmath.sin(alp)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I149a63*cmath.sin(alp)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I156a63*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I157a63*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a63*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I156a63*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I157a63*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I148a63*cmath.cos(alp)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a63*cmath.cos(alp)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a63*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a63*cmath.sin(alp)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I149a63*cmath.sin(alp)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I156a63*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I157a63*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a63*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I156a63*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I157a63*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1542 = Coupling(name = 'GC_1542',
-                   value = '-(ee**2*complex(0,1)*I148a66*cmath.cos(alp)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a66*cmath.cos(alp)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a66*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a66*cmath.sin(alp)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I149a66*cmath.sin(alp)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I156a66*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I157a66*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a66*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I156a66*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I157a66*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I148a66*cmath.cos(alp)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a66*cmath.cos(alp)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a66*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a66*cmath.sin(alp)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I149a66*cmath.sin(alp)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I156a66*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I157a66*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a66*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I156a66*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I157a66*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1543 = Coupling(name = 'GC_1543',
-                   value = '-(ee**2*complex(0,1)*I15a33*cmath.cos(alp)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a33*cmath.cos(alp)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a33*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a33*cmath.sin(alp)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I16a33*cmath.sin(alp)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I23a33*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a33*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a33*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I23a33*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a33*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I15a33*cmath.cos(alp)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a33*cmath.cos(alp)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a33*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a33*cmath.sin(alp)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I16a33*cmath.sin(alp)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I23a33*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a33*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a33*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I23a33*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a33*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1544 = Coupling(name = 'GC_1544',
-                   value = '-(ee**2*complex(0,1)*I15a36*cmath.cos(alp)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a36*cmath.cos(alp)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a36*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a36*cmath.sin(alp)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I16a36*cmath.sin(alp)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I23a36*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a36*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a36*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I23a36*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a36*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I15a36*cmath.cos(alp)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a36*cmath.cos(alp)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a36*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a36*cmath.sin(alp)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I16a36*cmath.sin(alp)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I23a36*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a36*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a36*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I23a36*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a36*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1545 = Coupling(name = 'GC_1545',
-                   value = '-(ee**2*complex(0,1)*I15a63*cmath.cos(alp)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a63*cmath.cos(alp)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a63*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a63*cmath.sin(alp)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I16a63*cmath.sin(alp)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I23a63*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a63*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a63*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I23a63*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a63*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I15a63*cmath.cos(alp)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a63*cmath.cos(alp)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a63*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a63*cmath.sin(alp)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I16a63*cmath.sin(alp)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I23a63*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a63*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a63*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I23a63*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a63*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1546 = Coupling(name = 'GC_1546',
-                   value = '-(ee**2*complex(0,1)*I15a66*cmath.cos(alp)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a66*cmath.cos(alp)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a66*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a66*cmath.sin(alp)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I16a66*cmath.sin(alp)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I23a66*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a66*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a66*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I23a66*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a66*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I15a66*cmath.cos(alp)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a66*cmath.cos(alp)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a66*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a66*cmath.sin(alp)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I16a66*cmath.sin(alp)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I23a66*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a66*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a66*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I23a66*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a66*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1547 = Coupling(name = 'GC_1547',
-                   value = '-(ee**2*complex(0,1)*I53a33*cmath.cos(alp)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a33*cmath.cos(alp)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a33*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a33*cmath.sin(alp)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I54a33*cmath.sin(alp)**2)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I61a33*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I62a33*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a33*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I61a33*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I62a33*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I53a33*cmath.cos(alp)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a33*cmath.cos(alp)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a33*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a33*cmath.sin(alp)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I54a33*cmath.sin(alp)**2)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I61a33*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I62a33*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a33*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I61a33*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I62a33*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1548 = Coupling(name = 'GC_1548',
-                   value = '-(ee**2*complex(0,1)*I53a36*cmath.cos(alp)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a36*cmath.cos(alp)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a36*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a36*cmath.sin(alp)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I54a36*cmath.sin(alp)**2)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I61a36*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I62a36*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a36*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I61a36*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I62a36*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I53a36*cmath.cos(alp)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a36*cmath.cos(alp)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a36*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a36*cmath.sin(alp)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I54a36*cmath.sin(alp)**2)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I61a36*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I62a36*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a36*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I61a36*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I62a36*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1549 = Coupling(name = 'GC_1549',
-                   value = '-(ee**2*complex(0,1)*I53a63*cmath.cos(alp)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a63*cmath.cos(alp)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a63*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a63*cmath.sin(alp)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I54a63*cmath.sin(alp)**2)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I61a63*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I62a63*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a63*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I61a63*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I62a63*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I53a63*cmath.cos(alp)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a63*cmath.cos(alp)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a63*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a63*cmath.sin(alp)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I54a63*cmath.sin(alp)**2)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I61a63*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I62a63*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a63*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I61a63*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I62a63*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1550 = Coupling(name = 'GC_1550',
-                   value = '-(ee**2*complex(0,1)*I53a66*cmath.cos(alp)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a66*cmath.cos(alp)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a66*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a66*cmath.sin(alp)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I54a66*cmath.sin(alp)**2)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I61a66*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I62a66*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a66*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I61a66*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I62a66*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I53a66*cmath.cos(alp)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a66*cmath.cos(alp)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a66*cmath.cos(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a66*cmath.sin(alp)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I54a66*cmath.sin(alp)**2)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I61a66*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I62a66*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a66*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I61a66*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I62a66*sw**2*cmath.sin(alp)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1551 = Coupling(name = 'GC_1551',
-                   value = '-(ee**2*complex(0,1)*vu*cmath.cos(alp)**3)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (5*ee**2*complex(0,1)*vd*cmath.cos(alp)**2*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (5*ee**2*complex(0,1)*vu*cmath.cos(alp)*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*vd*cmath.sin(alp)**3)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.25*(ee**2*complex(0,1)*vu*cmath.cos(alp)**3)/((-1 + sw)*sw**2*(1 + sw)) - (5*ee**2*complex(0,1)*vd*cmath.cos(alp)**2*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (5*ee**2*complex(0,1)*vu*cmath.cos(alp)*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*vd*cmath.sin(alp)**3)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':1})
 
 GC_1552 = Coupling(name = 'GC_1552',
@@ -6218,7 +6218,7 @@ GC_1552 = Coupling(name = 'GC_1552',
                    order = {'QED':1})
 
 GC_1553 = Coupling(name = 'GC_1553',
-                   value = '-(ee**2*complex(0,1)*vd*cmath.cos(alp)**3)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (5*ee**2*complex(0,1)*vu*cmath.cos(alp)**2*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (5*ee**2*complex(0,1)*vd*cmath.cos(alp)*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*vu*cmath.sin(alp)**3)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.25*(ee**2*complex(0,1)*vd*cmath.cos(alp)**3)/((-1 + sw)*sw**2*(1 + sw)) + (5*ee**2*complex(0,1)*vu*cmath.cos(alp)**2*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (5*ee**2*complex(0,1)*vd*cmath.cos(alp)*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*vu*cmath.sin(alp)**3)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':1})
 
 GC_1554 = Coupling(name = 'GC_1554',
@@ -6234,7 +6234,7 @@ GC_1556 = Coupling(name = 'GC_1556',
                    order = {'QED':2})
 
 GC_1557 = Coupling(name = 'GC_1557',
-                   value = '-(ee**2*complex(0,1)*cmath.cos(alp)**4)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (5*ee**2*complex(0,1)*cmath.cos(alp)**2*cmath.sin(alp)**2)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*cmath.sin(alp)**4)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.25*(ee**2*complex(0,1)*cmath.cos(alp)**4)/((-1 + sw)*sw**2*(1 + sw)) + (5*ee**2*complex(0,1)*cmath.cos(alp)**2*cmath.sin(alp)**2)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*cmath.sin(alp)**4)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1558 = Coupling(name = 'GC_1558',
@@ -6346,15 +6346,15 @@ GC_1584 = Coupling(name = 'GC_1584',
                    order = {'QED':2})
 
 GC_1585 = Coupling(name = 'GC_1585',
-                   value = '-(ee**2*complex(0,1)*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1586 = Coupling(name = 'GC_1586',
-                   value = '-(ee**2*complex(0,1)*I53a11*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I53a11*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1587 = Coupling(name = 'GC_1587',
-                   value = '-(ee**2*complex(0,1)*I53a22*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I53a22*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1588 = Coupling(name = 'GC_1588',
@@ -6422,7 +6422,7 @@ GC_1603 = Coupling(name = 'GC_1603',
                    order = {'QED':1})
 
 GC_1604 = Coupling(name = 'GC_1604',
-                   value = '-(cw*ee*NN1x4*NN2x1*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN1x1*NN2x4*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN1x4*NN2x2*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN1x2*NN2x4*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN1x4*NN2x2*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN1x2*NN2x4*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*NN1x3*NN2x1*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*NN1x1*NN2x3*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN1x3*NN2x2*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN1x2*NN2x3*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN1x3*NN2x2*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN1x2*NN2x3*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee*NN1x4*NN2x1*cmath.cos(beta))/((-1 + sw)*(1 + sw)) - (cw*ee*NN1x1*NN2x4*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN1x4*NN2x2*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN1x2*NN2x4*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN1x4*NN2x2*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN1x2*NN2x4*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*NN1x3*NN2x1*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*NN1x1*NN2x3*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN1x3*NN2x2*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN1x2*NN2x3*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN1x3*NN2x2*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN1x2*NN2x3*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1605 = Coupling(name = 'GC_1605',
@@ -6430,7 +6430,7 @@ GC_1605 = Coupling(name = 'GC_1605',
                    order = {'QED':1})
 
 GC_1606 = Coupling(name = 'GC_1606',
-                   value = '-(cw*ee*NN1x3*NN2x1*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN1x1*NN2x3*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN1x3*NN2x2*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN1x2*NN2x3*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN1x3*NN2x2*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN1x2*NN2x3*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN1x4*NN2x1*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN1x1*NN2x4*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN1x4*NN2x2*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN1x2*NN2x4*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN1x4*NN2x2*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN1x2*NN2x4*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee*NN1x3*NN2x1*cmath.cos(beta))/((-1 + sw)*(1 + sw)) - (cw*ee*NN1x1*NN2x3*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN1x3*NN2x2*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN1x2*NN2x3*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN1x3*NN2x2*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN1x2*NN2x3*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN1x4*NN2x1*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN1x1*NN2x4*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN1x4*NN2x2*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN1x2*NN2x4*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN1x4*NN2x2*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN1x2*NN2x4*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1607 = Coupling(name = 'GC_1607',
@@ -6438,11 +6438,11 @@ GC_1607 = Coupling(name = 'GC_1607',
                    order = {'QED':1})
 
 GC_1608 = Coupling(name = 'GC_1608',
-                   value = '-(cw*ee*NN1x4*NN3x1*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN1x1*NN3x4*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN1x4*NN3x2*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN1x2*NN3x4*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN1x4*NN3x2*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN1x2*NN3x4*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*NN1x3*NN3x1*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*NN1x1*NN3x3*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN1x3*NN3x2*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN1x2*NN3x3*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN1x3*NN3x2*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN1x2*NN3x3*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee*NN1x4*NN3x1*cmath.cos(beta))/((-1 + sw)*(1 + sw)) - (cw*ee*NN1x1*NN3x4*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN1x4*NN3x2*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN1x2*NN3x4*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN1x4*NN3x2*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN1x2*NN3x4*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*NN1x3*NN3x1*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*NN1x1*NN3x3*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN1x3*NN3x2*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN1x2*NN3x3*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN1x3*NN3x2*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN1x2*NN3x3*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1609 = Coupling(name = 'GC_1609',
-                   value = '-(cw*ee*NN2x4*NN3x1*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN2x1*NN3x4*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN2x4*NN3x2*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN2x2*NN3x4*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN2x4*NN3x2*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN2x2*NN3x4*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*NN2x3*NN3x1*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*NN2x1*NN3x3*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN2x3*NN3x2*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN2x2*NN3x3*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN2x3*NN3x2*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN2x2*NN3x3*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee*NN2x4*NN3x1*cmath.cos(beta))/((-1 + sw)*(1 + sw)) - (cw*ee*NN2x1*NN3x4*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN2x4*NN3x2*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN2x2*NN3x4*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN2x4*NN3x2*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN2x2*NN3x4*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*NN2x3*NN3x1*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*NN2x1*NN3x3*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN2x3*NN3x2*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN2x2*NN3x3*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN2x3*NN3x2*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN2x2*NN3x3*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1610 = Coupling(name = 'GC_1610',
@@ -6450,11 +6450,11 @@ GC_1610 = Coupling(name = 'GC_1610',
                    order = {'QED':1})
 
 GC_1611 = Coupling(name = 'GC_1611',
-                   value = '-(cw*ee*NN1x3*NN3x1*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN1x1*NN3x3*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN1x3*NN3x2*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN1x2*NN3x3*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN1x3*NN3x2*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN1x2*NN3x3*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN1x4*NN3x1*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN1x1*NN3x4*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN1x4*NN3x2*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN1x2*NN3x4*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN1x4*NN3x2*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN1x2*NN3x4*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee*NN1x3*NN3x1*cmath.cos(beta))/((-1 + sw)*(1 + sw)) - (cw*ee*NN1x1*NN3x3*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN1x3*NN3x2*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN1x2*NN3x3*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN1x3*NN3x2*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN1x2*NN3x3*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN1x4*NN3x1*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN1x1*NN3x4*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN1x4*NN3x2*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN1x2*NN3x4*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN1x4*NN3x2*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN1x2*NN3x4*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1612 = Coupling(name = 'GC_1612',
-                   value = '-(cw*ee*NN2x3*NN3x1*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN2x1*NN3x3*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN2x3*NN3x2*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN2x2*NN3x3*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN2x3*NN3x2*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN2x2*NN3x3*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN2x4*NN3x1*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN2x1*NN3x4*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN2x4*NN3x2*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN2x2*NN3x4*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN2x4*NN3x2*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN2x2*NN3x4*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee*NN2x3*NN3x1*cmath.cos(beta))/((-1 + sw)*(1 + sw)) - (cw*ee*NN2x1*NN3x3*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN2x3*NN3x2*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN2x2*NN3x3*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN2x3*NN3x2*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN2x2*NN3x3*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN2x4*NN3x1*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN2x1*NN3x4*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN2x4*NN3x2*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN2x2*NN3x4*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN2x4*NN3x2*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN2x2*NN3x4*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1613 = Coupling(name = 'GC_1613',
@@ -6462,15 +6462,15 @@ GC_1613 = Coupling(name = 'GC_1613',
                    order = {'QED':1})
 
 GC_1614 = Coupling(name = 'GC_1614',
-                   value = '-(cw*ee*NN1x4*NN4x1*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN1x1*NN4x4*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN1x4*NN4x2*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN1x2*NN4x4*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN1x4*NN4x2*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN1x2*NN4x4*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*NN1x3*NN4x1*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*NN1x1*NN4x3*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN1x3*NN4x2*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN1x2*NN4x3*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN1x3*NN4x2*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN1x2*NN4x3*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee*NN1x4*NN4x1*cmath.cos(beta))/((-1 + sw)*(1 + sw)) - (cw*ee*NN1x1*NN4x4*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN1x4*NN4x2*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN1x2*NN4x4*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN1x4*NN4x2*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN1x2*NN4x4*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*NN1x3*NN4x1*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*NN1x1*NN4x3*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN1x3*NN4x2*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN1x2*NN4x3*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN1x3*NN4x2*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN1x2*NN4x3*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1615 = Coupling(name = 'GC_1615',
-                   value = '-(cw*ee*NN2x4*NN4x1*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN2x1*NN4x4*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN2x4*NN4x2*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN2x2*NN4x4*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN2x4*NN4x2*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN2x2*NN4x4*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*NN2x3*NN4x1*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*NN2x1*NN4x3*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN2x3*NN4x2*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN2x2*NN4x3*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN2x3*NN4x2*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN2x2*NN4x3*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee*NN2x4*NN4x1*cmath.cos(beta))/((-1 + sw)*(1 + sw)) - (cw*ee*NN2x1*NN4x4*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN2x4*NN4x2*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN2x2*NN4x4*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN2x4*NN4x2*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN2x2*NN4x4*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*NN2x3*NN4x1*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*NN2x1*NN4x3*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN2x3*NN4x2*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN2x2*NN4x3*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN2x3*NN4x2*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN2x2*NN4x3*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1616 = Coupling(name = 'GC_1616',
-                   value = '-(cw*ee*NN3x4*NN4x1*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN3x1*NN4x4*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN3x4*NN4x2*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN3x2*NN4x4*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN3x4*NN4x2*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN3x2*NN4x4*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*NN3x3*NN4x1*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*NN3x1*NN4x3*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN3x3*NN4x2*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN3x2*NN4x3*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN3x3*NN4x2*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN3x2*NN4x3*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee*NN3x4*NN4x1*cmath.cos(beta))/((-1 + sw)*(1 + sw)) - (cw*ee*NN3x1*NN4x4*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN3x4*NN4x2*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN3x2*NN4x4*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN3x4*NN4x2*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN3x2*NN4x4*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*NN3x3*NN4x1*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee*NN3x1*NN4x3*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN3x3*NN4x2*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN3x2*NN4x3*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN3x3*NN4x2*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN3x2*NN4x3*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1617 = Coupling(name = 'GC_1617',
@@ -6478,15 +6478,15 @@ GC_1617 = Coupling(name = 'GC_1617',
                    order = {'QED':1})
 
 GC_1618 = Coupling(name = 'GC_1618',
-                   value = '-(cw*ee*NN1x3*NN4x1*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN1x1*NN4x3*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN1x3*NN4x2*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN1x2*NN4x3*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN1x3*NN4x2*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN1x2*NN4x3*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN1x4*NN4x1*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN1x1*NN4x4*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN1x4*NN4x2*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN1x2*NN4x4*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN1x4*NN4x2*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN1x2*NN4x4*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee*NN1x3*NN4x1*cmath.cos(beta))/((-1 + sw)*(1 + sw)) - (cw*ee*NN1x1*NN4x3*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN1x3*NN4x2*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN1x2*NN4x3*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN1x3*NN4x2*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN1x2*NN4x3*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN1x4*NN4x1*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN1x1*NN4x4*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN1x4*NN4x2*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN1x2*NN4x4*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN1x4*NN4x2*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN1x2*NN4x4*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1619 = Coupling(name = 'GC_1619',
-                   value = '-(cw*ee*NN2x3*NN4x1*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN2x1*NN4x3*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN2x3*NN4x2*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN2x2*NN4x3*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN2x3*NN4x2*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN2x2*NN4x3*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN2x4*NN4x1*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN2x1*NN4x4*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN2x4*NN4x2*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN2x2*NN4x4*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN2x4*NN4x2*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN2x2*NN4x4*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee*NN2x3*NN4x1*cmath.cos(beta))/((-1 + sw)*(1 + sw)) - (cw*ee*NN2x1*NN4x3*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN2x3*NN4x2*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN2x2*NN4x3*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN2x3*NN4x2*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN2x2*NN4x3*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN2x4*NN4x1*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN2x1*NN4x4*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN2x4*NN4x2*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN2x2*NN4x4*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN2x4*NN4x2*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN2x2*NN4x4*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1620 = Coupling(name = 'GC_1620',
-                   value = '-(cw*ee*NN3x3*NN4x1*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN3x1*NN4x3*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN3x3*NN4x2*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN3x2*NN4x3*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN3x3*NN4x2*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN3x2*NN4x3*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN3x4*NN4x1*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN3x1*NN4x4*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN3x4*NN4x2*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN3x2*NN4x4*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN3x4*NN4x2*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN3x2*NN4x4*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee*NN3x3*NN4x1*cmath.cos(beta))/((-1 + sw)*(1 + sw)) - (cw*ee*NN3x1*NN4x3*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN3x3*NN4x2*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN3x2*NN4x3*cmath.cos(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN3x3*NN4x2*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN3x2*NN4x3*sw*cmath.cos(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN3x4*NN4x1*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (cw*ee*NN3x1*NN4x4*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee*NN3x4*NN4x2*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) + (ee*NN3x2*NN4x4*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw)) - (ee*NN3x4*NN4x2*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee*NN3x2*NN4x4*sw*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':1})
 
 GC_1621 = Coupling(name = 'GC_1621',
@@ -6530,7 +6530,7 @@ GC_1630 = Coupling(name = 'GC_1630',
                    order = {'QED':1})
 
 GC_1631 = Coupling(name = 'GC_1631',
-                   value = '-(ee**2*vu*cmath.cos(beta))/(4.*sw**2) + (ee**2*vd*cmath.sin(beta))/(4.*sw**2)',
+                   value = '-0.25*(ee**2*vu*cmath.cos(beta))/sw**2 + (ee**2*vd*cmath.sin(beta))/(4.*sw**2)',
                    order = {'QED':1})
 
 GC_1632 = Coupling(name = 'GC_1632',
@@ -6542,11 +6542,11 @@ GC_1633 = Coupling(name = 'GC_1633',
                    order = {'QED':1})
 
 GC_1634 = Coupling(name = 'GC_1634',
-                   value = '-(ee**2*complex(0,1)*I105a11*vu*cmath.cos(beta))/(2.*sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I105a11*vd*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I105a11*vu*cmath.cos(beta))/(sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I105a11*vd*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':1})
 
 GC_1635 = Coupling(name = 'GC_1635',
-                   value = '-(ee**2*complex(0,1)*I105a22*vu*cmath.cos(beta))/(2.*sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I105a22*vd*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I105a22*vu*cmath.cos(beta))/(sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I105a22*vd*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':1})
 
 GC_1636 = Coupling(name = 'GC_1636',
@@ -6558,27 +6558,27 @@ GC_1637 = Coupling(name = 'GC_1637',
                    order = {'QED':1})
 
 GC_1638 = Coupling(name = 'GC_1638',
-                   value = '-(ee**2*complex(0,1)*I115a11*vu*cmath.cos(beta))/(2.*sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I115a11*vd*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I115a11*vu*cmath.cos(beta))/(sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I115a11*vd*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':1})
 
 GC_1639 = Coupling(name = 'GC_1639',
-                   value = '-(ee**2*complex(0,1)*I115a22*vu*cmath.cos(beta))/(2.*sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I115a22*vd*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I115a22*vu*cmath.cos(beta))/(sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I115a22*vd*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':1})
 
 GC_1640 = Coupling(name = 'GC_1640',
-                   value = '-(ee**2*complex(0,1)*I136a11*vu*cmath.cos(beta))/(2.*sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I136a11*vd*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I136a11*vu*cmath.cos(beta))/(sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I136a11*vd*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':1})
 
 GC_1641 = Coupling(name = 'GC_1641',
-                   value = '-(ee**2*complex(0,1)*I136a22*vu*cmath.cos(beta))/(2.*sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I136a22*vd*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I136a22*vu*cmath.cos(beta))/(sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I136a22*vd*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':1})
 
 GC_1642 = Coupling(name = 'GC_1642',
-                   value = '-(ee**2*complex(0,1)*I90a11*vu*cmath.cos(beta))/(2.*sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I90a11*vd*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I90a11*vu*cmath.cos(beta))/(sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I90a11*vd*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':1})
 
 GC_1643 = Coupling(name = 'GC_1643',
-                   value = '-(ee**2*complex(0,1)*I90a22*vu*cmath.cos(beta))/(2.*sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I90a22*vd*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I90a22*vu*cmath.cos(beta))/(sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I90a22*vd*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':1})
 
 GC_1644 = Coupling(name = 'GC_1644',
@@ -6594,7 +6594,7 @@ GC_1646 = Coupling(name = 'GC_1646',
                    order = {'QED':1})
 
 GC_1647 = Coupling(name = 'GC_1647',
-                   value = '-(ee**2*complex(0,1)*vu*cmath.cos(beta))/(2.*sw) + (ee**2*complex(0,1)*vd*cmath.sin(beta))/(2.*sw)',
+                   value = '-0.5*(ee**2*complex(0,1)*vu*cmath.cos(beta))/sw + (ee**2*complex(0,1)*vd*cmath.sin(beta))/(2.*sw)',
                    order = {'QED':1})
 
 GC_1648 = Coupling(name = 'GC_1648',
@@ -6618,7 +6618,7 @@ GC_1652 = Coupling(name = 'GC_1652',
                    order = {'QED':1})
 
 GC_1653 = Coupling(name = 'GC_1653',
-                   value = '-(ee**2*vd*cmath.cos(beta))/(4.*sw**2) - (ee**2*vu*cmath.sin(beta))/(4.*sw**2)',
+                   value = '-0.25*(ee**2*vd*cmath.cos(beta))/sw**2 - (ee**2*vu*cmath.sin(beta))/(4.*sw**2)',
                    order = {'QED':1})
 
 GC_1654 = Coupling(name = 'GC_1654',
@@ -6690,7 +6690,7 @@ GC_1670 = Coupling(name = 'GC_1670',
                    order = {'QED':1})
 
 GC_1671 = Coupling(name = 'GC_1671',
-                   value = '-(ee**2*complex(0,1)*vd*cmath.cos(beta))/(2.*sw) - (ee**2*complex(0,1)*vu*cmath.sin(beta))/(2.*sw)',
+                   value = '-0.5*(ee**2*complex(0,1)*vd*cmath.cos(beta))/sw - (ee**2*complex(0,1)*vu*cmath.sin(beta))/(2.*sw)',
                    order = {'QED':1})
 
 GC_1672 = Coupling(name = 'GC_1672',
@@ -7030,11 +7030,11 @@ GC_1755 = Coupling(name = 'GC_1755',
                    order = {'QED':1})
 
 GC_1756 = Coupling(name = 'GC_1756',
-                   value = '-(ee**2*complex(0,1)*I109a11*cmath.cos(beta)*cmath.sin(alp))/(2.*sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I109a11*cmath.cos(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I109a11*cmath.cos(beta)*cmath.sin(alp))/(sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I109a11*cmath.cos(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1757 = Coupling(name = 'GC_1757',
-                   value = '-(ee**2*complex(0,1)*I109a22*cmath.cos(beta)*cmath.sin(alp))/(2.*sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I109a22*cmath.cos(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I109a22*cmath.cos(beta)*cmath.sin(alp))/(sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I109a22*cmath.cos(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1758 = Coupling(name = 'GC_1758',
@@ -7042,7 +7042,7 @@ GC_1758 = Coupling(name = 'GC_1758',
                    order = {'QED':2})
 
 GC_1759 = Coupling(name = 'GC_1759',
-                   value = '-(ee**2*complex(0,1)*I109a33*cmath.cos(beta)*cmath.sin(alp))/(2.*sw**2*cmath.sqrt(2)) + (complex(0,1)*I110a33*cmath.cos(alp)*cmath.sin(beta))/cmath.sqrt(2) - (ee**2*complex(0,1)*I109a33*cmath.cos(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I109a33*cmath.cos(beta)*cmath.sin(alp))/(sw**2*cmath.sqrt(2)) + (complex(0,1)*I110a33*cmath.cos(alp)*cmath.sin(beta))/cmath.sqrt(2) - (ee**2*complex(0,1)*I109a33*cmath.cos(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1760 = Coupling(name = 'GC_1760',
@@ -7050,31 +7050,31 @@ GC_1760 = Coupling(name = 'GC_1760',
                    order = {'QED':2})
 
 GC_1761 = Coupling(name = 'GC_1761',
-                   value = '-(ee**2*complex(0,1)*I109a36*cmath.cos(beta)*cmath.sin(alp))/(2.*sw**2*cmath.sqrt(2)) + (complex(0,1)*I110a36*cmath.cos(alp)*cmath.sin(beta))/cmath.sqrt(2) - (ee**2*complex(0,1)*I109a36*cmath.cos(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I109a36*cmath.cos(beta)*cmath.sin(alp))/(sw**2*cmath.sqrt(2)) + (complex(0,1)*I110a36*cmath.cos(alp)*cmath.sin(beta))/cmath.sqrt(2) - (ee**2*complex(0,1)*I109a36*cmath.cos(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1762 = Coupling(name = 'GC_1762',
-                   value = '-(ee**2*complex(0,1)*I123a11*cmath.cos(beta)*cmath.sin(alp))/(2.*sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I123a11*cmath.cos(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I123a11*cmath.cos(beta)*cmath.sin(alp))/(sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I123a11*cmath.cos(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1763 = Coupling(name = 'GC_1763',
-                   value = '-(ee**2*complex(0,1)*I123a22*cmath.cos(beta)*cmath.sin(alp))/(2.*sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I123a22*cmath.cos(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I123a22*cmath.cos(beta)*cmath.sin(alp))/(sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I123a22*cmath.cos(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1764 = Coupling(name = 'GC_1764',
-                   value = '-(ee**2*complex(0,1)*I144a11*cmath.cos(beta)*cmath.sin(alp))/(2.*sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I144a11*cmath.cos(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I144a11*cmath.cos(beta)*cmath.sin(alp))/(sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I144a11*cmath.cos(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1765 = Coupling(name = 'GC_1765',
-                   value = '-(ee**2*complex(0,1)*I144a22*cmath.cos(beta)*cmath.sin(alp))/(2.*sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I144a22*cmath.cos(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I144a22*cmath.cos(beta)*cmath.sin(alp))/(sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I144a22*cmath.cos(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1766 = Coupling(name = 'GC_1766',
-                   value = '-(ee**2*complex(0,1)*I94a11*cmath.cos(beta)*cmath.sin(alp))/(2.*sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I94a11*cmath.cos(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I94a11*cmath.cos(beta)*cmath.sin(alp))/(sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I94a11*cmath.cos(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1767 = Coupling(name = 'GC_1767',
-                   value = '-(ee**2*complex(0,1)*I94a22*cmath.cos(beta)*cmath.sin(alp))/(2.*sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I94a22*cmath.cos(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I94a22*cmath.cos(beta)*cmath.sin(alp))/(sw**2*cmath.sqrt(2)) - (ee**2*complex(0,1)*I94a22*cmath.cos(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1768 = Coupling(name = 'GC_1768',
@@ -7082,7 +7082,7 @@ GC_1768 = Coupling(name = 'GC_1768',
                    order = {'QED':2})
 
 GC_1769 = Coupling(name = 'GC_1769',
-                   value = '-(ee**2*complex(0,1)*I94a33*cmath.cos(beta)*cmath.sin(alp))/(2.*sw**2*cmath.sqrt(2)) + (complex(0,1)*I95a33*cmath.cos(alp)*cmath.sin(beta))/cmath.sqrt(2) - (ee**2*complex(0,1)*I94a33*cmath.cos(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I94a33*cmath.cos(beta)*cmath.sin(alp))/(sw**2*cmath.sqrt(2)) + (complex(0,1)*I95a33*cmath.cos(alp)*cmath.sin(beta))/cmath.sqrt(2) - (ee**2*complex(0,1)*I94a33*cmath.cos(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1770 = Coupling(name = 'GC_1770',
@@ -7090,7 +7090,7 @@ GC_1770 = Coupling(name = 'GC_1770',
                    order = {'QED':2})
 
 GC_1771 = Coupling(name = 'GC_1771',
-                   value = '-(ee**2*complex(0,1)*I94a36*cmath.cos(beta)*cmath.sin(alp))/(2.*sw**2*cmath.sqrt(2)) + (complex(0,1)*I95a36*cmath.cos(alp)*cmath.sin(beta))/cmath.sqrt(2) - (ee**2*complex(0,1)*I94a36*cmath.cos(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I94a36*cmath.cos(beta)*cmath.sin(alp))/(sw**2*cmath.sqrt(2)) + (complex(0,1)*I95a36*cmath.cos(alp)*cmath.sin(beta))/cmath.sqrt(2) - (ee**2*complex(0,1)*I94a36*cmath.cos(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1772 = Coupling(name = 'GC_1772',
@@ -7098,7 +7098,7 @@ GC_1772 = Coupling(name = 'GC_1772',
                    order = {'QED':1})
 
 GC_1773 = Coupling(name = 'GC_1773',
-                   value = '-(ee*complex(0,1)*cmath.cos(beta)*cmath.sin(alp))/(2.*sw) + (ee*complex(0,1)*cmath.cos(alp)*cmath.sin(beta))/(2.*sw)',
+                   value = '-0.5*(ee*complex(0,1)*cmath.cos(beta)*cmath.sin(alp))/sw + (ee*complex(0,1)*cmath.cos(alp)*cmath.sin(beta))/(2.*sw)',
                    order = {'QED':1})
 
 GC_1774 = Coupling(name = 'GC_1774',
@@ -7106,7 +7106,7 @@ GC_1774 = Coupling(name = 'GC_1774',
                    order = {'QED':2})
 
 GC_1775 = Coupling(name = 'GC_1775',
-                   value = '-(ee**2*complex(0,1)*cmath.cos(beta)*cmath.sin(alp))/(2.*sw) + (ee**2*complex(0,1)*cmath.cos(alp)*cmath.sin(beta))/(2.*sw)',
+                   value = '-0.5*(ee**2*complex(0,1)*cmath.cos(beta)*cmath.sin(alp))/sw + (ee**2*complex(0,1)*cmath.cos(alp)*cmath.sin(beta))/(2.*sw)',
                    order = {'QED':2})
 
 GC_1776 = Coupling(name = 'GC_1776',
@@ -7114,7 +7114,7 @@ GC_1776 = Coupling(name = 'GC_1776',
                    order = {'QED':2})
 
 GC_1777 = Coupling(name = 'GC_1777',
-                   value = '-(cw*ee**2*complex(0,1)*cmath.cos(beta)*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (cw*ee**2*complex(0,1)*cmath.cos(alp)*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee**2*complex(0,1)*cmath.cos(beta)*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (cw*ee**2*complex(0,1)*cmath.cos(alp)*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1778 = Coupling(name = 'GC_1778',
@@ -7122,7 +7122,7 @@ GC_1778 = Coupling(name = 'GC_1778',
                    order = {'QED':1})
 
 GC_1779 = Coupling(name = 'GC_1779',
-                   value = '-(cw*ee*cmath.cos(beta)*cmath.sin(alp))/(2.*(-1 + sw)*sw*(1 + sw)) + (cw*ee*cmath.cos(alp)*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw))',
+                   value = '-0.5*(cw*ee*cmath.cos(beta)*cmath.sin(alp))/((-1 + sw)*sw*(1 + sw)) + (cw*ee*cmath.cos(alp)*cmath.sin(beta))/(2.*(-1 + sw)*sw*(1 + sw))',
                    order = {'QED':1})
 
 GC_1780 = Coupling(name = 'GC_1780',
@@ -7150,7 +7150,7 @@ GC_1785 = Coupling(name = 'GC_1785',
                    order = {'QED':2})
 
 GC_1786 = Coupling(name = 'GC_1786',
-                   value = '-(ee**2*complex(0,1)*I148a11*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a11*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I148a11*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a11*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1787 = Coupling(name = 'GC_1787',
@@ -7158,7 +7158,7 @@ GC_1787 = Coupling(name = 'GC_1787',
                    order = {'QED':2})
 
 GC_1788 = Coupling(name = 'GC_1788',
-                   value = '-(ee**2*complex(0,1)*I148a22*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a22*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I148a22*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a22*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1789 = Coupling(name = 'GC_1789',
@@ -7166,7 +7166,7 @@ GC_1789 = Coupling(name = 'GC_1789',
                    order = {'QED':2})
 
 GC_1790 = Coupling(name = 'GC_1790',
-                   value = '-(ee**2*complex(0,1)*I15a11*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a11*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I15a11*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a11*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1791 = Coupling(name = 'GC_1791',
@@ -7174,7 +7174,7 @@ GC_1791 = Coupling(name = 'GC_1791',
                    order = {'QED':2})
 
 GC_1792 = Coupling(name = 'GC_1792',
-                   value = '-(ee**2*complex(0,1)*I15a22*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a22*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I15a22*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a22*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1793 = Coupling(name = 'GC_1793',
@@ -7202,35 +7202,35 @@ GC_1798 = Coupling(name = 'GC_1798',
                    order = {'QED':2})
 
 GC_1799 = Coupling(name = 'GC_1799',
-                   value = '-(ee**2*complex(0,1)*I148a33*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) - (2*ee**2*complex(0,1)*I149a33*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I157a33*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I158a33*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a33*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I157a33*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I158a33*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I148a33*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) - (2*ee**2*complex(0,1)*I149a33*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I157a33*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I158a33*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a33*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I157a33*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I158a33*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1800 = Coupling(name = 'GC_1800',
-                   value = '-(ee**2*complex(0,1)*I148a36*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) - (2*ee**2*complex(0,1)*I149a36*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I157a36*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I158a36*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a36*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I157a36*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I158a36*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I148a36*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) - (2*ee**2*complex(0,1)*I149a36*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I157a36*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I158a36*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a36*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I157a36*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I158a36*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1801 = Coupling(name = 'GC_1801',
-                   value = '-(ee**2*complex(0,1)*I148a63*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) - (2*ee**2*complex(0,1)*I149a63*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I157a63*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I158a63*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a63*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I157a63*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I158a63*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I148a63*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) - (2*ee**2*complex(0,1)*I149a63*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I157a63*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I158a63*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a63*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I157a63*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I158a63*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1802 = Coupling(name = 'GC_1802',
-                   value = '-(ee**2*complex(0,1)*I148a66*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) - (2*ee**2*complex(0,1)*I149a66*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I157a66*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I158a66*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a66*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I157a66*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I158a66*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I148a66*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) - (2*ee**2*complex(0,1)*I149a66*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I157a66*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I158a66*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a66*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I157a66*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I158a66*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1803 = Coupling(name = 'GC_1803',
-                   value = '-(ee**2*complex(0,1)*I15a33*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a33*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I23a33*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a33*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a33*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I23a33*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a33*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I15a33*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a33*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I23a33*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a33*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a33*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I23a33*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a33*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1804 = Coupling(name = 'GC_1804',
-                   value = '-(ee**2*complex(0,1)*I15a36*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a36*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I23a36*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a36*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a36*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I23a36*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a36*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I15a36*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a36*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I23a36*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a36*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a36*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I23a36*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a36*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1805 = Coupling(name = 'GC_1805',
-                   value = '-(ee**2*complex(0,1)*I15a63*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a63*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I23a63*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a63*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a63*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I23a63*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a63*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I15a63*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a63*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I23a63*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a63*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a63*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I23a63*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a63*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1806 = Coupling(name = 'GC_1806',
-                   value = '-(ee**2*complex(0,1)*I15a66*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a66*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I23a66*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a66*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a66*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I23a66*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a66*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I15a66*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a66*cmath.cos(beta)*cmath.sin(beta))/(3.*(-1 + sw)*(1 + sw)) - (complex(0,1)*I23a66*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a66*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a66*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (complex(0,1)*I23a66*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a66*sw**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1807 = Coupling(name = 'GC_1807',
@@ -7354,7 +7354,7 @@ GC_1836 = Coupling(name = 'GC_1836',
                    order = {'QED':2})
 
 GC_1837 = Coupling(name = 'GC_1837',
-                   value = '-(ee**2*complex(0,1)*I109a11*cmath.cos(alp)*cmath.cos(beta))/(2.*sw**2*cmath.sqrt(2)) + (ee**2*complex(0,1)*I109a11*cmath.sin(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I109a11*cmath.cos(alp)*cmath.cos(beta))/(sw**2*cmath.sqrt(2)) + (ee**2*complex(0,1)*I109a11*cmath.sin(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1838 = Coupling(name = 'GC_1838',
@@ -7362,7 +7362,7 @@ GC_1838 = Coupling(name = 'GC_1838',
                    order = {'QED':2})
 
 GC_1839 = Coupling(name = 'GC_1839',
-                   value = '-(ee**2*complex(0,1)*I109a22*cmath.cos(alp)*cmath.cos(beta))/(2.*sw**2*cmath.sqrt(2)) + (ee**2*complex(0,1)*I109a22*cmath.sin(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I109a22*cmath.cos(alp)*cmath.cos(beta))/(sw**2*cmath.sqrt(2)) + (ee**2*complex(0,1)*I109a22*cmath.sin(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1840 = Coupling(name = 'GC_1840',
@@ -7370,7 +7370,7 @@ GC_1840 = Coupling(name = 'GC_1840',
                    order = {'QED':2})
 
 GC_1841 = Coupling(name = 'GC_1841',
-                   value = '-(ee**2*complex(0,1)*I109a33*cmath.cos(alp)*cmath.cos(beta))/(2.*sw**2*cmath.sqrt(2)) - (complex(0,1)*I110a33*cmath.sin(alp)*cmath.sin(beta))/cmath.sqrt(2) + (ee**2*complex(0,1)*I109a33*cmath.sin(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I109a33*cmath.cos(alp)*cmath.cos(beta))/(sw**2*cmath.sqrt(2)) - (complex(0,1)*I110a33*cmath.sin(alp)*cmath.sin(beta))/cmath.sqrt(2) + (ee**2*complex(0,1)*I109a33*cmath.sin(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1842 = Coupling(name = 'GC_1842',
@@ -7378,7 +7378,7 @@ GC_1842 = Coupling(name = 'GC_1842',
                    order = {'QED':2})
 
 GC_1843 = Coupling(name = 'GC_1843',
-                   value = '-(ee**2*complex(0,1)*I109a36*cmath.cos(alp)*cmath.cos(beta))/(2.*sw**2*cmath.sqrt(2)) - (complex(0,1)*I110a36*cmath.sin(alp)*cmath.sin(beta))/cmath.sqrt(2) + (ee**2*complex(0,1)*I109a36*cmath.sin(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I109a36*cmath.cos(alp)*cmath.cos(beta))/(sw**2*cmath.sqrt(2)) - (complex(0,1)*I110a36*cmath.sin(alp)*cmath.sin(beta))/cmath.sqrt(2) + (ee**2*complex(0,1)*I109a36*cmath.sin(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1844 = Coupling(name = 'GC_1844',
@@ -7386,7 +7386,7 @@ GC_1844 = Coupling(name = 'GC_1844',
                    order = {'QED':2})
 
 GC_1845 = Coupling(name = 'GC_1845',
-                   value = '-(ee**2*complex(0,1)*I123a11*cmath.cos(alp)*cmath.cos(beta))/(2.*sw**2*cmath.sqrt(2)) + (ee**2*complex(0,1)*I123a11*cmath.sin(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I123a11*cmath.cos(alp)*cmath.cos(beta))/(sw**2*cmath.sqrt(2)) + (ee**2*complex(0,1)*I123a11*cmath.sin(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1846 = Coupling(name = 'GC_1846',
@@ -7394,7 +7394,7 @@ GC_1846 = Coupling(name = 'GC_1846',
                    order = {'QED':2})
 
 GC_1847 = Coupling(name = 'GC_1847',
-                   value = '-(ee**2*complex(0,1)*I123a22*cmath.cos(alp)*cmath.cos(beta))/(2.*sw**2*cmath.sqrt(2)) + (ee**2*complex(0,1)*I123a22*cmath.sin(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I123a22*cmath.cos(alp)*cmath.cos(beta))/(sw**2*cmath.sqrt(2)) + (ee**2*complex(0,1)*I123a22*cmath.sin(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1848 = Coupling(name = 'GC_1848',
@@ -7434,7 +7434,7 @@ GC_1856 = Coupling(name = 'GC_1856',
                    order = {'QED':2})
 
 GC_1857 = Coupling(name = 'GC_1857',
-                   value = '-(ee**2*complex(0,1)*I144a11*cmath.cos(alp)*cmath.cos(beta))/(2.*sw**2*cmath.sqrt(2)) + (ee**2*complex(0,1)*I144a11*cmath.sin(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I144a11*cmath.cos(alp)*cmath.cos(beta))/(sw**2*cmath.sqrt(2)) + (ee**2*complex(0,1)*I144a11*cmath.sin(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1858 = Coupling(name = 'GC_1858',
@@ -7442,7 +7442,7 @@ GC_1858 = Coupling(name = 'GC_1858',
                    order = {'QED':2})
 
 GC_1859 = Coupling(name = 'GC_1859',
-                   value = '-(ee**2*complex(0,1)*I144a22*cmath.cos(alp)*cmath.cos(beta))/(2.*sw**2*cmath.sqrt(2)) + (ee**2*complex(0,1)*I144a22*cmath.sin(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I144a22*cmath.cos(alp)*cmath.cos(beta))/(sw**2*cmath.sqrt(2)) + (ee**2*complex(0,1)*I144a22*cmath.sin(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1860 = Coupling(name = 'GC_1860',
@@ -7482,7 +7482,7 @@ GC_1868 = Coupling(name = 'GC_1868',
                    order = {'QED':2})
 
 GC_1869 = Coupling(name = 'GC_1869',
-                   value = '-(ee**2*complex(0,1)*I94a11*cmath.cos(alp)*cmath.cos(beta))/(2.*sw**2*cmath.sqrt(2)) + (ee**2*complex(0,1)*I94a11*cmath.sin(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I94a11*cmath.cos(alp)*cmath.cos(beta))/(sw**2*cmath.sqrt(2)) + (ee**2*complex(0,1)*I94a11*cmath.sin(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1870 = Coupling(name = 'GC_1870',
@@ -7490,7 +7490,7 @@ GC_1870 = Coupling(name = 'GC_1870',
                    order = {'QED':2})
 
 GC_1871 = Coupling(name = 'GC_1871',
-                   value = '-(ee**2*complex(0,1)*I94a22*cmath.cos(alp)*cmath.cos(beta))/(2.*sw**2*cmath.sqrt(2)) + (ee**2*complex(0,1)*I94a22*cmath.sin(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I94a22*cmath.cos(alp)*cmath.cos(beta))/(sw**2*cmath.sqrt(2)) + (ee**2*complex(0,1)*I94a22*cmath.sin(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1872 = Coupling(name = 'GC_1872',
@@ -7498,7 +7498,7 @@ GC_1872 = Coupling(name = 'GC_1872',
                    order = {'QED':2})
 
 GC_1873 = Coupling(name = 'GC_1873',
-                   value = '-(ee**2*complex(0,1)*I94a33*cmath.cos(alp)*cmath.cos(beta))/(2.*sw**2*cmath.sqrt(2)) - (complex(0,1)*I95a33*cmath.sin(alp)*cmath.sin(beta))/cmath.sqrt(2) + (ee**2*complex(0,1)*I94a33*cmath.sin(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I94a33*cmath.cos(alp)*cmath.cos(beta))/(sw**2*cmath.sqrt(2)) - (complex(0,1)*I95a33*cmath.sin(alp)*cmath.sin(beta))/cmath.sqrt(2) + (ee**2*complex(0,1)*I94a33*cmath.sin(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1874 = Coupling(name = 'GC_1874',
@@ -7506,11 +7506,11 @@ GC_1874 = Coupling(name = 'GC_1874',
                    order = {'QED':2})
 
 GC_1875 = Coupling(name = 'GC_1875',
-                   value = '-(ee**2*complex(0,1)*I94a36*cmath.cos(alp)*cmath.cos(beta))/(2.*sw**2*cmath.sqrt(2)) - (complex(0,1)*I95a36*cmath.sin(alp)*cmath.sin(beta))/cmath.sqrt(2) + (ee**2*complex(0,1)*I94a36*cmath.sin(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*complex(0,1)*I94a36*cmath.cos(alp)*cmath.cos(beta))/(sw**2*cmath.sqrt(2)) - (complex(0,1)*I95a36*cmath.sin(alp)*cmath.sin(beta))/cmath.sqrt(2) + (ee**2*complex(0,1)*I94a36*cmath.sin(alp)*cmath.sin(beta))/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1876 = Coupling(name = 'GC_1876',
-                   value = '-(ee*complex(0,1)*cmath.cos(alp)*cmath.cos(beta))/(2.*sw) - (ee*complex(0,1)*cmath.sin(alp)*cmath.sin(beta))/(2.*sw)',
+                   value = '-0.5*(ee*complex(0,1)*cmath.cos(alp)*cmath.cos(beta))/sw - (ee*complex(0,1)*cmath.sin(alp)*cmath.sin(beta))/(2.*sw)',
                    order = {'QED':1})
 
 GC_1877 = Coupling(name = 'GC_1877',
@@ -7534,7 +7534,7 @@ GC_1881 = Coupling(name = 'GC_1881',
                    order = {'QED':1})
 
 GC_1882 = Coupling(name = 'GC_1882',
-                   value = '-(ee**2*complex(0,1)*vd*cmath.cos(alp)*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*vu*cmath.cos(beta)*cmath.sin(alp)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*vd*cmath.cos(alp)*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*vu*cmath.cos(beta)*cmath.sin(alp)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':1})
 
 GC_1883 = Coupling(name = 'GC_1883',
@@ -7542,7 +7542,7 @@ GC_1883 = Coupling(name = 'GC_1883',
                    order = {'QED':2})
 
 GC_1884 = Coupling(name = 'GC_1884',
-                   value = '-(ee**2*complex(0,1)*cmath.cos(alp)**2*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(beta)*cmath.sin(alp)**2*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*cmath.cos(alp)**2*cmath.cos(beta)*cmath.sin(beta))/((-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(beta)*cmath.sin(alp)**2*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1885 = Coupling(name = 'GC_1885',
@@ -7626,7 +7626,7 @@ GC_1904 = Coupling(name = 'GC_1904',
                    order = {'QED':2})
 
 GC_1905 = Coupling(name = 'GC_1905',
-                   value = '-(ee**2*I109a11*cmath.cos(beta)**2)/(2.*sw**2*cmath.sqrt(2)) + (ee**2*I109a11*cmath.sin(beta)**2)/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*I109a11*cmath.cos(beta)**2)/(sw**2*cmath.sqrt(2)) + (ee**2*I109a11*cmath.sin(beta)**2)/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1906 = Coupling(name = 'GC_1906',
@@ -7634,7 +7634,7 @@ GC_1906 = Coupling(name = 'GC_1906',
                    order = {'QED':2})
 
 GC_1907 = Coupling(name = 'GC_1907',
-                   value = '-(ee**2*I109a22*cmath.cos(beta)**2)/(2.*sw**2*cmath.sqrt(2)) + (ee**2*I109a22*cmath.sin(beta)**2)/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*I109a22*cmath.cos(beta)**2)/(sw**2*cmath.sqrt(2)) + (ee**2*I109a22*cmath.sin(beta)**2)/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1908 = Coupling(name = 'GC_1908',
@@ -7642,7 +7642,7 @@ GC_1908 = Coupling(name = 'GC_1908',
                    order = {'QED':2})
 
 GC_1909 = Coupling(name = 'GC_1909',
-                   value = '-(ee**2*I109a33*cmath.cos(beta)**2)/(2.*sw**2*cmath.sqrt(2)) - (I110a33*cmath.sin(beta)**2)/cmath.sqrt(2) + (ee**2*I109a33*cmath.sin(beta)**2)/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*I109a33*cmath.cos(beta)**2)/(sw**2*cmath.sqrt(2)) - (I110a33*cmath.sin(beta)**2)/cmath.sqrt(2) + (ee**2*I109a33*cmath.sin(beta)**2)/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1910 = Coupling(name = 'GC_1910',
@@ -7650,7 +7650,7 @@ GC_1910 = Coupling(name = 'GC_1910',
                    order = {'QED':2})
 
 GC_1911 = Coupling(name = 'GC_1911',
-                   value = '-(ee**2*I109a36*cmath.cos(beta)**2)/(2.*sw**2*cmath.sqrt(2)) - (I110a36*cmath.sin(beta)**2)/cmath.sqrt(2) + (ee**2*I109a36*cmath.sin(beta)**2)/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*I109a36*cmath.cos(beta)**2)/(sw**2*cmath.sqrt(2)) - (I110a36*cmath.sin(beta)**2)/cmath.sqrt(2) + (ee**2*I109a36*cmath.sin(beta)**2)/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1912 = Coupling(name = 'GC_1912',
@@ -7658,7 +7658,7 @@ GC_1912 = Coupling(name = 'GC_1912',
                    order = {'QED':2})
 
 GC_1913 = Coupling(name = 'GC_1913',
-                   value = '-(ee**2*I123a11*cmath.cos(beta)**2)/(2.*sw**2*cmath.sqrt(2)) + (ee**2*I123a11*cmath.sin(beta)**2)/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*I123a11*cmath.cos(beta)**2)/(sw**2*cmath.sqrt(2)) + (ee**2*I123a11*cmath.sin(beta)**2)/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1914 = Coupling(name = 'GC_1914',
@@ -7666,7 +7666,7 @@ GC_1914 = Coupling(name = 'GC_1914',
                    order = {'QED':2})
 
 GC_1915 = Coupling(name = 'GC_1915',
-                   value = '-(ee**2*I123a22*cmath.cos(beta)**2)/(2.*sw**2*cmath.sqrt(2)) + (ee**2*I123a22*cmath.sin(beta)**2)/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*I123a22*cmath.cos(beta)**2)/(sw**2*cmath.sqrt(2)) + (ee**2*I123a22*cmath.sin(beta)**2)/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1916 = Coupling(name = 'GC_1916',
@@ -7706,7 +7706,7 @@ GC_1924 = Coupling(name = 'GC_1924',
                    order = {'QED':2})
 
 GC_1925 = Coupling(name = 'GC_1925',
-                   value = '-(ee**2*I144a11*cmath.cos(beta)**2)/(2.*sw**2*cmath.sqrt(2)) + (ee**2*I144a11*cmath.sin(beta)**2)/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*I144a11*cmath.cos(beta)**2)/(sw**2*cmath.sqrt(2)) + (ee**2*I144a11*cmath.sin(beta)**2)/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1926 = Coupling(name = 'GC_1926',
@@ -7714,7 +7714,7 @@ GC_1926 = Coupling(name = 'GC_1926',
                    order = {'QED':2})
 
 GC_1927 = Coupling(name = 'GC_1927',
-                   value = '-(ee**2*I144a22*cmath.cos(beta)**2)/(2.*sw**2*cmath.sqrt(2)) + (ee**2*I144a22*cmath.sin(beta)**2)/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*I144a22*cmath.cos(beta)**2)/(sw**2*cmath.sqrt(2)) + (ee**2*I144a22*cmath.sin(beta)**2)/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1928 = Coupling(name = 'GC_1928',
@@ -7754,7 +7754,7 @@ GC_1936 = Coupling(name = 'GC_1936',
                    order = {'QED':2})
 
 GC_1937 = Coupling(name = 'GC_1937',
-                   value = '-(ee**2*I94a11*cmath.cos(beta)**2)/(2.*sw**2*cmath.sqrt(2)) + (ee**2*I94a11*cmath.sin(beta)**2)/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*I94a11*cmath.cos(beta)**2)/(sw**2*cmath.sqrt(2)) + (ee**2*I94a11*cmath.sin(beta)**2)/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1938 = Coupling(name = 'GC_1938',
@@ -7762,7 +7762,7 @@ GC_1938 = Coupling(name = 'GC_1938',
                    order = {'QED':2})
 
 GC_1939 = Coupling(name = 'GC_1939',
-                   value = '-(ee**2*I94a22*cmath.cos(beta)**2)/(2.*sw**2*cmath.sqrt(2)) + (ee**2*I94a22*cmath.sin(beta)**2)/(2.*sw**2*cmath.sqrt(2))',
+                   value = '-0.5*(ee**2*I94a22*cmath.cos(beta)**2)/(sw**2*cmath.sqrt(2)) + (ee**2*I94a22*cmath.sin(beta)**2)/(2.*sw**2*cmath.sqrt(2))',
                    order = {'QED':2})
 
 GC_1940 = Coupling(name = 'GC_1940',
@@ -7786,7 +7786,7 @@ GC_1944 = Coupling(name = 'GC_1944',
                    order = {'QED':1})
 
 GC_1945 = Coupling(name = 'GC_1945',
-                   value = '-(ee**2*cmath.cos(beta)**2)/(2.*sw) - (ee**2*cmath.sin(beta)**2)/(2.*sw)',
+                   value = '-0.5*(ee**2*cmath.cos(beta)**2)/sw - (ee**2*cmath.sin(beta)**2)/(2.*sw)',
                    order = {'QED':2})
 
 GC_1946 = Coupling(name = 'GC_1946',
@@ -7794,7 +7794,7 @@ GC_1946 = Coupling(name = 'GC_1946',
                    order = {'QED':2})
 
 GC_1947 = Coupling(name = 'GC_1947',
-                   value = '-(cw*ee**2*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (cw*ee**2*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(cw*ee**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) - (cw*ee**2*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1948 = Coupling(name = 'GC_1948',
@@ -7806,7 +7806,7 @@ GC_1949 = Coupling(name = 'GC_1949',
                    order = {'QED':2})
 
 GC_1950 = Coupling(name = 'GC_1950',
-                   value = '-(ee**2*complex(0,1)*I149a44*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a44*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I149a44*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a44*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1951 = Coupling(name = 'GC_1951',
@@ -7814,7 +7814,7 @@ GC_1951 = Coupling(name = 'GC_1951',
                    order = {'QED':2})
 
 GC_1952 = Coupling(name = 'GC_1952',
-                   value = '-(ee**2*complex(0,1)*I149a55*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a55*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I149a55*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a55*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1953 = Coupling(name = 'GC_1953',
@@ -7822,7 +7822,7 @@ GC_1953 = Coupling(name = 'GC_1953',
                    order = {'QED':2})
 
 GC_1954 = Coupling(name = 'GC_1954',
-                   value = '-(ee**2*complex(0,1)*I16a44*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a44*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I16a44*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a44*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1955 = Coupling(name = 'GC_1955',
@@ -7830,7 +7830,7 @@ GC_1955 = Coupling(name = 'GC_1955',
                    order = {'QED':2})
 
 GC_1956 = Coupling(name = 'GC_1956',
-                   value = '-(ee**2*complex(0,1)*I16a55*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a55*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I16a55*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a55*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1957 = Coupling(name = 'GC_1957',
@@ -7838,7 +7838,7 @@ GC_1957 = Coupling(name = 'GC_1957',
                    order = {'QED':2})
 
 GC_1958 = Coupling(name = 'GC_1958',
-                   value = '-(ee**2*complex(0,1)*I54a44*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a44*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I54a44*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a44*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1959 = Coupling(name = 'GC_1959',
@@ -7846,7 +7846,7 @@ GC_1959 = Coupling(name = 'GC_1959',
                    order = {'QED':2})
 
 GC_1960 = Coupling(name = 'GC_1960',
-                   value = '-(ee**2*complex(0,1)*I54a55*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a55*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I54a55*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a55*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_1961 = Coupling(name = 'GC_1961',
@@ -7854,11 +7854,11 @@ GC_1961 = Coupling(name = 'GC_1961',
                    order = {'QED':2})
 
 GC_1962 = Coupling(name = 'GC_1962',
-                   value = '-(ee**2*complex(0,1)*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1963 = Coupling(name = 'GC_1963',
-                   value = '-(ee**2*complex(0,1)*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.25*(ee**2*complex(0,1)*cmath.cos(beta)**2)/((-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1964 = Coupling(name = 'GC_1964',
@@ -7870,15 +7870,15 @@ GC_1965 = Coupling(name = 'GC_1965',
                    order = {'QED':2})
 
 GC_1966 = Coupling(name = 'GC_1966',
-                   value = '-(ee**2*complex(0,1)*cmath.cos(beta)**2)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*cmath.sin(beta)**2)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*cmath.cos(beta)**2)/((-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*cmath.sin(beta)**2)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1967 = Coupling(name = 'GC_1967',
-                   value = '-(ee**2*complex(0,1)*I148a11*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a11*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a11*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a11*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I148a11*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a11*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a11*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a11*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1968 = Coupling(name = 'GC_1968',
-                   value = '-(ee**2*complex(0,1)*I148a11*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a11*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a11*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a11*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I148a11*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a11*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a11*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a11*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1969 = Coupling(name = 'GC_1969',
@@ -7890,11 +7890,11 @@ GC_1970 = Coupling(name = 'GC_1970',
                    order = {'QED':2})
 
 GC_1971 = Coupling(name = 'GC_1971',
-                   value = '-(ee**2*complex(0,1)*I148a22*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a22*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a22*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a22*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I148a22*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a22*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a22*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a22*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1972 = Coupling(name = 'GC_1972',
-                   value = '-(ee**2*complex(0,1)*I148a22*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a22*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a22*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a22*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I148a22*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a22*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a22*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a22*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1973 = Coupling(name = 'GC_1973',
@@ -7922,11 +7922,11 @@ GC_1978 = Coupling(name = 'GC_1978',
                    order = {'QED':2})
 
 GC_1979 = Coupling(name = 'GC_1979',
-                   value = '-(ee**2*complex(0,1)*I15a11*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a11*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a11*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a11*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I15a11*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a11*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a11*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a11*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1980 = Coupling(name = 'GC_1980',
-                   value = '-(ee**2*complex(0,1)*I15a11*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a11*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a11*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a11*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I15a11*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a11*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a11*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a11*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1981 = Coupling(name = 'GC_1981',
@@ -7938,11 +7938,11 @@ GC_1982 = Coupling(name = 'GC_1982',
                    order = {'QED':2})
 
 GC_1983 = Coupling(name = 'GC_1983',
-                   value = '-(ee**2*complex(0,1)*I15a22*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a22*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a22*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a22*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I15a22*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a22*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a22*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a22*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1984 = Coupling(name = 'GC_1984',
-                   value = '-(ee**2*complex(0,1)*I15a22*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a22*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a22*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a22*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I15a22*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a22*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a22*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a22*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1985 = Coupling(name = 'GC_1985',
@@ -7974,11 +7974,11 @@ GC_1991 = Coupling(name = 'GC_1991',
                    order = {'QED':2})
 
 GC_1992 = Coupling(name = 'GC_1992',
-                   value = '-(ee**2*complex(0,1)*I53a11*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a11*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a11*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a11*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I53a11*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a11*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a11*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a11*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1993 = Coupling(name = 'GC_1993',
-                   value = '-(ee**2*complex(0,1)*I53a11*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a11*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.25*(ee**2*complex(0,1)*I53a11*cmath.cos(beta)**2)/((-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a11*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1994 = Coupling(name = 'GC_1994',
@@ -7990,11 +7990,11 @@ GC_1995 = Coupling(name = 'GC_1995',
                    order = {'QED':2})
 
 GC_1996 = Coupling(name = 'GC_1996',
-                   value = '-(ee**2*complex(0,1)*I53a22*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a22*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a22*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a22*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I53a22*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a22*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a22*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a22*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1997 = Coupling(name = 'GC_1997',
-                   value = '-(ee**2*complex(0,1)*I53a22*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a22*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.25*(ee**2*complex(0,1)*I53a22*cmath.cos(beta)**2)/((-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a22*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_1998 = Coupling(name = 'GC_1998',
@@ -8002,7 +8002,7 @@ GC_1998 = Coupling(name = 'GC_1998',
                    order = {'QED':2})
 
 GC_1999 = Coupling(name = 'GC_1999',
-                   value = '-(ee**2*complex(0,1)*I54a33*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I62a33*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a33*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I62a33*sw**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a33*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a33*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I54a33*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I62a33*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a33*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I62a33*sw**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a33*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a33*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_2000 = Coupling(name = 'GC_2000',
@@ -8010,7 +8010,7 @@ GC_2000 = Coupling(name = 'GC_2000',
                    order = {'QED':2})
 
 GC_2001 = Coupling(name = 'GC_2001',
-                   value = '-(ee**2*complex(0,1)*I54a36*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I62a36*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a36*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I62a36*sw**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a36*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a36*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I54a36*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I62a36*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a36*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I62a36*sw**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a36*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a36*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_2002 = Coupling(name = 'GC_2002',
@@ -8018,7 +8018,7 @@ GC_2002 = Coupling(name = 'GC_2002',
                    order = {'QED':2})
 
 GC_2003 = Coupling(name = 'GC_2003',
-                   value = '-(ee**2*complex(0,1)*I54a63*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I62a63*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a63*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I62a63*sw**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a63*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a63*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I54a63*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I62a63*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a63*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I62a63*sw**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a63*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a63*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_2004 = Coupling(name = 'GC_2004',
@@ -8026,7 +8026,7 @@ GC_2004 = Coupling(name = 'GC_2004',
                    order = {'QED':2})
 
 GC_2005 = Coupling(name = 'GC_2005',
-                   value = '-(ee**2*complex(0,1)*I54a66*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I62a66*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a66*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I62a66*sw**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a66*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a66*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I54a66*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I62a66*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a66*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I62a66*sw**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a66*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a66*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_2006 = Coupling(name = 'GC_2006',
@@ -8050,7 +8050,7 @@ GC_2010 = Coupling(name = 'GC_2010',
                    order = {'QED':2})
 
 GC_2011 = Coupling(name = 'GC_2011',
-                   value = '-(ee**2*complex(0,1)*I148a33*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a33*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a33*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a33*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I149a33*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I156a33*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I157a33*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a33*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I156a33*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I157a33*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I148a33*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a33*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a33*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a33*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I149a33*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I156a33*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I157a33*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a33*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I156a33*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I157a33*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_2012 = Coupling(name = 'GC_2012',
@@ -8058,7 +8058,7 @@ GC_2012 = Coupling(name = 'GC_2012',
                    order = {'QED':2})
 
 GC_2013 = Coupling(name = 'GC_2013',
-                   value = '-(ee**2*complex(0,1)*I148a36*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a36*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a36*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a36*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I149a36*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I156a36*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I157a36*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a36*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I156a36*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I157a36*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I148a36*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a36*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a36*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a36*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I149a36*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I156a36*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I157a36*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a36*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I156a36*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I157a36*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_2014 = Coupling(name = 'GC_2014',
@@ -8066,7 +8066,7 @@ GC_2014 = Coupling(name = 'GC_2014',
                    order = {'QED':2})
 
 GC_2015 = Coupling(name = 'GC_2015',
-                   value = '-(ee**2*complex(0,1)*I148a63*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a63*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a63*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a63*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I149a63*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I156a63*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I157a63*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a63*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I156a63*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I157a63*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I148a63*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a63*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a63*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a63*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I149a63*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I156a63*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I157a63*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a63*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I156a63*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I157a63*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_2016 = Coupling(name = 'GC_2016',
@@ -8074,23 +8074,23 @@ GC_2016 = Coupling(name = 'GC_2016',
                    order = {'QED':2})
 
 GC_2017 = Coupling(name = 'GC_2017',
-                   value = '-(ee**2*complex(0,1)*I148a66*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a66*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a66*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a66*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I149a66*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I156a66*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I157a66*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a66*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I156a66*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I157a66*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I148a66*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a66*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a66*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I148a66*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I149a66*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I156a66*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I157a66*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a66*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I156a66*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I157a66*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_2018 = Coupling(name = 'GC_2018',
-                   value = '-(ee**2*complex(0,1)*I148a33*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I149a33*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I157a33*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a33*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I157a33*sw**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a33*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a33*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I158a33*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a33*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I158a33*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I148a33*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I149a33*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I157a33*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a33*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I157a33*sw**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a33*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a33*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I158a33*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a33*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I158a33*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_2019 = Coupling(name = 'GC_2019',
-                   value = '-(ee**2*complex(0,1)*I148a36*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I149a36*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I157a36*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a36*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I157a36*sw**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a36*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a36*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I158a36*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a36*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I158a36*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I148a36*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I149a36*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I157a36*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a36*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I157a36*sw**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a36*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a36*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I158a36*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a36*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I158a36*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_2020 = Coupling(name = 'GC_2020',
-                   value = '-(ee**2*complex(0,1)*I148a63*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I149a63*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I157a63*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a63*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I157a63*sw**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a63*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a63*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I158a63*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a63*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I158a63*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I148a63*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I149a63*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I157a63*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a63*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I157a63*sw**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a63*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a63*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I158a63*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a63*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I158a63*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_2021 = Coupling(name = 'GC_2021',
-                   value = '-(ee**2*complex(0,1)*I148a66*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I149a66*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I157a66*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a66*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I157a66*sw**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a66*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a66*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I158a66*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a66*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I158a66*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I148a66*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I149a66*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I157a66*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a66*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I157a66*sw**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I148a66*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I149a66*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I158a66*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I148a66*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I158a66*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_2022 = Coupling(name = 'GC_2022',
@@ -8098,7 +8098,7 @@ GC_2022 = Coupling(name = 'GC_2022',
                    order = {'QED':2})
 
 GC_2023 = Coupling(name = 'GC_2023',
-                   value = '-(ee**2*complex(0,1)*I15a33*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a33*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a33*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a33*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I16a33*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I23a33*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a33*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a33*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I23a33*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a33*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I15a33*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a33*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a33*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a33*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I16a33*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I23a33*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a33*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a33*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I23a33*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a33*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_2024 = Coupling(name = 'GC_2024',
@@ -8106,7 +8106,7 @@ GC_2024 = Coupling(name = 'GC_2024',
                    order = {'QED':2})
 
 GC_2025 = Coupling(name = 'GC_2025',
-                   value = '-(ee**2*complex(0,1)*I15a36*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a36*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a36*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a36*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I16a36*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I23a36*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a36*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a36*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I23a36*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a36*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I15a36*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a36*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a36*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a36*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I16a36*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I23a36*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a36*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a36*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I23a36*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a36*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_2026 = Coupling(name = 'GC_2026',
@@ -8114,7 +8114,7 @@ GC_2026 = Coupling(name = 'GC_2026',
                    order = {'QED':2})
 
 GC_2027 = Coupling(name = 'GC_2027',
-                   value = '-(ee**2*complex(0,1)*I15a63*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a63*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a63*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a63*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I16a63*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I23a63*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a63*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a63*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I23a63*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a63*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I15a63*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a63*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a63*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a63*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I16a63*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I23a63*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a63*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a63*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I23a63*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a63*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_2028 = Coupling(name = 'GC_2028',
@@ -8122,23 +8122,23 @@ GC_2028 = Coupling(name = 'GC_2028',
                    order = {'QED':2})
 
 GC_2029 = Coupling(name = 'GC_2029',
-                   value = '-(ee**2*complex(0,1)*I15a66*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a66*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a66*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a66*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I16a66*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I23a66*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a66*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a66*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I23a66*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a66*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.16666666666666666*(ee**2*complex(0,1)*I15a66*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a66*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a66*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I15a66*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I16a66*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I23a66*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I24a66*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a66*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I23a66*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I24a66*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_2030 = Coupling(name = 'GC_2030',
-                   value = '-(ee**2*complex(0,1)*I15a33*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I16a33*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I24a33*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a33*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I24a33*sw**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a33*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a33*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I25a33*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a33*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I25a33*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I15a33*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I16a33*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I24a33*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a33*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I24a33*sw**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a33*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a33*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I25a33*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a33*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I25a33*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_2031 = Coupling(name = 'GC_2031',
-                   value = '-(ee**2*complex(0,1)*I15a36*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I16a36*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I24a36*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a36*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I24a36*sw**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a36*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a36*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I25a36*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a36*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I25a36*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I15a36*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I16a36*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I24a36*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a36*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I24a36*sw**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a36*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a36*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I25a36*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a36*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I25a36*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_2032 = Coupling(name = 'GC_2032',
-                   value = '-(ee**2*complex(0,1)*I15a63*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I16a63*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I24a63*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a63*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I24a63*sw**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a63*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a63*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I25a63*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a63*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I25a63*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I15a63*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I16a63*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I24a63*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a63*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I24a63*sw**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a63*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a63*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I25a63*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a63*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I25a63*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_2033 = Coupling(name = 'GC_2033',
-                   value = '-(ee**2*complex(0,1)*I15a66*cmath.cos(beta)**2)/(3.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I16a66*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I24a66*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a66*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I24a66*sw**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a66*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a66*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I25a66*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a66*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I25a66*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.3333333333333333*(ee**2*complex(0,1)*I15a66*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I16a66*cmath.cos(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I24a66*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a66*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I24a66*sw**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I15a66*cmath.sin(beta)**2)/(3.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I16a66*cmath.sin(beta)**2)/(6.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I25a66*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I15a66*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I25a66*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_2034 = Coupling(name = 'GC_2034',
@@ -8146,7 +8146,7 @@ GC_2034 = Coupling(name = 'GC_2034',
                    order = {'QED':2})
 
 GC_2035 = Coupling(name = 'GC_2035',
-                   value = '-(ee**2*complex(0,1)*I53a33*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a33*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a33*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a33*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I54a33*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I61a33*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I62a33*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a33*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I61a33*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I62a33*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I53a33*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a33*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a33*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a33*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I54a33*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I61a33*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I62a33*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a33*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I61a33*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I62a33*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_2036 = Coupling(name = 'GC_2036',
@@ -8154,7 +8154,7 @@ GC_2036 = Coupling(name = 'GC_2036',
                    order = {'QED':2})
 
 GC_2037 = Coupling(name = 'GC_2037',
-                   value = '-(ee**2*complex(0,1)*I53a36*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a36*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a36*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a36*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I54a36*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I61a36*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I62a36*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a36*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I61a36*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I62a36*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I53a36*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a36*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a36*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a36*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I54a36*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I61a36*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I62a36*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a36*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I61a36*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I62a36*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_2038 = Coupling(name = 'GC_2038',
@@ -8162,7 +8162,7 @@ GC_2038 = Coupling(name = 'GC_2038',
                    order = {'QED':2})
 
 GC_2039 = Coupling(name = 'GC_2039',
-                   value = '-(ee**2*complex(0,1)*I53a63*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a63*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a63*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a63*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I54a63*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I61a63*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I62a63*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a63*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I61a63*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I62a63*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I53a63*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a63*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a63*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a63*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I54a63*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I61a63*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I62a63*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a63*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I61a63*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I62a63*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_2040 = Coupling(name = 'GC_2040',
@@ -8170,11 +8170,11 @@ GC_2040 = Coupling(name = 'GC_2040',
                    order = {'QED':2})
 
 GC_2041 = Coupling(name = 'GC_2041',
-                   value = '-(ee**2*complex(0,1)*I53a66*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a66*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a66*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a66*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I54a66*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I61a66*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I62a66*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a66*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I61a66*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I62a66*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*I53a66*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I54a66*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*I53a66*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*I53a66*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I54a66*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I61a66*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (complex(0,1)*I62a66*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*I53a66*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I61a66*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (complex(0,1)*I62a66*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_2042 = Coupling(name = 'GC_2042',
-                   value = '-(ee**2*complex(0,1)*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I96a33*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I96a33*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (complex(0,1)*I96a33*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (complex(0,1)*I96a33*sw**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_2043 = Coupling(name = 'GC_2043',
@@ -8186,11 +8186,11 @@ GC_2044 = Coupling(name = 'GC_2044',
                    order = {'QED':1})
 
 GC_2045 = Coupling(name = 'GC_2045',
-                   value = '-(ee**2*complex(0,1)*vu*cmath.cos(alp)*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*vu*cmath.cos(alp)*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*vd*cmath.cos(beta)**2*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*vd*cmath.cos(alp)*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*vd*cmath.cos(alp)*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*vu*cmath.cos(beta)*cmath.sin(alp)*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*vu*cmath.cos(beta)*cmath.sin(alp)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*vu*cmath.cos(alp)*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*vd*cmath.sin(alp)*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*vd*cmath.sin(alp)*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*vu*cmath.cos(alp)*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*vu*cmath.cos(alp)*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*vd*cmath.cos(beta)**2*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*vd*cmath.cos(alp)*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*vd*cmath.cos(alp)*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*vu*cmath.cos(beta)*cmath.sin(alp)*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*vu*cmath.cos(beta)*cmath.sin(alp)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*vu*cmath.cos(alp)*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*vd*cmath.sin(alp)*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*vd*cmath.sin(alp)*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':1})
 
 GC_2046 = Coupling(name = 'GC_2046',
-                   value = '-(ee**2*complex(0,1)*vu*cmath.cos(alp)*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*vd*cmath.cos(beta)**2*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*vu*cmath.cos(alp)*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*vd*cmath.sin(alp)*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.25*(ee**2*complex(0,1)*vu*cmath.cos(alp)*cmath.cos(beta)**2)/((-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*vd*cmath.cos(beta)**2*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*vu*cmath.cos(alp)*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*vd*cmath.sin(alp)*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':1})
 
 GC_2047 = Coupling(name = 'GC_2047',
@@ -8198,7 +8198,7 @@ GC_2047 = Coupling(name = 'GC_2047',
                    order = {'QED':1})
 
 GC_2048 = Coupling(name = 'GC_2048',
-                   value = '-(ee**2*complex(0,1)*vd*cmath.cos(alp)*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*vu*cmath.cos(beta)**2*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*vd*cmath.cos(alp)*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*vu*cmath.sin(alp)*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.25*(ee**2*complex(0,1)*vd*cmath.cos(alp)*cmath.cos(beta)**2)/((-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*vu*cmath.cos(beta)**2*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*vd*cmath.cos(alp)*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*vu*cmath.sin(alp)*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':1})
 
 GC_2049 = Coupling(name = 'GC_2049',
@@ -8214,7 +8214,7 @@ GC_2051 = Coupling(name = 'GC_2051',
                    order = {'QED':1})
 
 GC_2052 = Coupling(name = 'GC_2052',
-                   value = '-(ee**2*complex(0,1)*vd*cmath.cos(alp)*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*vd*cmath.cos(alp)*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*vu*cmath.cos(beta)**2*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*vu*cmath.cos(alp)*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*vu*cmath.cos(alp)*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*vd*cmath.cos(beta)*cmath.sin(alp)*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*vd*cmath.cos(beta)*cmath.sin(alp)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*vd*cmath.cos(alp)*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*vu*cmath.sin(alp)*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*vu*cmath.sin(alp)*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*vd*cmath.cos(alp)*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*vd*cmath.cos(alp)*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*vu*cmath.cos(beta)**2*cmath.sin(alp))/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*vu*cmath.cos(alp)*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*vu*cmath.cos(alp)*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*vd*cmath.cos(beta)*cmath.sin(alp)*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*vd*cmath.cos(beta)*cmath.sin(alp)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*vd*cmath.cos(alp)*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*vu*cmath.sin(alp)*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*vu*cmath.sin(alp)*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':1})
 
 GC_2053 = Coupling(name = 'GC_2053',
@@ -8222,7 +8222,7 @@ GC_2053 = Coupling(name = 'GC_2053',
                    order = {'QED':2})
 
 GC_2054 = Coupling(name = 'GC_2054',
-                   value = '-(ee**2*complex(0,1)*cmath.cos(alp)*cmath.cos(beta)**2*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(alp)**2*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*cmath.cos(alp)**2*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*cmath.cos(beta)*cmath.sin(alp)**2*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(beta)*cmath.sin(alp)**2*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(alp)*cmath.sin(alp)*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*cmath.cos(alp)*cmath.cos(beta)**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(alp)**2*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*cmath.cos(alp)**2*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*cmath.cos(beta)*cmath.sin(alp)**2*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(beta)*cmath.sin(alp)**2*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(alp)*cmath.sin(alp)*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw))',
                    order = {'QED':2})
 
 GC_2055 = Coupling(name = 'GC_2055',
@@ -8230,11 +8230,11 @@ GC_2055 = Coupling(name = 'GC_2055',
                    order = {'QED':2})
 
 GC_2056 = Coupling(name = 'GC_2056',
-                   value = '-(ee**2*complex(0,1)*cmath.cos(alp)*cmath.cos(beta)**2*cmath.sin(alp))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(alp)*cmath.cos(beta)**2*cmath.sin(alp))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(alp)**2*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*cmath.cos(beta)*cmath.sin(alp)**2*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(alp)*cmath.sin(alp)*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*cmath.cos(alp)*cmath.sin(alp)*cmath.sin(beta)**2)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*cmath.cos(alp)*cmath.cos(beta)**2*cmath.sin(alp))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(alp)*cmath.cos(beta)**2*cmath.sin(alp))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(alp)**2*cmath.cos(beta)*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*cmath.cos(beta)*cmath.sin(alp)**2*cmath.sin(beta))/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(alp)*cmath.sin(alp)*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) - (ee**2*complex(0,1)*cmath.cos(alp)*cmath.sin(alp)*cmath.sin(beta)**2)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_2057 = Coupling(name = 'GC_2057',
-                   value = '-(ee**2*complex(0,1)*cmath.cos(alp)*cmath.cos(beta)**2*cmath.sin(alp))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(alp)*cmath.sin(alp)*cmath.sin(beta)**2)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*cmath.cos(alp)*cmath.cos(beta)**2*cmath.sin(alp))/((-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(alp)*cmath.sin(alp)*cmath.sin(beta)**2)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_2058 = Coupling(name = 'GC_2058',
@@ -8242,7 +8242,7 @@ GC_2058 = Coupling(name = 'GC_2058',
                    order = {'QED':2})
 
 GC_2059 = Coupling(name = 'GC_2059',
-                   value = '-(ee**2*complex(0,1)*cmath.cos(alp)**2*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(beta)**2*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(alp)**2*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*cmath.sin(alp)**2*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.25*(ee**2*complex(0,1)*cmath.cos(alp)**2*cmath.cos(beta)**2)/((-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(beta)**2*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(alp)**2*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*cmath.sin(alp)**2*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_2060 = Coupling(name = 'GC_2060',
@@ -8258,7 +8258,7 @@ GC_2062 = Coupling(name = 'GC_2062',
                    order = {'QED':2})
 
 GC_2063 = Coupling(name = 'GC_2063',
-                   value = '-(ee**2*complex(0,1)*cmath.cos(alp)**2*cmath.cos(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(alp)**2*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(beta)**2*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*cmath.cos(alp)*cmath.cos(beta)*cmath.sin(alp)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(alp)*cmath.cos(beta)*cmath.sin(alp)*cmath.sin(beta))/((-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(alp)**2*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*cmath.sin(alp)**2*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*cmath.sin(alp)**2*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*cmath.cos(alp)**2*cmath.cos(beta)**2)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(alp)**2*cmath.cos(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(beta)**2*cmath.sin(alp)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*cmath.cos(alp)*cmath.cos(beta)*cmath.sin(alp)*cmath.sin(beta))/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(alp)*cmath.cos(beta)*cmath.sin(alp)*cmath.sin(beta))/((-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(alp)**2*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*cmath.sin(alp)**2*cmath.sin(beta)**2)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*cmath.sin(alp)**2*cmath.sin(beta)**2)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_2064 = Coupling(name = 'GC_2064',
@@ -8266,11 +8266,11 @@ GC_2064 = Coupling(name = 'GC_2064',
                    order = {'QED':1})
 
 GC_2065 = Coupling(name = 'GC_2065',
-                   value = '-(ee**2*vu*cmath.cos(beta)**3)/(4.*sw**2) + (ee**2*vd*cmath.cos(beta)**2*cmath.sin(beta))/(4.*sw**2) - (ee**2*vu*cmath.cos(beta)*cmath.sin(beta)**2)/(4.*sw**2) + (ee**2*vd*cmath.sin(beta)**3)/(4.*sw**2)',
+                   value = '-0.25*(ee**2*vu*cmath.cos(beta)**3)/sw**2 + (ee**2*vd*cmath.cos(beta)**2*cmath.sin(beta))/(4.*sw**2) - (ee**2*vu*cmath.cos(beta)*cmath.sin(beta)**2)/(4.*sw**2) + (ee**2*vd*cmath.sin(beta)**3)/(4.*sw**2)',
                    order = {'QED':1})
 
 GC_2066 = Coupling(name = 'GC_2066',
-                   value = '-(ee**2*vd*cmath.cos(beta)**3)/(4.*sw**2) - (ee**2*vu*cmath.cos(beta)**2*cmath.sin(beta))/(4.*sw**2) - (ee**2*vd*cmath.cos(beta)*cmath.sin(beta)**2)/(4.*sw**2) - (ee**2*vu*cmath.sin(beta)**3)/(4.*sw**2)',
+                   value = '-0.25*(ee**2*vd*cmath.cos(beta)**3)/sw**2 - (ee**2*vu*cmath.cos(beta)**2*cmath.sin(beta))/(4.*sw**2) - (ee**2*vd*cmath.cos(beta)*cmath.sin(beta)**2)/(4.*sw**2) - (ee**2*vu*cmath.sin(beta)**3)/(4.*sw**2)',
                    order = {'QED':1})
 
 GC_2067 = Coupling(name = 'GC_2067',
@@ -8282,7 +8282,7 @@ GC_2068 = Coupling(name = 'GC_2068',
                    order = {'QED':2})
 
 GC_2069 = Coupling(name = 'GC_2069',
-                   value = '-(ee**2*cmath.cos(beta)**3*cmath.sin(alp))/(4.*sw**2) + (ee**2*cmath.cos(alp)*cmath.cos(beta)**2*cmath.sin(beta))/(4.*sw**2) - (ee**2*cmath.cos(beta)*cmath.sin(alp)*cmath.sin(beta)**2)/(4.*sw**2) + (ee**2*cmath.cos(alp)*cmath.sin(beta)**3)/(4.*sw**2)',
+                   value = '-0.25*(ee**2*cmath.cos(beta)**3*cmath.sin(alp))/sw**2 + (ee**2*cmath.cos(alp)*cmath.cos(beta)**2*cmath.sin(beta))/(4.*sw**2) - (ee**2*cmath.cos(beta)*cmath.sin(alp)*cmath.sin(beta)**2)/(4.*sw**2) + (ee**2*cmath.cos(alp)*cmath.sin(beta)**3)/(4.*sw**2)',
                    order = {'QED':2})
 
 GC_2070 = Coupling(name = 'GC_2070',
@@ -8290,7 +8290,7 @@ GC_2070 = Coupling(name = 'GC_2070',
                    order = {'QED':2})
 
 GC_2071 = Coupling(name = 'GC_2071',
-                   value = '-(ee**2*complex(0,1)*cmath.cos(beta)**3*cmath.sin(beta))/(2.*(-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(beta)*cmath.sin(beta)**3)/(2.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*cmath.cos(beta)**3*cmath.sin(beta))/((-1 + sw)*sw**2*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(beta)*cmath.sin(beta)**3)/(2.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_2072 = Coupling(name = 'GC_2072',
@@ -8310,7 +8310,7 @@ GC_2075 = Coupling(name = 'GC_2075',
                    order = {'QED':2})
 
 GC_2076 = Coupling(name = 'GC_2076',
-                   value = '-(ee**2*cmath.cos(alp)*cmath.cos(beta)**3)/(4.*sw**2) - (ee**2*cmath.cos(beta)**2*cmath.sin(alp)*cmath.sin(beta))/(4.*sw**2) - (ee**2*cmath.cos(alp)*cmath.cos(beta)*cmath.sin(beta)**2)/(4.*sw**2) - (ee**2*cmath.sin(alp)*cmath.sin(beta)**3)/(4.*sw**2)',
+                   value = '-0.25*(ee**2*cmath.cos(alp)*cmath.cos(beta)**3)/sw**2 - (ee**2*cmath.cos(beta)**2*cmath.sin(alp)*cmath.sin(beta))/(4.*sw**2) - (ee**2*cmath.cos(alp)*cmath.cos(beta)*cmath.sin(beta)**2)/(4.*sw**2) - (ee**2*cmath.sin(alp)*cmath.sin(beta)**3)/(4.*sw**2)',
                    order = {'QED':2})
 
 GC_2077 = Coupling(name = 'GC_2077',
@@ -8318,11 +8318,11 @@ GC_2077 = Coupling(name = 'GC_2077',
                    order = {'QED':2})
 
 GC_2078 = Coupling(name = 'GC_2078',
-                   value = '-(ee**2*complex(0,1)*cmath.cos(beta)**4)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (3*ee**2*complex(0,1)*cmath.cos(beta)**2*cmath.sin(beta)**2)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*cmath.sin(beta)**4)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.25*(ee**2*complex(0,1)*cmath.cos(beta)**4)/((-1 + sw)*sw**2*(1 + sw)) + (3*ee**2*complex(0,1)*cmath.cos(beta)**2*cmath.sin(beta)**2)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*cmath.sin(beta)**4)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_2079 = Coupling(name = 'GC_2079',
-                   value = '-(ee**2*complex(0,1)*cmath.cos(beta)**4)/(4.*(-1 + sw)*sw**2*(1 + sw)) + (5*ee**2*complex(0,1)*cmath.cos(beta)**2*cmath.sin(beta)**2)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*cmath.sin(beta)**4)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.25*(ee**2*complex(0,1)*cmath.cos(beta)**4)/((-1 + sw)*sw**2*(1 + sw)) + (5*ee**2*complex(0,1)*cmath.cos(beta)**2*cmath.sin(beta)**2)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*cmath.sin(beta)**4)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_2080 = Coupling(name = 'GC_2080',
@@ -8334,7 +8334,7 @@ GC_2081 = Coupling(name = 'GC_2081',
                    order = {'QED':2})
 
 GC_2082 = Coupling(name = 'GC_2082',
-                   value = '-(ee**2*complex(0,1)*cmath.cos(beta)**4)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(beta)**4)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*cmath.cos(beta)**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (3*ee**2*complex(0,1)*cmath.cos(beta)**2*cmath.sin(beta)**2)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*cmath.sin(beta)**4)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*cmath.sin(beta)**4)/(4.*(-1 + sw)*sw**2*(1 + sw))',
+                   value = '-0.5*(ee**2*complex(0,1)*cmath.cos(beta)**4)/((-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*cmath.cos(beta)**4)/(4.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*cmath.cos(beta)**2*cmath.sin(beta)**2)/((-1 + sw)*(1 + sw)) + (3*ee**2*complex(0,1)*cmath.cos(beta)**2*cmath.sin(beta)**2)/(2.*(-1 + sw)*sw**2*(1 + sw)) - (ee**2*complex(0,1)*cmath.sin(beta)**4)/(2.*(-1 + sw)*(1 + sw)) + (ee**2*complex(0,1)*cmath.sin(beta)**4)/(4.*(-1 + sw)*sw**2*(1 + sw))',
                    order = {'QED':2})
 
 GC_2083 = Coupling(name = 'GC_2083',
