@@ -15,4 +15,7 @@ for MODEL in \
 ; do
   generate_ufo $MODEL
   generate_fa $MODEL
+  # FeynRules-Whizard interface is obsolete
+  # https://answers.launchpad.net/whizard/+question/682827#comment-3
+  # generate_whizard $MODEL 3.0.0
 done
