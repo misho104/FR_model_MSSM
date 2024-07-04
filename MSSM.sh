@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # sps1a.dat    for CalcHEP; not for Whizard
 # sps1a_wo.dat for Whizard; not for CalcHEP
