@@ -37,12 +37,18 @@ M$Information = { Authors->{"Benjamin Fuks"}, Emails->{"fuks@cern.ch"}, Institut
 (* v1.0.1: renaming of SP to SPot (variable name clashing). Thanks to Kentarou Mawatari. *)
 (* v1.0.2: small bug in the definition of the CKM matrix. Thanks Antonio Mariano.        *)
 (* v1.0.3: new references for the model files.                                           *)
+(* v1.0.4: match MSSM v1.3.13:
+         - Wrong sign for the gaugino soft masses.
+         - Inversion of two SLHA counters for the Higgs soft masses.
+         - Adding the Feynman gauge flag necessary for the UFO.
+         - Definition of bb modified, improving Lagrangian checks. *)
 
 (* ************************** *)
 (* *****      Flags     ***** *)
 (* ************************** *)
-$CKMDiag = True;   (* CKM  = identity or not *)
+$CKMDiag = False;   (* CKM  = identity or not *)
 $MNSDiag = True;   (* PMNS = identity or not *)
+FeynmanGauge = True;
 
 
 (* ************************** *)
@@ -481,7 +487,8 @@ M$Parameters = {
   Mx1 == { TeX->Subscript[M,1], ParameterType->Internal, ComplexParameter->True, Value->RMx1+I*IMx1, Description->"Bino mass"},
   Mx2 == { TeX->Subscript[M,2], ParameterType->Internal, ComplexParameter->True, Value->RMx2+I*IMx2, Description->"Wino mass"},
   Mx3 == { TeX->Subscript[M,3], ParameterType->Internal, ComplexParameter->True, Value->RMx3+I*IMx3, Description->"Gluino mass"},
-  bb  == { TeX->b, ParameterType->Internal, ComplexParameter->True, Value->(mHu2-mHd2-MZ^2*Cos[2*beta])*Tan[2*beta]/2, Description->"Higgs bilinear soft term"},
+  bb  == { TeX->b, ParameterType->Internal, ComplexParameter->True, Value->(mHu2-mHd2)*Tan[2*alp]/2 - MZ^2*(Cos[2*beta]*Tan[2*alp] + Sin[2*beta]/2),
+    Description->"Higgs bilinear soft term"},
   mL2 == { TeX->Subsuperscript[m,OverTilde[L],2], ParameterType->Internal, ComplexParameter->True, Indices->{Index[GEN],Index[GEN]}, 
            Value->{mL2[i_,j_]:>RmL2[i,j]+I*ImL2[i,j]}, Description-> "Left-handed slepton squared mass matrix"},
   mE2 == { TeX->Subsuperscript[m,OverTilde[E],2], ParameterType->Internal, ComplexParameter->True, Indices->{Index[GEN],Index[GEN]}, 
@@ -551,22 +558,25 @@ LVector := Module[{}, Plus@@(Module[{tmp}, tmp = SF2Components[#]; Expand[tmp[[2
 LChiral :=  Plus@@( Theta2Thetabar2Component[#] &/@ (List @@ CSFKineticTerms[]) );
 
 (* Superpotential *)
-SPot:= Module[{ff1,ff2,ff3,ff4,ff5,cc1,cc2,cc3},
+SPotRPC:= Module[{ff1,ff2,ff3},
      yu[ff1,ff2] UR[ff1,cc1] (QL[1,ff2,cc1] HU[2] - QL[2,ff2,cc1] HU[1]) -
      yd[ff1,ff3] Conjugate[CKM[ff2,ff3]] DR[ff1,cc1] (QL[1,ff2,cc1] HD[2] - QL[2,ff2,cc1] HD[1]) -
      ye[ff1,ff2] ER[ff1]     (LL[1,ff2]     HD[2] - LL[2,ff2]     HD[1]) +
+     MUH (HU[1] HD[2] - HU[2] HD[1])];
+LSuperWRPC:= ( Plus@@ (Module[{tmp},tmp=SF2Components[#];tmp[[2,5]]+tmp[[2,6]]] &/@ (List @@ Expand[SPotRPC+HC[SPotRPC]])) )/.{Conjugate[CKM[a_, b_]]*CKM[a_, c_]:>IndexDelta[b, c], Conjugate[PMNS[aa_, b_]]*PMNS[aa_, c_]:>IndexDelta[b, c]};
+
+SPotRPV:= Module[{ff1,ff2,ff3,ff4,ff5,cc1,cc2,cc3},
      1/2 LUDD[ff1,ff2,ff3] Eps[cc1,cc2,cc3] UR[ff1, cc1] DR[ff2,cc2] DR[ff3,cc3] +
      LLLE[ff1,ff2,ff3] Conjugate[PMNS[ff4,ff1]] LL[1,ff4] LL[2,ff2] ER[ff3] +
-     LLQD[ff4,ff5,ff3] Conjugate[CKM[ff2,ff5]] Conjugate[PMNS[ff1,ff4]] DR[ff3,cc1] (LL[1,ff1] QL[2,ff2,cc1] - LL[2,ff1] QL[1,ff2,cc1]) +
-     MUH (HU[1] HD[2] - HU[2] HD[1])];
-LSuperW:= ( Plus@@ (Module[{tmp},tmp=SF2Components[#];tmp[[2,5]]+tmp[[2,6]]] &/@ (List @@ Expand[SPot+HC[SPot]])) )/.{Conjugate[CKM[a_, b_]]*CKM[a_, c_]->IndexDelta[b, c], Conjugate[PMNS[a_, b_]]*PMNS[a_, c_]->IndexDelta[b, c]};
+     LLQD[ff4,ff5,ff3] Conjugate[CKM[ff2,ff5]] Conjugate[PMNS[ff1,ff4]] DR[ff3,cc1] (LL[1,ff1] QL[2,ff2,cc1] - LL[2,ff1] QL[1,ff2,cc1])];
+LSuperWRPV:= ( Plus@@ (Module[{tmp},tmp=SF2Components[#];tmp[[2,5]]+tmp[[2,6]]] &/@ (List @@ Expand[SPotRPV+HC[SPotRPV]])) )/.{Conjugate[CKM[a_, b_]]*CKM[a_, c_]:>IndexDelta[b, c], Conjugate[PMNS[aa_, b_]]*PMNS[aa_, c_]:>IndexDelta[b, c]};
 
 (* Soft SUSY-breaking Lagrangian *)
-LSoft := Module[{Mino, MSca, Tri, Bil},
+LSoftRPC := Module[{Mino, MSca, Tri, Bil},
   (* Gaugino mass terms *)
-    Mino:=Module[{s,gl}, - Mx1*bow[s].bow[s] -  Mx2*wow[s,gl].wow[s,gl] - Mx3*gow[s,gl].gow[s,gl]];
+    Mino:=Module[{s,gl},   Mx1*bow[s].bow[s] +  Mx2*wow[s,gl].wow[s,gl] + Mx3*goww[s,gl].goww[s,gl]];
   (* Scalar mass terms *)
-    MSca:=Module[{ii,ff1,ff2,ff3,ff4,ff5,cc1,cc2,cc3}, 
+    MSca:=Module[{ii,ff1,ff2,ff3,ff4,cc1}, 
       - mHu2*HC[hus[ii]]*hus[ii] - mHd2*HC[hds[ii]]*hds[ii] - 
         mL2[ff1,ff2]*HC[LLs[ii,ff1]]*LLs[ii,ff2] - mE2[ff1,ff2]*HC[ERs[ff1]]*ERs[ff2] - 
         CKM[ff1,ff2]*mQ2[ff2,ff3]*Conjugate[CKM[ff4,ff3]]*HC[QLs[ii,ff1,cc1]]*QLs[ii,ff4,cc1] - 
@@ -574,14 +584,16 @@ LSoft := Module[{Mino, MSca, Tri, Bil},
   (* Trilinear couplings *) 
     Tri:=-tu[ff1,ff2]*URs[ff1,cc1] (QLs[1,ff2,cc1] hus[2] - QLs[2,ff2,cc1] hus[1]) +
           Conjugate[CKM[ff3,ff2]]*td[ff1,ff2]*DRs[ff1,cc1] (QLs[1,ff3,cc1] hds[2] - QLs[2,ff3,cc1] hds[1]) +
-          te[ff1,ff2]*ERs[ff1] (LLs[1,ff2] hds[2] - LLs[2,ff2] hds[1]) -
-          1/2 TUDD[ff1,ff2,ff3] Eps[cc1,cc2,cc3] URs[ff1, cc1] DRs[ff2,cc2] DRs[ff3,cc3] -
-          TLLE[ff1,ff2,ff3] Conjugate[PMNS[ff4,ff1]] LLs[1,ff4] LLs[2,ff2] ERs[ff3] -
-          TLQD[ff4,ff5,ff3] Conjugate[CKM[ff2,ff5]] Conjugate[PMNS[ff1,ff4]] DRs[ff3,cc1] (LLs[1,ff1] QLs[2,ff2,cc1] - LLs[2,ff1] QLs[1,ff2,cc1]);
+          te[ff1,ff2]*ERs[ff1] (LLs[1,ff2] hds[2] - LLs[2,ff2] hds[1]) ;
   (* Bilinear couplings *)
     Bil:=-bb*(hus[1] hds[2] - hus[2] hds[1]);
   (* Everything together *)
   (Mino+HC[Mino])/2 + MSca + Tri + HC[Tri] + Bil + HC[Bil]];
+
+LSoftRPV := Module[{ff1,ff2,ff3,ff4,ff5,cc1,cc2,cc3},
+      (- 1/2 TUDD[ff1,ff2,ff3] Eps[cc1,cc2,cc3] URs[ff1, cc1] DRs[ff2,cc2] DRs[ff3,cc3] -
+              TLLE[ff1,ff2,ff3] Conjugate[PMNS[ff4,ff1]] LLs[1,ff4] LLs[2,ff2] ERs[ff3] -
+              TLQD[ff4,ff5,ff3] Conjugate[CKM[ff2,ff5]] Conjugate[PMNS[ff1,ff4]] DRs[ff3,cc1] (LLs[1,ff1] QLs[2,ff2,cc1] - LLs[2,ff1] QLs[1,ff2,cc1])) // (# + HC[#] &)];
 
 (* Ghost Lagrangian and gauge fixing terms *)
 LFeynmanGFix := Module[{VectorizeU,VectorizeD, Phiu,Phid,Phiu0,Phid0, phid1,phid2,phiu1,phiu2, GF1,GF2,GF3,LGF, nrules, kk,ll, LGh1,LGh2,LGh3,LGhS,LGh, genu,gend, gh,ghbar},
@@ -625,4 +637,4 @@ LFeynmanGFix := Module[{VectorizeU,VectorizeD, Phiu,Phid,Phiu0,Phid0, phid1,phid
 LGF+LGh];
 
 (* Collecting all the pieces together *)
-Lag := ToDirac[SolveEqMotionF[SolveEqMotionD[LVector+LChiral+LSuperW+LSoft]]] + LFeynmanGFix ;
+Lag := ToDirac[SolveEqMotionF[SolveEqMotionD[LVector+LChiral+LSuperWRPC+LSoftRPC+LSuperWRPV+LSoftRPV]]] + LFeynmanGFix ;
